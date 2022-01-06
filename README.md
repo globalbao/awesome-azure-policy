@@ -9,14 +9,14 @@ Community contributions are most welcome! Feel free to submit a **pull request**
    - [Learn](#Official-Learn)
    - [Docs](#Official-Docs)
    - [Videos](#Official-Videos)
-   - [Articles/Blog Posts](#Official-Announcements/Articles/Blog-Posts)
-   - [Repositories/Tools](#Official-Repositories/Tools)
-   - [Forums/Feedback](#Official-Forums/Feedback)
+   - [Articles/Blog Posts](#Official-Announcements-and-Articles)
+   - [Repositories/Tools](#Official-Repositories-and-Tools)
+   - [Forums/Feedback](#Official-Forums-and-Feedback)
 - [Community](#Community)
    - [Videos](#Community-Videos)
    - [Podcasts](#Community-Podcasts)
    - [Books](#Community-Books)
-   - [Articles/Blog Posts](#Community-Articles/Blog-Posts)
+   - [Articles/Blog Posts](#Community-Articles)
    - [Tools](#Community-Tools)
    - [Repositories](#Community-Repositories)
    - [Forums](#Community-Forums)
@@ -61,7 +61,7 @@ Community contributions are most welcome! Feel free to submit a **pull request**
 - [Using Management Group with Azure Policy](https://youtu.be/S_-JenO43G8)
 - [What is Azure Policy](https://www.youtube.com/watch?v=obWeyLHWQIY)
 
-### Official Announcements/Articles/Blog Posts
+### Official Announcements and Articles
 [Back To Top](#Table-Of-Contents)
 
 - [Announcing Azure Resource Policy general availability](https://azure.microsoft.com/en-au/blog/azure-resource-policy-ga/)
@@ -81,7 +81,7 @@ Community contributions are most welcome! Feel free to submit a **pull request**
 - [The impact of conflicting Azure Policies](https://techcommunity.microsoft.com/t5/itops-talk-blog/the-impact-of-conflicting-azure-policies/ba-p/2227063)
 - [Using GitHub for Azure Policy as Code](https://techcommunity.microsoft.com/t5/azure-governance-and-management/using-github-for-azure-policy-as-code/ba-p/1886464)
 
-### Official Repositories/Tools
+### Official Repositories and Tools
 [Back To Top](#Table-Of-Contents)
 
 - [Azure Policy Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=AzurePolicy.azurepolicyextension)
@@ -91,7 +91,7 @@ Community contributions are most welcome! Feel free to submit a **pull request**
 - [Azure/Manage-Azure-Policy](https://github.com/Azure/manage-azure-policy)
 - [Azure/Policy-Compliance-Scan](https://github.com/Azure/policy-compliance-scan)
 
-### Official Forums/Feedback
+### Official Forums and Feedback
 [Back To Top](#Table-Of-Contents)
 
 - [Azure Governance Ideas](https://feedback.azure.com/d365community/forum/675ae472-f324-ec11-b6e6-000d3a4f0da0)
@@ -134,7 +134,7 @@ Community contributions are most welcome! Feel free to submit a **pull request**
 
 - [Pro Azure Governance and Security: A Comprehensive Guide to Azure Policy, Blueprints, Security Center, and Sentinel](https://www.amazon.com/Pro-Azure-Governance-Security-Comprehensive/dp/1484249097)
 
-### Community Articles/Blog Posts
+### Community Articles
 [Back To Top](#Table-Of-Contents)
 
 - [AKS Policy Reference Overriding Or Disabling Of Containers Apparmor Profile Should Be Restricted](https://securecloud.blog/2021/11/18/aks-policy-reference-overriding-or-disabling-of-containers-apparmor-profile-should-be-restricted/)
