@@ -5,34 +5,36 @@ Community contributions are most welcome! Feel free to submit a **pull request**
 
 ## Table Of Contents
 
-- [Official](#1-Official)
-   - [Learn](#1.1-Learn)
-   - [Docs](#1.2-Docs)
-   - [Videos](#1.3-Videos)
-   - [Articles/Blog Posts](#1.4-Announcements/Articles/Blog-Posts)
-   - [Repositories/Tools](#1.5-Repositories/Tools)
-   - [Forums/Feedback](#1.6-Forums/Feedback)
-- [Community](#2-Community)
-   - [Videos](#2.1-Videos)
-   - [Podcasts](#2.2-Podcasts)
-   - [Books](#2.3-Books)
-   - [Articles/Blog Posts](#2.4-Articles/Blog-Posts)
-   - [Tools](#2.5-Tools)
-   - [Repositories](#2.6-Repositories)
-   - [Forums](#2.7-Forums)
+- [Official](#Official)
+   - [Learn](#Official-Learn)
+   - [Docs](#Official-Docs)
+   - [Videos](#Official-Videos)
+   - [Articles/Blog Posts](#Official-Announcements/Articles/Blog-Posts)
+   - [Repositories/Tools](#Official-Repositories/Tools)
+   - [Forums/Feedback](#Official-Forums/Feedback)
+- [Community](#Community)
+   - [Videos](#Community-Videos)
+   - [Podcasts](#Community-Podcasts)
+   - [Books](#Community-Books)
+   - [Articles/Blog Posts](#Community-Articles/Blog-Posts)
+   - [Tools](#Community-Tools)
+   - [Repositories](#Community-Repositories)
+   - [Forums](#Community-Forums)
 
-## 1. Official
+## Official
 
-Links below are from official Microsoft sources, websites, and channels.
+> Links below are from official Microsoft sources, websites, and channels.
 
-### 1.1 Learn
+### Official Learn
+[Back To Top](#Table-Of-Contents)
 
 - [Design An Enterprise Governance Strategy](https://docs.microsoft.com/en-us/learn/modules/enterprise-governance/)
 - [Build Cloud Governance Strategy On Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/)
 - [Design Governance](https://docs.microsoft.com/en-us/learn/modules/design-governance/)
 - [Address Tangible Risks With The Govern Methodology Of The Cloud Adoption Framework For Azure](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/)
 
-### 1.2 Docs
+### Official Docs
+[Back To Top](#Table-Of-Contents)
 
 - [Azure Policy](https://docs.microsoft.com/en-us/azure/governance/policy/)
 - [Understand Azure Policy for Kubernetes clusters](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/policy-for-kubernetes)
@@ -45,7 +47,8 @@ Links below are from official Microsoft sources, websites, and channels.
 - [PowerShell - Azure Policy](https://docs.microsoft.com/en-us/powershell/module/az.resources/?view=azps-7.1.0#policy)
 - [Azure CLI - Azure Policy](https://docs.microsoft.com/en-us/cli/azure/policy?view=azure-cli-latest)
 
-### 1.3 Videos
+### Official Videos
+[Back To Top](#Table-Of-Contents)
 
 - [Azure Governance & Deployments Quarterly Customer Panel December 2021](https://youtu.be/oYC5Ns7kLCY)
 - [Azure Governance and Deployments Quarterly Customer Panel Feb 2021](https://www.youtube.com/watch?v=ONKn9XMPZCs)
@@ -58,7 +61,8 @@ Links below are from official Microsoft sources, websites, and channels.
 - [Using Management Group with Azure Policy](https://youtu.be/S_-JenO43G8)
 - [What is Azure Policy](https://www.youtube.com/watch?v=obWeyLHWQIY)
 
-### 1.4 Announcements/Articles/Blog Posts
+### Official Announcements/Articles/Blog Posts
+[Back To Top](#Table-Of-Contents)
 
 - [Announcing Azure Resource Policy general availability](https://azure.microsoft.com/en-au/blog/azure-resource-policy-ga/)
 - [Azure Backup Center - Backups and Good Governance](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-backup-center-backups-and-good-governance/ba-p/2318843)
@@ -77,7 +81,8 @@ Links below are from official Microsoft sources, websites, and channels.
 - [The impact of conflicting Azure Policies](https://techcommunity.microsoft.com/t5/itops-talk-blog/the-impact-of-conflicting-azure-policies/ba-p/2227063)
 - [Using GitHub for Azure Policy as Code](https://techcommunity.microsoft.com/t5/azure-governance-and-management/using-github-for-azure-policy-as-code/ba-p/1886464)
 
-### 1.5 Repositories/Tools
+### Official Repositories/Tools
+[Back To Top](#Table-Of-Contents)
 
 - [Azure Policy Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=AzurePolicy.azurepolicyextension)
 - [Azure/Azure-Policy](https://github.com/Azure/azure-policy)
@@ -86,16 +91,18 @@ Links below are from official Microsoft sources, websites, and channels.
 - [Azure/Manage-Azure-Policy](https://github.com/Azure/manage-azure-policy)
 - [Azure/Policy-Compliance-Scan](https://github.com/Azure/policy-compliance-scan)
 
-### 1.6 Forums/Feedback
+### Official Forums/Feedback
+[Back To Top](#Table-Of-Contents)
 
 - [Azure Governance Ideas](https://feedback.azure.com/d365community/forum/675ae472-f324-ec11-b6e6-000d3a4f0da0)
 - [Microsoft Q&A for Azure Policy](https://docs.microsoft.com/en-us/answers/topics/azure-policy.html)
 
-## 2. Community
+## Community
 
-Links below are from community sources, websites, and channels.
+> Links below are from community sources, websites, and channels.
 
-### 2.1 Videos
+### Community Videos
+[Back To Top](#Table-Of-Contents)
 
 - [A summary of the Diagnostic Settings](https://www.youtube.com/watch?v=zAxvFH9EsGY)
 - [AZ-900 Episode 31 | Azure Policy](https://youtu.be/9WO4EBgUJXk)
@@ -115,17 +122,20 @@ Links below are from community sources, websites, and channels.
 - [Organizational Governance and Best Practices for Control](https://www.youtube.com/watch?v=utVRZg0TNu8)
 - [Using Azure Security Center for Policy and Regulatory Compliance](https://youtu.be/AXgBoSz0dAs)
 
-### 2.2 Podcasts
+### Community Podcasts
+[Back To Top](#Table-Of-Contents)
 
 - [057 - Azure Policy and Azure Key Vault integration](https://ctrlaltazure.com/episodes/057-azure-policy-and-azure-key-vault-integration)
 - [109 - Azure Policy as Code with Jesse Loudon](https://ctrlaltazure.com/episodes/109-azure-policy-as-code)
 - [S01 E43 - Everything you need to know about Azure Policy](https://rss.com/podcasts/azsecpodcast/350402/)
 
-### 2.3 Books
+### Community Books
+[Back To Top](#Table-Of-Contents)
 
 - [Pro Azure Governance and Security: A Comprehensive Guide to Azure Policy, Blueprints, Security Center, and Sentinel](https://www.amazon.com/Pro-Azure-Governance-Security-Comprehensive/dp/1484249097)
 
-### 2.4 Articles/Blog Posts
+### Community Articles/Blog Posts
+[Back To Top](#Table-Of-Contents)
 
 - [AKS Policy Reference Overriding Or Disabling Of Containers Apparmor Profile Should Be Restricted](https://securecloud.blog/2021/11/18/aks-policy-reference-overriding-or-disabling-of-containers-apparmor-profile-should-be-restricted/)
 - [Audit Publicly Accessible Azure App Services With Azure Policy](https://charbelnemnom.com/audit-publicly-accessible-azure-app-services-with-azure-policy/)
@@ -195,12 +205,14 @@ Links below are from community sources, websites, and channels.
 - [Using Conftest For Azure Policy For Kubernetes](https://www.danielstechblog.io/using-conftest-for-azure-policy-for-kubernetes/)
 - [Writing A Custom Azure Policy](https://journeyofthegeek.com/2021/03/07/writing-a-custom-azure-policy/)
 
-### 2.5 Tools
+### Community Tools
+[Back To Top](#Table-Of-Contents)
 
 - [AzAdvertizer](https://www.azadvertizer.net/)
 - [AzGovViz](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting)
 
-### 2.6 Repositories
+### Community Repositories
+[Back To Top](#Table-Of-Contents)
 
 - [Andrewcluey/Terraform-Azurerm-Policy-Definition](Https://Github.Com/Andrewcluey/Terraform-Azurerm-Policy-Definition)
 - [Andrewmatveychuk/Azure.Policy](Https://Github.Com/Andrewmatveychuk/Azure.Policy)
@@ -222,7 +234,8 @@ Links below are from community sources, websites, and channels.
 - [Tyconsulting/AzurePolicy](Https://Github.Com/Tyconsulting/Azurepolicy)
 - [Yangdeal/Azure_Policy_Deployment](Https://Github.Com/Yangdeal/Azure_Policy_Deployment)
 
-### 2.7 Forums
+### Community Forums
+[Back To Top](#Table-Of-Contents)
 
 - [Stack Overflow - Azure Policy](https://stackoverflow.com/questions/tagged/azure-policy)
 - [Reddit - Azure Policy](https://www.reddit.com/search/?q=azure%20policy)
