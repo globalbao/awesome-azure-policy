@@ -205,7 +205,7 @@ Links below are from community sources, websites, and channels.
 - [Andrewcluey/Terraform-Azurerm-Policy-Definition](Https://Github.Com/Andrewcluey/Terraform-Azurerm-Policy-Definition)
 - [Andrewmatveychuk/Azure.Policy](Https://Github.Com/Andrewmatveychuk/Azure.Policy)
 - [Azsec/Azure-Policy](Https://Github.Com/Azsec/Azure-Policy)
-- [Charotamine/AzurePolicy_Bicep)](Https://Github.Com/Charotamine/Azurepolicy_Bicep)
+- [Charotamine/AzurePolicy_Bicep](Https://Github.Com/Charotamine/Azurepolicy_Bicep)
 - [Charotamine/PolicyTests](Https://Github.Com/Charotamine/Policytests)
 - [Claranet/Terraform-Azurerm-Policy](Https://Github.Com/Claranet/Terraform-Azurerm-Policy)
 - [Faridabharmal/AzureGovernance](Https://Github.Com/Faridabharmal/Azuregovernance)
