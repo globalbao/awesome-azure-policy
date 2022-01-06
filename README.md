@@ -80,11 +80,11 @@ Links below are from official Microsoft sources, websites, and channels.
 ### 1.5 Repositories/Tools
 
 - [Azure Policy Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=AzurePolicy.azurepolicyextension)
-- [Azure-Policy](https://github.com/Azure/azure-policy)
-- [Community-Policy](https://github.com/Azure/Community-Policy)
-- [Manage-Azure-Policy-Pipeline](https://github.com/Azure/manage-azure-policy-pipeline)
-- [Manage-Azure-Policy](https://github.com/Azure/manage-azure-policy)
-- [Policy-Compliance-Scan](https://github.com/Azure/policy-compliance-scan)
+- [Azure/Azure-Policy](https://github.com/Azure/azure-policy)
+- [Azure/Community-Policy](https://github.com/Azure/Community-Policy)
+- [Azure/Manage-Azure-Policy-Pipeline](https://github.com/Azure/manage-azure-policy-pipeline)
+- [Azure/Manage-Azure-Policy](https://github.com/Azure/manage-azure-policy)
+- [Azure/Policy-Compliance-Scan](https://github.com/Azure/policy-compliance-scan)
 
 ### 1.6 Forums/Feedback
 
