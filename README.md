@@ -1,7 +1,9 @@
 # AWESOME-Azure-Policy
+![Awesome Azure Policy](./Awesome-Azure-Policy-Logo.svg)
+
 A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anything which can help you learn Azure Policy and quickly get started with designing, planning, and implementing governance controls to your resources.
 
-Community contributions are most welcome! Feel free to submit a **pull request** with any adds/removes/changes to content!
+> Community contributions are most welcome! Feel free to submit a **pull request** with any adds/removes/changes to content!
 
 ## Table Of Contents
 
