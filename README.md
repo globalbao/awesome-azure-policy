@@ -216,10 +216,12 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Trigger An On Demand Azure Policy Evaluation Scan At Management Group Scope](https://azsec.azurewebsites.net/2021/11/15/trigger-an-on-demand-azure-policy-evaluation-scan-at-management-group-scope/)
 - [Trigger Azure Policy Scan Multiple Subscriptions](https://checinski.cloud/trigger-azure-policy-scan-multiple-subscriptions/)
 - [Understanding Azure Policies With Visual Studio Code](https://zimmergren.net/understanding-azure-policies-with-visual-studio-code/)
+- [Understanding Azure Policy for regulatory compliance](https://azuredays.com/2020/07/07/understanding-azure-policy-for-regulatory-compliance/)
 - [Updated Azure Policy Definitions For Azure Diagnostics Settings Again](https://blog.tyang.org/2019/11/17/updated-azure-policy-definitions-for-azure-diagnostics-settings-again/)
 - [Using Azure Policy To Implement Tagging Inheritance](https://archiechristopher.co.uk/2022/01/07/using-azure-policy-to-implement-tagging-inheritance/)
 - [Using Azure Policy To Audit Resource Group Resource Locks](https://adinermie.com/using-azure-policy-to-audit-resource-group-resource-locks/)
 - [Using Conftest For Azure Policy For Kubernetes](https://www.danielstechblog.io/using-conftest-for-azure-policy-for-kubernetes/)
+- [Walkthrough using Azure Policy to audit and enforce compliance](https://azuredays.com/2020/07/09/walkthrough-using-azure-policy-to-audit-and-enforce-compliance/)
 - [Writing A Custom Azure Policy](https://journeyofthegeek.com/2021/03/07/writing-a-custom-azure-policy/)
 
 ### Community Tools
