@@ -43,6 +43,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Policy](https://docs.microsoft.com/en-us/azure/governance/policy/)
 - [Understand Azure Policy for Kubernetes clusters](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/policy-for-kubernetes)
 - [Secure your cluster with Azure Policy](https://docs.microsoft.com/en-us/azure/aks/use-azure-policy?toc=/azure/governance/policy/toc.json&bc=/azure/governance/policy/breadcrumb/toc.json)
+- [Deploy and manage Traffic Analytics using Azure Policy](https://docs.microsoft.com/en-us/azure/network-watcher/traffic-analytics-policy-portal)
 - [Use Azure Policy extension for Visual Studio Code](https://docs.microsoft.com/en-us/azure/governance/policy/how-to/extension-for-vscode)
 - [ARM Templates - Azure Policy Definitions](https://docs.microsoft.com/en-us/azure/templates/microsoft.authorization/policydefinitions?tabs=bicep)
 - [ARM Templates - Azure PolicySet Definitions](https://docs.microsoft.com/en-us/azure/templates/microsoft.authorization/policysetdefinitions?tabs=bicep)
@@ -54,6 +55,8 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 ### Official Videos
 [Back To Top](#Table-Of-Contents)
 
+- [Azure Policy and Kubernetes](https://youtu.be/Hv3K8zJSbow)
+- [AzureFunBytes - Intro to Azure Policy](https://youtu.be/2ebTY4Bzah0)
 - [Azure Governance & Deployments Quarterly Customer Panel December 2021](https://youtu.be/oYC5Ns7kLCY)
 - [Azure Governance and Deployments Quarterly Customer Panel Feb 2021](https://www.youtube.com/watch?v=ONKn9XMPZCs)
 - [Azure Governance and Deployments Quarterly Customer Panel May 2021](https://www.youtube.com/watch?v=tHyPDESIThk)
@@ -61,6 +64,8 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Compliance with Azure Policy](https://www.youtube.com/watch?v=OZh_4gjgvGU)
 - [Enforcement with Azure Policy](https://www.youtube.com/watch?v=yQvFeuPoHe0)
 - [Getting started with Azure Policy](https://www.youtube.com/watch?v=b0Sp6V0VJas)
+- [Govern Azure Arc-enabled K8S Clusters with Azure Policy | KubeCon NA 2021](https://youtu.be/l1ve70xD06Y)
+- [On Prem To The Cloud: Everything As Code](https://youtu.be/io_dX5I-6xM)
 - [Performing Remediation on Resources with Azure Policy](https://www.youtube.com/watch?v=c1d05IYBrTk)
 - [Using Management Group with Azure Policy](https://youtu.be/S_-JenO43G8)
 - [What is Azure Policy](https://www.youtube.com/watch?v=obWeyLHWQIY)
@@ -73,12 +78,17 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Policy for Kubernetes releases support for custom policy](https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-policy-for-kubernetes-releases-support-for-custom-policy/ba-p/2699466)
 - [Azure Policy introduces user assigned MSI support, faster DINE deployment, and more!](https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-policy-introduces-user-assigned-msi-support-faster-dine/ba-p/2661073)
 - [Azure Unblogged - Azure Policy](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-unblogged-azure-policy/ba-p/2106247)
+- [Controlling Release Pipelines with Gates and Azure Policy Compliance](https://devblogs.microsoft.com/devops/controlling-release-pipelines-with-gates-and-azure-policy-compliance/)
 - [Enterprise-Scale and Azure Policy for policy-driven governance](https://techcommunity.microsoft.com/t5/azure-architecture-blog/enterprise-scale-and-azure-policy-for-policy-driven-governance/ba-p/1614060)
+- [Enforcing Policy for Zero Trust with Azure Policy](https://devblogs.microsoft.com/azuregov/enforcing-policy-for-zero-trust-with-azure-policy-4-of-6/)
 - [GA: Policy add-on for Azure Kubernetes Service](https://azure.microsoft.com/en-au/updates/ga-policy-addon-for-azure-kubernetes-service/)
+- [General availability: Built-in Azure Policy support for Network Watcher Traffic Analytics](https://azure.microsoft.com/en-gb/updates/general-availability-builtin-azure-policy-support-for-network-watcher-traffic-analytics/?utm_source=cloudchrisws&utm_medium=twitter&utm_campaign=link&WT.mc_id=link-twitter-cloudchrisws)
 - [How to build an audit Azure Policy with multiple parameters](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-build-an-audit-azure-policy-with-multiple-parameters/ba-p/1866062)
 - [How to update Azure Policy parameters in Azure Blueprints](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-update-azure-policy-parameters-in-azure-blueprints/ba-p/3037875)
 - [Important change released for Guest Configuration audit policies](https://techcommunity.microsoft.com/t5/azure-governance-and-management/important-change-released-for-guest-configuration-audit-policies/ba-p/1655316)
 - [More resource policy aliases](https://azure.microsoft.com/en-au/blog/more-resource-policy-aliases/)
+- [New and updated regulatory compliance policy initiatives for NIST, FedRAMP, DoD in Azure, Azure Government](https://devblogs.microsoft.com/azuregov/new-and-updated-regulatory-compliance-policy-initiatives-for-nist-fedramp-dod-in-azure-azure-government/)
+- [On Prem To the Cloud: Everything As Code](https://devblogs.microsoft.com/devops/on-prem-to-the-cloud-everything-as-code-ep-4/)
 - [OPS114: Governing baselines in hybrid server environments using Azure Policy Guest Configuration](https://techcommunity.microsoft.com/t5/itops-talk-blog/ops114-governing-baselines-in-hybrid-server-environments-using/ba-p/2109245)
 - [Portal Preview of Azure Resource Policy](https://azure.microsoft.com/en-au/blog/portal-preview-of-azure-resource-policy-2/)
 - [Public preview of new Azure Policy features](https://azure.microsoft.com/en-au/blog/recap-on-new-azure-policy-features-in-ignite/)
@@ -110,6 +120,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 
 - [A summary of the Diagnostic Settings](https://www.youtube.com/watch?v=zAxvFH9EsGY)
 - [AZ-900 Episode 31 | Azure Policy](https://youtu.be/9WO4EBgUJXk)
+- [Automatically Tag Azure Resources using Azure Policy](https://youtu.be/PUJe8Od7B9Q)
 - [Automating Infrastructure Governance with Azure Policy](https://youtu.be/dPwy8nlNyNM?t=570)
 - [Azure Back To School: Bicep Builders: Azure Sentinel and Policy as Code](https://youtu.be/B03V3Tazcec)
 - [Azure Governance Visualizer](https://youtu.be/6zkOfJabUPQ)
@@ -216,6 +227,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 
 - [AzAdvertizer](https://www.azadvertizer.net/)
 - [AzGovViz](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting)
+- [Azure Policy and Governance Pipelines Tasks](https://marketplace.visualstudio.com/items?itemName=razorspoint.rp-build-release-azurepolicy)
 
 ### Community Repositories
 [Back To Top](#Table-Of-Contents)
