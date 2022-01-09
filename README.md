@@ -91,7 +91,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Policy Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=AzurePolicy.azurepolicyextension)
 - [Azure/Azure-Policy](https://github.com/Azure/azure-policy)
 - [Azure/Community-Policy](https://github.com/Azure/Community-Policy)
-- [Azure/Manage-Azure-Policy-Pipeline](https://github.com/Azure/manage-azure-policy-pipeline)
+- [Azure/Enterprise-Azure-Policy-As-Code](https://github.com/Azure/enterprise-azure-policy-as-code)
 - [Azure/Manage-Azure-Policy](https://github.com/Azure/manage-azure-policy)
 - [Azure/Policy-Compliance-Scan](https://github.com/Azure/policy-compliance-scan)
 
