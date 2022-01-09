@@ -145,6 +145,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Audit Subnets That Do Not Have Network Security Group Associated](https://charbelnemnom.com/audit-subnets-that-do-not-have-network-security-group-associated/)
 - [Auditing For Disaster Recovery With Azure Policy](https://adinermie.com/auditing-for-disaster-recovery-with-azure-policy/)
 - [Automatically Enable Microsoft Defender For Cloud Enhanced Security Features](https://samilamppu.com/2021/12/28/automatically-enable-microsoft-defender-for-cloud-enhanced-security-features/)
+- [Automatically Tag Azure VM's Behind A Load Balancer](https://autosysops.com/blog/automatically-tag-azure-vms-behind-a-load-balancer)
 - [Automating Backup Onboarding Using Azure Policy](https://adinermie.com/automating-backup-onboarding-using-azure-policy/)
 - [AzGovViz With Azure Devops](https://jacktracey.co.uk/azgovviz-with-azure-devops/)
 - [Azure Policy A Love Story](https://michaelhowardsecure.blog/2019/03/29/azure-policy-a-love-story/)
