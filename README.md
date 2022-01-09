@@ -1,5 +1,5 @@
 # AWESOME-Azure-Policy
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)  [![Markdown Link Checker](https://github.com/globalbao/awesome-azure-policy/actions/workflows/markdown-link-checker.yml/badge.svg)](https://github.com/globalbao/awesome-azure-policy/actions/workflows/markdown-link-checker.yml)
 
 ![Awesome Azure Policy](./Awesome-Azure-Policy-Logo.svg)
 
