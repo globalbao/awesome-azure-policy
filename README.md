@@ -60,6 +60,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Governance & Deployments Quarterly Customer Panel December 2021](https://youtu.be/oYC5Ns7kLCY)
 - [Azure Governance and Deployments Quarterly Customer Panel Feb 2021](https://www.youtube.com/watch?v=ONKn9XMPZCs)
 - [Azure Governance and Deployments Quarterly Customer Panel May 2021](https://www.youtube.com/watch?v=tHyPDESIThk)
+- [Azure Governance and the latest updates on Azure Policy](https://youtu.be/smyQv3MHe10)
 - [Azure Governance for ISVs, Session 02: Policies, Initiatives, and Blueprints](https://youtu.be/SMvbFBdWi5U)
 - [Compliance with Azure Policy](https://www.youtube.com/watch?v=OZh_4gjgvGU)
 - [Enforcement with Azure Policy](https://www.youtube.com/watch?v=yQvFeuPoHe0)
@@ -126,6 +127,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Governance Visualizer](https://youtu.be/6zkOfJabUPQ)
 - [Azure Key Vault RBAC and Policy Deep Dive](https://youtu.be/oYzFWOrZMKc)
 - [Azure Policy as Code - Zero to Hero in 60 minutes](https://youtu.be/AVn5glYBz84?t=2380)
+- [Azure Policy](https://youtu.be/1NzWYIsKUl4)
 - [Azure Spring Clean: Some points to remember about Azure Governance](https://youtu.be/lOHK_k6w4e4)
 - [Build Your Tagging Strategy with Azure Policy and Automation](https://youtu.be/4ebXt0iMiEU)
 - [Custom Policy for Azure Governance - How to create custom Azure Policy from Scratch](https://youtu.be/n-jL_xe9858)
@@ -133,8 +135,10 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Festive Tech Calendar: Day 6 - Azure Governance: Azure customized Policies](https://www.youtube.com/watch?v=rQXZWIvW1Ww)
 - [Flexing Your Security Governance with Azure Policy As Code](https://youtu.be/-KSLh2I9e1U)
 - [Global Azure: Policy as Code with Bicep for Enterprise Scale](https://youtu.be/qpnMJXw6pIg)
+- [Inside Azure Governance - You in Control](https://www.youtube.com/watch?v=CHFLgfELV1E)
 - [Microsoft Azure Master Class Part 3 - Governance](https://youtu.be/cIh_Nfl67T0?t=2830)
 - [Organizational Governance and Best Practices for Control](https://www.youtube.com/watch?v=utVRZg0TNu8)
+- [Regain Control with Azure Governance](https://www.youtube.com/watch?v=M2y0QsHLeSs)
 - [Using Azure Security Center for Policy and Regulatory Compliance](https://youtu.be/AXgBoSz0dAs)
 
 ### Community Podcasts
