@@ -32,10 +32,10 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 ### Official Learn
 [Back To Top](#Table-Of-Contents)
 
-- [Design An Enterprise Governance Strategy](https://docs.microsoft.com/en-us/learn/modules/enterprise-governance/)
-- [Build Cloud Governance Strategy On Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/)
-- [Design Governance](https://docs.microsoft.com/en-us/learn/modules/design-governance/)
 - [Address Tangible Risks With The Govern Methodology Of The Cloud Adoption Framework For Azure](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/)
+- [Build Cloud Governance Strategy On Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/)
+- [Design An Enterprise Governance Strategy](https://docs.microsoft.com/en-us/learn/modules/enterprise-governance/)
+- [Design Governance](https://docs.microsoft.com/en-us/learn/modules/design-governance/)
 
 ### Official Docs
 [Back To Top](#Table-Of-Contents)
