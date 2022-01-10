@@ -169,6 +169,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Policy Where To Start](https://wedoazure.ie/2019/08/22/azure-policy-where-to-start/)
 - [Azure Policy as Code with Terraform Part 1](https://jloudon.com/cloud/Azure-Policy-as-Code-with-Terraform-Part-1/)
 - [Azure Policy as Code with Terraform Part 2](https://jloudon.com/cloud/Azure-Policy-as-Code-with-Terraform-Part-2/)
+- [Azure Policy As Code – Accelerate Governance In Cloud](https://suneelsunkara.wordpress.com/2021/02/21/azure-policy-as-code-accelerate-governance-in-cloud/)
 - [Azure Policy: What if you test your policies ?](https://charotamine.medium.com/azure-policy-what-if-you-test-your-policies-5ddb12c95a07)
 - [Azure Policy: what if we use Bicep ?](https://charotamine.medium.com/azure-policies-deploy-and-test-with-bicep-bfa80082ec1)
 - [Azure Spring Clean: Diagnostic Settings](https://charotamine.medium.com/azure-spring-clean-diagnostic-settings-26c61d8d165d)
