@@ -260,6 +260,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [globalbao/azure-policy-as-code](https://github.com/globalbao/azure-policy-as-code)
 - [globalbao/terraform-azurerm-policy-exemptions](https://github.com/globalbao/terraform-azurerm-policy-exemptions)
 - [jimgbritt/azurepolicy](https://github.com/jimgbritt/azurepolicy)
+- [jimgbritt/azurediagnosticspipeline](https://github.com/jimgbritt/azurediagnosticspipeline)
 - [jtracey93/tf-az-dine-policy-assignment](https://github.com/jtracey93/tf-az-dine-policy-assignment)
 - [julianhayward/azure-mg-sub-governance-reporting](https://github.com/julianhayward/azure-mg-sub-governance-reporting)
 - [mattfeltonma/azure-custom-policies](https://github.com/mattfeltonma/azure-custom-policies)
