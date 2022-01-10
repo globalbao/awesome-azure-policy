@@ -36,6 +36,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Build Cloud Governance Strategy On Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/)
 - [Design An Enterprise Governance Strategy](https://docs.microsoft.com/en-us/learn/modules/enterprise-governance/)
 - [Design Governance](https://docs.microsoft.com/en-us/learn/modules/design-governance/)
+- [Intro to Azure Policy](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-policy/)
 
 ### Official Docs
 [Back To Top](#Table-Of-Contents)
@@ -264,6 +265,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [jtracey93/tf-az-dine-policy-assignment](https://github.com/jtracey93/tf-az-dine-policy-assignment)
 - [julianhayward/azure-mg-sub-governance-reporting](https://github.com/julianhayward/azure-mg-sub-governance-reporting)
 - [mattfeltonma/azure-custom-policies](https://github.com/mattfeltonma/azure-custom-policies)
+- [ricmmartins/azure-governance-made-simple](https://github.com/ricmmartins/azure-governance-made-simple)
 - [salesforce/cloud-guardrails](https://github.com/salesforce/cloud-guardrails)
 - [tyconsulting/azure.policy.monitor](https://github.com/tyconsulting/azure.policy.monitor)
 - [tyconsulting/azurepolicy](https://github.com/tyconsulting/azurepolicy)
