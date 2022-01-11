@@ -1,4 +1,15 @@
 {
+  "ignorePatterns": [
+    {
+      "pattern": "https://charotamine.medium.com/azure-policies-deploy-and-test-with-bicep-bfa80082ec1"
+    },
+    {
+      "pattern": "https://charotamine.medium.com/azure-policy-what-if-you-test-your-policies-5ddb12c95a07"
+    },
+    {
+      "pattern": "https://charotamine.medium.com/azure-spring-clean-diagnostic-settings-26c61d8d165d"
+    }
+  ],
   "timeout": "20s",
   "retryOn429": true,
   "retryCount": 5,
