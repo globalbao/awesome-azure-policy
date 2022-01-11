@@ -130,6 +130,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Key Vault RBAC and Policy Deep Dive](https://youtu.be/oYzFWOrZMKc)
 - [Azure Policy as Code - Zero to Hero in 60 minutes](https://youtu.be/AVn5glYBz84?t=2380)
 - [Azure Policy](https://youtu.be/1NzWYIsKUl4)
+- [Azure Policy - Non-Compliance Messages](https://youtu.be/N4Xom4IYcUE)
 - [Azure Spring Clean: Some points to remember about Azure Governance](https://youtu.be/lOHK_k6w4e4)
 - [Build Your Tagging Strategy with Azure Policy and Automation](https://youtu.be/4ebXt0iMiEU)
 - [Custom Policy for Azure Governance - How to create custom Azure Policy from Scratch](https://youtu.be/n-jL_xe9858)
