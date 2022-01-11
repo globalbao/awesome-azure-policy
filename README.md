@@ -269,6 +269,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [jtracey93/tf-az-dine-policy-assignment](https://github.com/jtracey93/tf-az-dine-policy-assignment)
 - [julianhayward/azure-mg-sub-governance-reporting](https://github.com/julianhayward/azure-mg-sub-governance-reporting)
 - [mattfeltonma/azure-custom-policies](https://github.com/mattfeltonma/azure-custom-policies)
+- [matthiasguentert/azure-naming-convention-initiative](https://github.com/matthiasguentert/azure-naming-convention-initiative)
 - [ricmmartins/azure-governance-made-simple](https://github.com/ricmmartins/azure-governance-made-simple)
 - [salesforce/cloud-guardrails](https://github.com/salesforce/cloud-guardrails)
 - [tyconsulting/azure.policy.monitor](https://github.com/tyconsulting/azure.policy.monitor)
