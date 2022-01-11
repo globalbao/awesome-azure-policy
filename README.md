@@ -260,6 +260,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [claranet/terraform-azurerm-policy](https://github.com/claranet/terraform-azurerm-policy)
 - [faridabharmal/azuregovernance](https://github.com/faridabharmal/azuregovernance)
 - [fawohlsc/azure-policy-testing](https://github.com/fawohlsc/azure-policy-testing)
+- [fawohlsc/azure-policy-samples](https://github.com/fawohlsc/azure-policy-samples)
 - [gettek/terraform-azurerm-policy-as-code](https://github.com/gettek/terraform-azurerm-policy-as-code)
 - [globalbao/azure-policy-as-code](https://github.com/globalbao/azure-policy-as-code)
 - [globalbao/terraform-azurerm-policy-exemptions](https://github.com/globalbao/terraform-azurerm-policy-exemptions)
