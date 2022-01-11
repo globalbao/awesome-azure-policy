@@ -220,6 +220,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Lessons Learned Testing The Configure Backup On VMs Azure Policy](https://adinermie.com/lessons-learned-testing-the-configure-backup-on-vms-azure-policy/)
 - [Managing Azure Resource Tags Using Azure Policy Modify Effect](https://blog.tyang.org/2020/03/09/managing-azure-resource-tags-using-azure-policy-modify-effect/)
 - [Monitoring Azure Policy Compliance States 2021 Edition](https://blog.tyang.org/2021/12/06/monitoring-azure-policy-compliance-states-2021-edition/)
+- [Notes On Azure Policy Exemption](https://azsec.azurewebsites.net/2021/12/22/notes-on-azure-policy-exemption/)
 - [November 2020 Update For Azure Diagnostic Settings Policy Definitions](https://blog.tyang.org/2020/11/22/november-2020-update-for-azure-diagnostic-settings-policy-definitions/)
 - [October 2020 Update For Azure Diagnostic Settings Policy Definitions](https://blog.tyang.org/2020/10/12/october-2020-update-for-azure-diagnostic-settings-policy-definitions/)
 - [Security Posture Management With Azure Policy And Microsoft Defender For Cloud](https://securecloud.blog/2021/12/17/security-posture-management-with-azure-policy-and-microsoft-defender-for-cloud/)
