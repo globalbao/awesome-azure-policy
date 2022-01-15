@@ -210,6 +210,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Enable Purge Protection Key Vault Azure Policy](https://charbelnemnom.com/enable-purge-protection-key-vault-azure-policy/)
 - [Enable Vulnerability Assessment On SQL Servers](https://charbelnemnom.com/enable-vulnerability-assessment-on-sql-servers/)
 - [Enforce CanNotDelete Resource Lock using Azure Policy](https://jeffbrown.tech/azure-policy-resource-lock/)
+- [Enhancing PCI Compliance In Your Azure Environment By Using Azure Policy Custom Initiatives](https://www.darwinsec.com/post/increasing-pci-compliance-in-your-azure-environment-by-using-custom-initiatives)
 - [Enterprise Scale Policy Driven Governance](https://stefanstranger.github.io/2020/08/28/EnterpriseScalePolicyDrivenGovernance/)
 - [Global Azure: Policy As Code With Bicep For Enterprise Scale](https://jloudon.com/cloud/Global-Azure-Policy-as-Code-with-Bicep-for-Enterprise-Scale/)
 - [Govern Azure Virtual Network VNET CIDR Ranges With Azure Policy](https://adinermie.com/govern-azure-virtual-network-vnet-cidr-ranges-with-azure-policy/)
