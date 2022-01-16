@@ -86,7 +86,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [GA: Policy add-on for Azure Kubernetes Service](https://azure.microsoft.com/en-au/updates/ga-policy-addon-for-azure-kubernetes-service/)
 - [General availability: Built-in Azure Policy support for Network Watcher Traffic Analytics](https://azure.microsoft.com/en-gb/updates/general-availability-builtin-azure-policy-support-for-network-watcher-traffic-analytics/)
 - [Generally available: Azure Policy support for Azure Site Recovery](https://azure.microsoft.com/en-gb/updates/asr-policy-support-ga/)
-- [How to build an audit Azure Policy with multiple parameters](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-build-an-audit-azure-policy-with-multiple-parameters/ba-p/186606245)
+- [How to build an audit Azure Policy with multiple parameters](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-build-an-audit-azure-policy-with-multiple-parameters/ba-p/1866062)
 - [How to debug unexpected Azure Policy compliance status for Azure resources?](https://techcommunity.microsoft.com/t5/azure-paas-blog/how-to-debug-unexpected-azure-policy-compliance-status-for-azure/ba-p/2111068)
 - [How to update Azure Policy parameters in Azure Blueprints](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-update-azure-policy-parameters-in-azure-blueprints/ba-p/3037875)
 - [Important change released for Guest Configuration audit policies](https://techcommunity.microsoft.com/t5/azure-governance-and-management/important-change-released-for-guest-configuration-audit-policies/ba-p/1655316)
