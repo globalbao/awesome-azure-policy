@@ -144,6 +144,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Organizational Governance and Best Practices for Control](https://www.youtube.com/watch?v=utVRZg0TNu8)
 - [Regain Control with Azure Governance](https://www.youtube.com/watch?v=M2y0QsHLeSs)
 - [Using Azure Security Center for Policy and Regulatory Compliance](https://youtu.be/AXgBoSz0dAs)
+- [Virtual Machine Scale Sets Logs With An Azure Policy](https://youtu.be/wT0-BA5MrZ8)
 
 ### Community Podcasts
 [Back To Top](#Table-Of-Contents)
@@ -161,6 +162,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 [Back To Top](#Table-Of-Contents)
 
 - [AKS Policy Reference Overriding Or Disabling Of Containers Apparmor Profile Should Be Restricted](https://securecloud.blog/2021/11/18/aks-policy-reference-overriding-or-disabling-of-containers-apparmor-profile-should-be-restricted/)
+- [An Azure Policy Journey](https://medium.com/microsoftazure/an-azure-policy-journey-7bb53b41c43d)
 - [Audit Publicly Accessible Azure App Services With Azure Policy](https://charbelnemnom.com/audit-publicly-accessible-azure-app-services-with-azure-policy/)
 - [Audit Server Settings With Azure Policy Guest Configuration](https://www.thomasmaurer.ch/2021/03/audit-server-settings-with-azure-policy-guest-configuration/)
 - [Audit Subnets That Do Not Have Network Security Group Associated](https://charbelnemnom.com/audit-subnets-that-do-not-have-network-security-group-associated/)
@@ -210,6 +212,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Enable Managed Identity For Web App Azure Policy](https://charbelnemnom.com/enable-managed-identity-for-web-app-azure-policy/)
 - [Enable Purge Protection Key Vault Azure Policy](https://charbelnemnom.com/enable-purge-protection-key-vault-azure-policy/)
 - [Enable Vulnerability Assessment On SQL Servers](https://charbelnemnom.com/enable-vulnerability-assessment-on-sql-servers/)
+- [Enable Resource Logs In Virtual Machine Scale Sets With An Azure Policy](https://medium.com/microsoftazure/enable-resource-logs-in-virtual-machine-scale-sets-with-an-azure-policy-14624387cf2f)
 - [Enforce CanNotDelete Resource Lock using Azure Policy](https://jeffbrown.tech/azure-policy-resource-lock/)
 - [Enhancing PCI Compliance In Your Azure Environment By Using Azure Policy Custom Initiatives](https://www.darwinsec.com/post/increasing-pci-compliance-in-your-azure-environment-by-using-custom-initiatives)
 - [Enterprise Scale Policy Driven Governance](https://stefanstranger.github.io/2020/08/28/EnterpriseScalePolicyDrivenGovernance/)
@@ -276,6 +279,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [gettek/terraform-azurerm-policy-as-code](https://github.com/gettek/terraform-azurerm-policy-as-code)
 - [globalbao/azure-policy-as-code](https://github.com/globalbao/azure-policy-as-code)
 - [globalbao/terraform-azurerm-policy-exemptions](https://github.com/globalbao/terraform-azurerm-policy-exemptions)
+- [jamesdld/azure-policies](https://github.com/JamesDLD/azure-policies)
 - [jimgbritt/azurepolicy](https://github.com/jimgbritt/azurepolicy)
 - [jimgbritt/azurediagnosticspipeline](https://github.com/jimgbritt/azurediagnosticspipeline)
 - [jtracey93/tf-az-dine-policy-assignment](https://github.com/jtracey93/tf-az-dine-policy-assignment)
