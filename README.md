@@ -163,6 +163,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 
 - [AKS Policy Reference Overriding Or Disabling Of Containers Apparmor Profile Should Be Restricted](https://securecloud.blog/2021/11/18/aks-policy-reference-overriding-or-disabling-of-containers-apparmor-profile-should-be-restricted/)
 - [An Azure Policy Journey](https://medium.com/microsoftazure/an-azure-policy-journey-7bb53b41c43d)
+- [Audit Azure Web App Against NotLegit Vulnerability](https://azsec.azurewebsites.net/2021/12/23/audit-azure-web-app-against-notlegit-vulnerability/)
 - [Audit Publicly Accessible Azure App Services With Azure Policy](https://charbelnemnom.com/audit-publicly-accessible-azure-app-services-with-azure-policy/)
 - [Audit Server Settings With Azure Policy Guest Configuration](https://www.thomasmaurer.ch/2021/03/audit-server-settings-with-azure-policy-guest-configuration/)
 - [Audit Subnets That Do Not Have Network Security Group Associated](https://charbelnemnom.com/audit-subnets-that-do-not-have-network-security-group-associated/)
@@ -202,6 +203,8 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Controlling Azure SQL Firewall Rules](https://cloudadministrator.net/2021/03/31/controlling-azure-sql-firewall-rules/)
 - [Create And Assign Custom Azure Policies For Azure Governance](https://mohitgoyal.co/2019/10/08/create-and-assign-custom-azure-policies-for-azure-governance/)
 - [Create Custom Security Center Recommendation With Azure Policy](https://zimmergren.net/create-custom-security-center-recommendation-with-azure-policy/)
+- [Demystify Azure DDoS Protection Azure Policy](https://azsec.azurewebsites.net/2021/07/17/demystify-azure-ddos-protection-azure-policy/)
+- [Deny Azure Role Assignment With Azure Policy](https://azsec.azurewebsites.net/2021/04/15/deny-azure-role-assignment-with-azure-policy/)
 - [Deploy And Assign Azure Policy Via Azure DevOps Pipelines](https://charbelnemnom.com/deploy-and-assign-azure-policy-via-azure-devops-pipelines/)
 - [Deploy Azure Monitor Agent at Scale](https://www.cloudsma.com/2021/09/deploy-azure-monitor-agent-scale/)
 - [Deploy Azure Policy Using Terraform](https://ydcloud.wordpress.com/2019/12/10/deploy-azure-policy-using-terraform/)
