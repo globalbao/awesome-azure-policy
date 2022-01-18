@@ -266,6 +266,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [AzGovViz](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting)
 - [Azure Policy and Governance Pipelines Tasks](https://marketplace.visualstudio.com/items?itemName=razorspoint.rp-build-release-azurepolicy)
 - [Cloud Guardrails](https://cloud-guardrails.readthedocs.io/en/latest/)
+- [Steampipe Azure Plugin](https://hub.steampipe.io/plugins/turbot/azure)
 
 ### Community Repositories
 [Back To Top](#Table-Of-Contents)
@@ -292,6 +293,9 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [ricmmartins/azure-governance-made-simple](https://github.com/ricmmartins/azure-governance-made-simple)
 - [salesforce/cloud-guardrails](https://github.com/salesforce/cloud-guardrails)
 - [stefanrothnet/azure-policy](https://github.com/stefanrothnet/azure-policy)
+- [turbot/steampipe-mod-azure-compliance](https://github.com/turbot/steampipe-mod-azure-compliance)
+- [turbot/steampipe-mod-azure-thrifty](https://github.com/turbot/steampipe-mod-azure-thrifty)
+- [turbot/steampipe-mod-azure-tags](https://github.com/turbot/steampipe-mod-azure-tags)
 - [tyconsulting/azure.policy.monitor](https://github.com/tyconsulting/azure.policy.monitor)
 - [tyconsulting/azurepolicy](https://github.com/tyconsulting/azurepolicy)
 - [yangdeal/azure_policy_deployment](https://github.com/yangdeal/azure_policy_deployment)
