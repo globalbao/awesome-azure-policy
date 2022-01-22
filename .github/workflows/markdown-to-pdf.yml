@@ -1,6 +1,9 @@
 name: Upload Document as Artifact
 
-on: [push]
+on: 
+  push:
+    branches:
+    - main
   workflow_dispatch:
 
 env:
