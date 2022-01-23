@@ -127,6 +127,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Automatically Tag Azure Resources using Azure Policy](https://youtu.be/PUJe8Od7B9Q)
 - [Automating Infrastructure Governance with Azure Policy](https://youtu.be/dPwy8nlNyNM?t=570)
 - [Azure Back To School: Bicep Builders: Azure Sentinel and Policy as Code](https://youtu.be/B03V3Tazcec)
+- [Azure Governance And Security | Secure Azure Key Vault Using Azure Policy](https://youtu.be/o4EfqtlVyR4)
 - [Azure Key Vault RBAC and Policy Deep Dive](https://youtu.be/oYzFWOrZMKc)
 - [Azure Policy as Code - Zero to Hero in 60 minutes](https://youtu.be/AVn5glYBz84?t=2380)
 - [Azure Policy](https://youtu.be/1NzWYIsKUl4)
