@@ -75,6 +75,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 ### Official Announcements and Articles
 [Back To Top](#Table-Of-Contents)
 
+- [Aligning CMMC Controls with your Azure Landing Zone](https://techcommunity.microsoft.com/t5/public-sector-blog/aligning-cmmc-controls-with-your-azure-landing-zone/ba-p/2736511)
 - [Announcing Azure Resource Policy general availability](https://azure.microsoft.com/en-au/blog/azure-resource-policy-ga/)
 - [Azure Backup Center - Backups and Good Governance](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-backup-center-backups-and-good-governance/ba-p/2318843)
 - [Azure Policy for Kubernetes releases support for custom policy](https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-policy-for-kubernetes-releases-support-for-custom-policy/ba-p/2699466)
