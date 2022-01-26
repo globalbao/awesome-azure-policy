@@ -34,6 +34,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 
 - [Address Tangible Risks With The Govern Methodology Of The Cloud Adoption Framework For Azure](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/)
 - [Build Cloud Governance Strategy On Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/)
+- [Configure Azure Policy](https://docs.microsoft.com/en-us/learn/modules/configure-azure-policy/)
 - [Design An Enterprise Governance Strategy](https://docs.microsoft.com/en-us/learn/modules/enterprise-governance/)
 - [Design Governance](https://docs.microsoft.com/en-us/learn/modules/design-governance/)
 - [Intro to Azure Policy](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-policy/)
@@ -41,6 +42,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 ### Official Docs
 [Back To Top](#Table-Of-Contents)
 
+- [Adopt Policy-Driven Guardrails](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/dine-guidance)
 - [Azure Policy](https://docs.microsoft.com/en-us/azure/governance/policy/)
 - [Understand Azure Policy for Kubernetes clusters](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/policy-for-kubernetes)
 - [Secure your cluster with Azure Policy](https://docs.microsoft.com/en-us/azure/aks/use-azure-policy?toc=/azure/governance/policy/toc.json&bc=/azure/governance/policy/breadcrumb/toc.json)
@@ -87,6 +89,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [GA: Policy add-on for Azure Kubernetes Service](https://azure.microsoft.com/en-au/updates/ga-policy-addon-for-azure-kubernetes-service/)
 - [General availability: Built-in Azure Policy support for Network Watcher Traffic Analytics](https://azure.microsoft.com/en-gb/updates/general-availability-builtin-azure-policy-support-for-network-watcher-traffic-analytics/)
 - [Generally available: Azure Policy support for Azure Site Recovery](https://azure.microsoft.com/en-gb/updates/asr-policy-support-ga/)
+- [How Does Azure Policies In Enterprise-Scale Landing Zone Help?](https://techcommunity.microsoft.com/t5/azure-architecture-blog/how-does-azure-policies-in-enterprise-scale-landing-zone-help/ba-p/2121478)
 - [How to build an audit Azure Policy with multiple parameters](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-build-an-audit-azure-policy-with-multiple-parameters/ba-p/1866062)
 - [How to debug unexpected Azure Policy compliance status for Azure resources?](https://techcommunity.microsoft.com/t5/azure-paas-blog/how-to-debug-unexpected-azure-policy-compliance-status-for-azure/ba-p/2111068)
 - [How to update Azure Policy parameters in Azure Blueprints](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-update-azure-policy-parameters-in-azure-blueprints/ba-p/3037875)
@@ -210,6 +213,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Deny Azure Role Assignment With Azure Policy](https://azsec.azurewebsites.net/2021/04/15/deny-azure-role-assignment-with-azure-policy/)
 - [Deploy And Assign Azure Policy Via Azure DevOps Pipelines](https://charbelnemnom.com/deploy-and-assign-azure-policy-via-azure-devops-pipelines/)
 - [Deploy Azure Monitor Agent at Scale](https://www.cloudsma.com/2021/09/deploy-azure-monitor-agent-scale/)
+- [Deploy Azure Policy To ManagementGroup With Bicep](https://www.nielskok.tech/infrastructure-as-code/deploy-azure-policy-to-managementgroup-with-bicep/)
 - [Deploy Azure Policy Using Terraform](https://ydcloud.wordpress.com/2019/12/10/deploy-azure-policy-using-terraform/)
 - [Diagnostic Settings Storage Accounts Event Hub](https://charbelnemnom.com/diagnostic-settings-storage-accounts-event-hub/)
 - [Enable Azure SQL Auditing With Azure Policy](https://charbelnemnom.com/enable-azure-sql-auditing-with-azure-policy/)
