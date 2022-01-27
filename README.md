@@ -38,6 +38,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Design An Enterprise Governance Strategy](https://docs.microsoft.com/en-us/learn/modules/enterprise-governance/)
 - [Design Governance](https://docs.microsoft.com/en-us/learn/modules/design-governance/)
 - [Intro to Azure Policy](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-policy/)
+- [Manage security operations in Azure](https://docs.microsoft.com/en-us/learn/paths/manage-security-operations/)
 
 ### Official Docs
 [Back To Top](#Table-Of-Contents)
