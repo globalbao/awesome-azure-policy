@@ -215,6 +215,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Deploy And Assign Azure Policy Via Azure DevOps Pipelines](https://charbelnemnom.com/deploy-and-assign-azure-policy-via-azure-devops-pipelines/)
 - [Deploy Azure Monitor Agent at Scale](https://www.cloudsma.com/2021/09/deploy-azure-monitor-agent-scale/)
 - [Deploy Azure Policy To ManagementGroup With Bicep](https://www.nielskok.tech/infrastructure-as-code/deploy-azure-policy-to-managementgroup-with-bicep/)
+- [Deploy Azure Policy Using Azure DevOps CI/CD Pipeline](https://autosysops.com/blog/deploy-azure-policy-with-azure-devops/)
 - [Deploy Azure Policy Using Terraform](https://ydcloud.wordpress.com/2019/12/10/deploy-azure-policy-using-terraform/)
 - [Diagnostic Settings Storage Accounts Event Hub](https://charbelnemnom.com/diagnostic-settings-storage-accounts-event-hub/)
 - [Enable Azure SQL Auditing With Azure Policy](https://charbelnemnom.com/enable-azure-sql-auditing-with-azure-policy/)
