@@ -14,6 +14,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - name: markdown-link-check
+      id: markdownlinkcheck
+      continue-on-error: true
+    - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
+    - name: Sleep for 30mins
+      if: ${{ steps.markdownlinkcheck.outcome == 'failure' && steps.markdownlinkcheck.conclusion == 'success' }}
+      uses: juliangruber/sleep-action@v1
+      with:
+        time: 1800s #sleep for 30mins
+    - name: markdown-link-check-retry
+      if: ${{ steps.markdownlinkcheck.outcome == 'failure' && steps.markdownlinkcheck.conclusion == 'success' }}
     - uses: gaurav-nelson/github-action-markdown-link-check@v1
       with:
         use-quiet-mode: 'yes'
