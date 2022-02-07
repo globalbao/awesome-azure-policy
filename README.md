@@ -165,6 +165,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [057 - Azure Policy and Azure Key Vault integration](https://ctrlaltazure.com/episodes/057-azure-policy-and-azure-key-vault-integration)
 - [109 - Azure Policy as Code with Jesse Loudon](https://ctrlaltazure.com/episodes/109-azure-policy-as-code)
 - [S01 E43 - Everything you need to know about Azure Policy](https://rss.com/podcasts/azsecpodcast/350402/)
+- [S01 E16 - Azure Security Podcast - Azure Policy](https://rss.com/podcasts/azsecpodcast/93831/)
 
 ### Community Books
 [Back To Top](#Table-Of-Contents)
