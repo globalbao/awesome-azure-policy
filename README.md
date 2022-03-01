@@ -79,6 +79,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 ### Official Announcements and Articles
 [Back To Top](#Table-Of-Contents)
 
+- [7 steps to author, develop, and deploy custom recommendations for Windows using Guest Configuration](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/7-steps-to-author-develop-and-deploy-custom-recommendations-for/ba-p/3166026)
 - [Aligning CMMC Controls with your Azure Landing Zone](https://techcommunity.microsoft.com/t5/public-sector-blog/aligning-cmmc-controls-with-your-azure-landing-zone/ba-p/2736511)
 - [Announcing Azure Resource Policy general availability](https://azure.microsoft.com/en-au/blog/azure-resource-policy-ga/)
 - [Apply GitOps configurations on AKS as an Azure Arc Connected Cluster using Azure Policy for Kubernetes](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_k8s/day2/aks/aks_policy/)
@@ -87,7 +88,11 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Policy introduces user assigned MSI support, faster DINE deployment, and more!](https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-policy-introduces-user-assigned-msi-support-faster-dine/ba-p/2661073)
 - [Azure Policy – Perform policy operations through Azure DevOps](https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-policy-perform-policy-operations-through-azure-devops/ba-p/2045515)
 - [Azure Unblogged - Azure Policy](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-unblogged-azure-policy/ba-p/2106247)
+- [Centralized Policy Management in Microsoft Defender for Cloud using Management Groups](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/centralized-policy-management-in-microsoft-defender-for-cloud/ba-p/1276331)
 - [Controlling Release Pipelines with Gates and Azure Policy Compliance](https://devblogs.microsoft.com/devops/controlling-release-pipelines-with-gates-and-azure-policy-compliance/)
+- [Configure Security Center bundle pricing with Azure Policy](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/configure-security-center-bundle-pricing-with-azure-policy/ba-p/404035)
+- [Continuously Export Microsoft Defender for Cloud Alerts and Recommendations via Policy](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/continuously-export-microsoft-defender-for-cloud-alerts-and/ba-p/1440745)
+- [Eliminate Password-Based Attacks on Azure Linux VMs](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/eliminate-password-based-attacks-on-azure-linux-vms/ba-p/2271139)
 - [Enterprise-Scale and Azure Policy for policy-driven governance](https://techcommunity.microsoft.com/t5/azure-architecture-blog/enterprise-scale-and-azure-policy-for-policy-driven-governance/ba-p/1614060)
 - [Deploy Monitoring Agent Extension to Azure Arc Linux and Windows servers using Azure Policy](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_servers/day2/arc_policies_mma/)
 - [Enforcing Policy for Zero Trust with Azure Policy](https://devblogs.microsoft.com/azuregov/enforcing-policy-for-zero-trust-with-azure-policy-4-of-6/)
@@ -100,6 +105,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [How to update Azure Policy parameters in Azure Blueprints](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-update-azure-policy-parameters-in-azure-blueprints/ba-p/3037875)
 - [Important change released for Guest Configuration audit policies](https://techcommunity.microsoft.com/t5/azure-governance-and-management/important-change-released-for-guest-configuration-audit-policies/ba-p/1655316)
 - [Implementing Azure Policy using Terraform](https://techcommunity.microsoft.com/t5/azure-paas-blog/implementing-azure-policy-using-terraform/ba-p/1423775)
+- [Managing Security Center at scale using ARM templates and Azure Policy](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/managing-security-center-at-scale-using-arm-templates-and-azure/ba-p/327761)
 - [More resource policy aliases](https://azure.microsoft.com/en-au/blog/more-resource-policy-aliases/)
 - [New and updated regulatory compliance policy initiatives for NIST, FedRAMP, DoD in Azure, Azure Government](https://devblogs.microsoft.com/azuregov/new-and-updated-regulatory-compliance-policy-initiatives-for-nist-fedramp-dod-in-azure-azure-government/)
 - [On Prem To the Cloud: Everything As Code](https://devblogs.microsoft.com/devops/on-prem-to-the-cloud-everything-as-code-ep-4/)
