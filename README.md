@@ -79,7 +79,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 ### Official Announcements and Articles
 [Back To Top](#Table-Of-Contents)
 
-- [7 steps to author, develop, and deploy custom recommendations for Windows using Guest Configuration](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/7-steps-to-author-develop-and-deploy-custom-recommendations-for/ba-p/3166026?utm_source=dlvr.it&utm_medium=twitter)
+- [7 steps to author, develop, and deploy custom recommendations for Windows using Guest Configuration](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/7-steps-to-author-develop-and-deploy-custom-recommendations-for/ba-p/3166026)
 - [Aligning CMMC Controls with your Azure Landing Zone](https://techcommunity.microsoft.com/t5/public-sector-blog/aligning-cmmc-controls-with-your-azure-landing-zone/ba-p/2736511)
 - [Announcing Azure Resource Policy general availability](https://azure.microsoft.com/en-au/blog/azure-resource-policy-ga/)
 - [Apply GitOps configurations on AKS as an Azure Arc Connected Cluster using Azure Policy for Kubernetes](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_k8s/day2/aks/aks_policy/)
