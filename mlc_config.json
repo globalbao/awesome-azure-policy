@@ -8,9 +8,6 @@
     },
     {
       "pattern": "https://charotamine.medium.com/azure-spring-clean-diagnostic-settings-26c61d8d165d"
-    },
-    {
-      "pattern": "https://captainhyperscaler.com/2021/03/24/azurespringclean-using-azure-policy-and-security-center-for-organizational-governance-https-www-azurespringclean-com/"
     }
   ],
   "timeout": "20s",
