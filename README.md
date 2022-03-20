@@ -226,7 +226,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Spring Clean: DINE To Automate Your Monitoring Governance With Azure Monitor Metric Alerts](https://jloudon.com/cloud/Azure-Spring-Clean-DINE-to-Automate-your-Monitoring-Governance-with-Azure-Monitor-Metric-Alerts/)
 - [Azure Spring Clean: Diagnostic Settings](https://charotamine.medium.com/azure-spring-clean-diagnostic-settings-26c61d8d165d)
 - [Azure Spring Clean: Replacing Kubernetes Pod Security Policies With Azure Policy On AKS](https://samcogan.com/replacing-kubernetes-pod-security-polices-with-azure-policy-on-aks)
-- [Azure Spring Clean: Using Azure Policy And Security Center For Organizational Governance](https://captainhyperscaler.com/2021/03/24/azurespringclean-using-azure-policy-and-security-center-for-organizational-governance-https-www-azurespringclean-com/)
+- [Azure Spring Clean: Using Azure Policy And Security Center For Organizational Governance](https://captainhyperscaler.github.io/community/2021/03/24/azure-spring-clean/)
 - [Build Azure Policy Compliance Workbook](https://www.cloudsma.com/2021/10/build-azure-policy-compliance-workbook/)
 - [Cloud Governance With Azure Policy Part 1](https://jloudon.com/cloud/Cloud-Governance-with-Azure-Policy-Part-1/)
 - [Cloud Governance With Azure Policy Part 2](https://jloudon.com/cloud/Cloud-Governance-with-Azure-Policy-Part-2/)
