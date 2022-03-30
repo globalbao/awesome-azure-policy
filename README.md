@@ -129,6 +129,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [azure/manage-azure-policy](https://github.com/azure/manage-azure-policy)
 - [azure/policy-compliance-scan](https://github.com/azure/policy-compliance-scan)
 - [azure cyber security maturity model (CMMC) policy mapping](https://aka.ms/cmmc/alzmap)
+- [azure/regulatory-compliance-initiatives](https://github.com/Azure/regulatory-compliance-initiatives)
 
 ### Official Forums and Feedback
 [Back To Top](#Table-Of-Contents)
