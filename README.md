@@ -33,6 +33,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 [Back To Top](#Table-Of-Contents)
 
 - [Address Tangible Risks With The Govern Methodology Of The Cloud Adoption Framework For Azure](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/)
+- [Azure Kubernetes Services Governance with Azure Policy](https://docs.microsoft.com/en-us/learn/modules/aks-governance-azure-policy/)
 - [Build Cloud Governance Strategy On Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/)
 - [Configure Azure Policy](https://docs.microsoft.com/en-us/learn/modules/configure-azure-policy/)
 - [Design An Enterprise Governance Strategy](https://docs.microsoft.com/en-us/learn/modules/enterprise-governance/)
@@ -60,6 +61,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 [Back To Top](#Table-Of-Contents)
 
 - [Azure Policy and Kubernetes](https://youtu.be/Hv3K8zJSbow)
+- [Azure Policy on Azure Kubernetes Service](https://youtu.be/mfFdH7v3Vl8)
 - [AzureFunBytes - Intro to Azure Policy](https://youtu.be/2ebTY4Bzah0)
 - [Azure Governance & Deployments Quarterly Customer Panel December 2021](https://youtu.be/oYC5Ns7kLCY)
 - [Azure Governance and Deployments Quarterly Customer Panel Feb 2021](https://www.youtube.com/watch?v=ONKn9XMPZCs)
