@@ -312,6 +312,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [AzGovViz](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting)
 - [Azure Policy and Governance Pipelines Tasks](https://marketplace.visualstudio.com/items?itemName=razorspoint.rp-build-release-azurepolicy)
 - [Cloud Guardrails](https://cloud-guardrails.readthedocs.io/en/latest/)
+- [Policy Evaluator](https://azure.permissions.cloud/policyevaluator)
 
 ### Community Repositories
 [Back To Top](#Table-Of-Contents)
