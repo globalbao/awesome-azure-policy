@@ -72,6 +72,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Deep dive into Implementing governance at scale through Azure Policy](https://youtu.be/d6c1nfoySLI)
 - [Enforcement with Azure Policy](https://www.youtube.com/watch?v=yQvFeuPoHe0)
 - [Getting started with Azure Policy](https://www.youtube.com/watch?v=b0Sp6V0VJas)
+- [Global Azure - Notes from the field: Policy-driven Governance](https://youtu.be/Ukqux_TN8uw)
 - [Govern Azure Arc-enabled K8S Clusters with Azure Policy | KubeCon NA 2021](https://youtu.be/l1ve70xD06Y)
 - [On Prem To The Cloud: Everything As Code](https://youtu.be/io_dX5I-6xM)
 - [Performing Remediation on Resources with Azure Policy](https://www.youtube.com/watch?v=c1d05IYBrTk)
