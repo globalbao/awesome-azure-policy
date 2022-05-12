@@ -8,6 +8,9 @@
     },
     {
       "pattern": "https://charotamine.medium.com/azure-spring-clean-diagnostic-settings-26c61d8d165d"
+    },
+    {
+      "pattern": "https://www.darwinsec.com/post/increasing-pci-compliance-in-your-azure-environment-by-using-custom-initiatives"
     }
   ],
   "timeout": "20s",
