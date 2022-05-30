@@ -119,9 +119,9 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Portal Preview of Azure Resource Policy](https://azure.microsoft.com/en-au/blog/portal-preview-of-azure-resource-policy-2/)
 - [Public preview of new Azure Policy features](https://azure.microsoft.com/en-au/blog/recap-on-new-azure-policy-features-in-ignite/)
 - [The impact of conflicting Azure Policies](https://techcommunity.microsoft.com/t5/itops-talk-blog/the-impact-of-conflicting-azure-policies/ba-p/2227063)
+- [Trigger Condition and Evaluation Workflow of Azure Policy](https://techcommunity.microsoft.com/t5/azure-paas-blog/trigger-condition-and-evaluation-workflow-of-azure-policy/ba-p/3436597)
 - [Use Azure Policy on an Azure-Arc enabled Kubernetes cluster for applying ingress/egress rules with Calico network policy](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions/calico/)
 - [Using GitHub for Azure Policy as Code](https://techcommunity.microsoft.com/t5/azure-governance-and-management/using-github-for-azure-policy-as-code/ba-p/1886464)
-
 
 ### Official Repositories and Tools
 [Back To Top](#Table-Of-Contents)
