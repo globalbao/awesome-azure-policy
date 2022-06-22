@@ -104,6 +104,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [GA: Policy add-on for Azure Kubernetes Service](https://azure.microsoft.com/en-au/updates/ga-policy-addon-for-azure-kubernetes-service/)
 - [General availability: Built-in Azure Policy support for Network Watcher Traffic Analytics](https://azure.microsoft.com/en-gb/updates/general-availability-builtin-azure-policy-support-for-network-watcher-traffic-analytics/)
 - [Generally available: Azure Policy support for Azure Site Recovery](https://azure.microsoft.com/en-gb/updates/asr-policy-support-ga/)
+- [Guest configuration renames to machine configuration](https://techcommunity.microsoft.com/t5/azure-governance-and-management/coming-soon-guest-configuration-renames-to-machine-configuration/ba-p/3474116)
 - [How Does Azure Policies In Enterprise-Scale Landing Zone Help?](https://techcommunity.microsoft.com/t5/azure-architecture-blog/how-does-azure-policies-in-enterprise-scale-landing-zone-help/ba-p/2121478)
 - [How to build an audit Azure Policy with multiple parameters](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-build-an-audit-azure-policy-with-multiple-parameters/ba-p/1866062)
 - [How to debug unexpected Azure Policy compliance status for Azure resources?](https://techcommunity.microsoft.com/t5/azure-paas-blog/how-to-debug-unexpected-azure-policy-compliance-status-for-azure/ba-p/2111068)
@@ -150,6 +151,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 
 - [A summary of the Diagnostic Settings](https://www.youtube.com/watch?v=zAxvFH9EsGY)
 - [Admission Control on AKS with Azure Policy](https://youtu.be/OJGmwCMsUNE)
+- [Anatomy of Azure Policy](https://youtu.be/4wGns611G4w)
 - [AZ-900 Episode 31 | Azure Policy](https://youtu.be/9WO4EBgUJXk)
 - [Automatically Tag Azure Resources using Azure Policy](https://youtu.be/PUJe8Od7B9Q)
 - [Automating Infrastructure Governance with Azure Policy](https://youtu.be/dPwy8nlNyNM?t=570)
@@ -163,6 +165,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Spring Clean: Some points to remember about Azure Governance](https://youtu.be/lOHK_k6w4e4)
 - [Build Your Tagging Strategy with Azure Policy and Automation](https://youtu.be/4ebXt0iMiEU)
 - [Custom Policy for Azure Governance - How to create custom Azure Policy from Scratch](https://youtu.be/n-jL_xe9858)
+- [Detailed look at Azure Policy Exemption Permission Requirements](https://youtu.be/clAu7VqpacA)
 - [Festive Tech Calendar: Day 1 - Azure Governance](https://youtu.be/GK_8FAHwoe8)
 - [Festive Tech Calendar: Day 6 - Azure Governance: Azure customized Policies](https://www.youtube.com/watch?v=rQXZWIvW1Ww)
 - [Flexing Your Security Governance with Azure Policy As Code](https://youtu.be/-KSLh2I9e1U)
@@ -173,8 +176,10 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Microsoft Azure Master Class Part 3 - Governance](https://youtu.be/cIh_Nfl67T0?t=2830)
 - [Organizational Governance and Best Practices for Control](https://www.youtube.com/watch?v=utVRZg0TNu8)
 - [Regain Control with Azure Governance](https://www.youtube.com/watch?v=M2y0QsHLeSs)
+- [Understanding Organizational Governance and Best Practices for Control](https://youtu.be/utVRZg0TNu8)
 - [Using Azure Security Center for Policy and Regulatory Compliance](https://youtu.be/AXgBoSz0dAs)
 - [Virtual Machine Scale Sets Logs With An Azure Policy](https://youtu.be/wT0-BA5MrZ8)
+- [Writing DSC Resources for Azure Policy Guest Configuration - For Linux](https://youtu.be/RxnxpZqvEmg)
 
 ### Community Podcasts
 [Back To Top](#Table-Of-Contents)
