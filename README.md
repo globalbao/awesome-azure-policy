@@ -46,6 +46,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 
 - [Adopt Policy-Driven Guardrails](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/dine-guidance)
 - [Azure Policy](https://docs.microsoft.com/en-us/azure/governance/policy/)
+- [Policies included in Azure Landing Zones reference implementations](https://github.com/Azure/Enterprise-Scale/blob/main/docs/ESLZ-Policies.md)
 - [Understand Azure Policy for Kubernetes clusters](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/policy-for-kubernetes)
 - [Secure your cluster with Azure Policy](https://docs.microsoft.com/en-us/azure/aks/use-azure-policy?toc=/azure/governance/policy/toc.json&bc=/azure/governance/policy/breadcrumb/toc.json)
 - [Deploy and manage Traffic Analytics using Azure Policy](https://docs.microsoft.com/en-us/azure/network-watcher/traffic-analytics-policy-portal)
