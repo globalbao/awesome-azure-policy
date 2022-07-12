@@ -229,6 +229,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure policy initiatives for Microsoft Defender for Cloud and Microsoft Sentinel workload protections](https://blog.johnjoyner.net/azure-policy-initiatives-for-microsoft-defender-for-cloud-and-microsoft-sentinel-workload-protections/)
 - [Azure Policy Policies Not Evaluated Right Away](https://cloudadministrator.net/2021/01/21/azure-policy-policies-not-evaluated-right-away/)
 - [Azure Policy Where To Start](https://wedoazure.ie/2019/08/22/azure-policy-where-to-start/)
+- [Azure Policy Search with Azure Graph](https://zigmax.net/azure-policy-search-with-azure-graph/)
 - [Azure Policy – Add Date/Time Resource Group Tag](https://www.stefanroth.net/2019/10/06/azure-policy-add-date-time-resource-group-tag/)
 - [Azure Policy – Audit And Deploy CanNotDelete Lock On Resource Group Based On Tags](https://www.stefanroth.net/2020/02/03/azure-policy-audit-and-deploy-cannotdelete-lock-on-resource-group-based-on-tags/)
 - [Azure Policy – Export Azure Policy Definitions](https://www.stefanroth.net/2019/07/30/azure-policy-export-azure-policy-definitions/)
