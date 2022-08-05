@@ -140,6 +140,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [azure/manage-azure-policy](https://github.com/azure/manage-azure-policy)
 - [azure/policy-compliance-scan](https://github.com/azure/policy-compliance-scan)
 - [azure/regulatory-compliance-initiatives](https://github.com/Azure/regulatory-compliance-initiatives)
+- [microsoft/azurepolicytestframework](https://github.com/microsoft/AzurePolicyTestFramework)
 
 ### Official Forums and Feedback
 [Back To Top](#Table-Of-Contents)
@@ -350,6 +351,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [john-joyner/azure-policy](https://github.com/john-joyner/azure-policy)
 - [jtracey93/tf-az-dine-policy-assignment](https://github.com/jtracey93/tf-az-dine-policy-assignment)
 - [julianhayward/azure-mg-sub-governance-reporting](https://github.com/julianhayward/azure-mg-sub-governance-reporting)
+- [kudelskisecurity/azure-policy-tester](https://github.com/kudelskisecurity/azure-policy-tester)
 - [mattfeltonma/azure-custom-policies](https://github.com/mattfeltonma/azure-custom-policies)
 - [matthiasguentert/azure-naming-convention-initiative](https://github.com/matthiasguentert/azure-naming-convention-initiative)
 - [ricmmartins/azure-governance-made-simple](https://github.com/ricmmartins/azure-governance-made-simple)
