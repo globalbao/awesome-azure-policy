@@ -105,6 +105,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Field Notes: Remediating Resources Using User-Assigned Managed Identity with Azure Policy](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/field-notes-remediating-resources-using-user-assigned-managed/ba-p/3258700)
 - [GA: Policy add-on for Azure Kubernetes Service](https://azure.microsoft.com/en-au/updates/ga-policy-addon-for-azure-kubernetes-service/)
 - [General availability: Built-in Azure Policy support for Network Watcher Traffic Analytics](https://azure.microsoft.com/en-gb/updates/general-availability-builtin-azure-policy-support-for-network-watcher-traffic-analytics/)
+- [Generally available: Apply settings inside machines using Automanage machine configuration](https://techcommunity.microsoft.com/t5/azure-governance-and-management/generally-available-apply-settings-inside-machines-using/ba-p/3589614)
 - [Generally available: Azure Policy support for Azure Site Recovery](https://azure.microsoft.com/en-gb/updates/asr-policy-support-ga/)
 - [Guest configuration renames to machine configuration](https://techcommunity.microsoft.com/t5/azure-governance-and-management/coming-soon-guest-configuration-renames-to-machine-configuration/ba-p/3474116)
 - [How Does Azure Policies In Enterprise-Scale Landing Zone Help?](https://techcommunity.microsoft.com/t5/azure-architecture-blog/how-does-azure-policies-in-enterprise-scale-landing-zone-help/ba-p/2121478)
