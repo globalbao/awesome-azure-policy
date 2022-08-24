@@ -229,6 +229,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Policy As Code With Terraform Part 2](https://jloudon.com/cloud/Azure-Policy-as-Code-with-Terraform-Part-2/)
 - [Azure Policy As Code](https://craigclouditpro.wordpress.com/2019/09/10/azure-policy-as-code/)
 - [Azure Policy Compliance Remediate Azure DevOps](https://charbelnemnom.com/azure-policy-compliance-remediate-azure-devops/)
+- [Azure Policy Definitions for Controlling ARM API versions](https://blog.tyang.org/2022/04/24/policy-definitions-control-arm-api-versions/)
 - [Azure Policy Deploy MS Antimalware Ext For SQL VM](https://blog.tyang.org/2021/10/03/azure-policy-deploy-ms-antimalware-ext-for-sql-vm/)
 - [Azure Policy For Kubernetes Custom Policies On Azure Arc Enabled Kubernetes](https://www.danielstechblog.io/azure-policy-for-kubernetes-custom-policies-on-azure-arc-enabled-kubernetes/)
 - [Azure Policy for Kubernetes: Contraints and ConstraintTemplates](https://blog.baeke.info/2021/03/23/azure-policy-for-kubernetes-contraints-and-constrainttemplates/)
