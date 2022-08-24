@@ -318,6 +318,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Using Azure Policy to configure your resources](https://manbearpiet.com/posts/applying-guest-configuration-policy/)
 - [Using Azure Policy To Implement Tagging Inheritance](https://archiechristopher.co.uk/2022/01/07/using-azure-policy-to-implement-tagging-inheritance/)
 - [Using Conftest For Azure Policy For Kubernetes](https://www.danielstechblog.io/using-conftest-for-azure-policy-for-kubernetes/)
+- [VNet peering using Azure Policy](https://rubberduckdev.com/azure-policy-vnet-peering/)
 - [Walkthrough Using Azure Policy To Audit And Enforce Compliance](https://azuredays.com/2020/07/09/walkthrough-using-azure-policy-to-audit-and-enforce-compliance/)
 - [Writing A Custom Azure Policy](https://journeyofthegeek.com/2021/03/07/writing-a-custom-azure-policy/)
 
