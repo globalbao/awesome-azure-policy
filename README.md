@@ -106,6 +106,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [GA: Policy add-on for Azure Kubernetes Service](https://azure.microsoft.com/en-au/updates/ga-policy-addon-for-azure-kubernetes-service/)
 - [General availability: Built-in Azure Policy support for Network Watcher Traffic Analytics](https://azure.microsoft.com/en-gb/updates/general-availability-builtin-azure-policy-support-for-network-watcher-traffic-analytics/)
 - [Generally available: Apply settings inside machines using Automanage machine configuration](https://techcommunity.microsoft.com/t5/azure-governance-and-management/generally-available-apply-settings-inside-machines-using/ba-p/3589614)
+- [Generally available: Azure API Management - expanded support for Azure Policy definitions](https://azure.microsoft.com/en-us/updates/generally-available-azure-api-management-expanded-support-for-azure-policy-definitions/)
 - [Generally available: Azure Policy support for Azure Site Recovery](https://azure.microsoft.com/en-gb/updates/asr-policy-support-ga/)
 - [Guest configuration renames to machine configuration](https://techcommunity.microsoft.com/t5/azure-governance-and-management/coming-soon-guest-configuration-renames-to-machine-configuration/ba-p/3474116)
 - [How Does Azure Policies In Enterprise-Scale Landing Zone Help?](https://techcommunity.microsoft.com/t5/azure-architecture-blog/how-does-azure-policies-in-enterprise-scale-landing-zone-help/ba-p/2121478)
@@ -158,6 +159,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [A summary of the Diagnostic Settings](https://www.youtube.com/watch?v=zAxvFH9EsGY)
 - [Admission Control on AKS with Azure Policy](https://youtu.be/OJGmwCMsUNE)
 - [Anatomy of Azure Policy](https://youtu.be/4wGns611G4w)
+- [Authoring Custom Azure Policy Definitions](https://youtu.be/qygOCyambK4)
 - [Automatically Tag Azure Resources using Azure Policy](https://youtu.be/PUJe8Od7B9Q)
 - [Automating Infrastructure Governance with Azure Policy](https://youtu.be/dPwy8nlNyNM?t=570)
 - [AZ-900 Episode 31 | Azure Policy](https://youtu.be/9WO4EBgUJXk)
@@ -199,6 +201,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 ### Community Books
 [Back To Top](#Table-Of-Contents)
 
+- [Policy Design in the Age of Digital Adoption: Explore how PolicyOps can drive Policy as Code adoption in an organization's digital transformation](https://www.amazon.com/Policy-Design-Digital-Adoption-transformation-dp-1801811741/dp/1801811741/?)
 - [Pro Azure Governance and Security: A Comprehensive Guide to Azure Policy, Blueprints, Security Center, and Sentinel](https://www.amazon.com/Pro-Azure-Governance-Security-Comprehensive/dp/1484249097)
 
 ### Community Articles
