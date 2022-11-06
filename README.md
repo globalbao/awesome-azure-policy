@@ -304,6 +304,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Notes On Azure Policy Exemption](https://azsec.azurewebsites.net/2021/12/22/notes-on-azure-policy-exemption/)
 - [November 2020 Update For Azure Diagnostic Settings Policy Definitions](https://blog.tyang.org/2020/11/22/november-2020-update-for-azure-diagnostic-settings-policy-definitions/)
 - [October 2020 Update For Azure Diagnostic Settings Policy Definitions](https://blog.tyang.org/2020/10/12/october-2020-update-for-azure-diagnostic-settings-policy-definitions/)
+- [Persistence with Azure Policy Guest Configuration](https://cloudbrothers.info/en/azure-persistence-azure-policy-guest-configuration/)
 - [Security Posture Management With Azure Policy And Microsoft Defender For Cloud](https://securecloud.blog/2021/12/17/security-posture-management-with-azure-policy-and-microsoft-defender-for-cloud/)
 - [Talking Azure Policy As Code On CtrlAltAzure Podcast](https://jloudon.com/cloud/Talking-Azure-Policy-as-Code-on-the-CtrlAltAzure-podcast/)
 - [Terraforming Azure Policy](https://adinermie.com/terraforming-azure-policy/)
