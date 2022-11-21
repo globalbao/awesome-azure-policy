@@ -299,6 +299,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Keep Control Of Your Azure Environment With Azure Policy](https://www.thomasmaurer.ch/2020/03/keep-control-of-your-azure-environment-with-azure-policy/)
 - [Lessons Learned Developing A Custom Policy](https://stefanstranger.github.io/2021/01/22/LessonsLearnedDevelopingACustomPolicy/)
 - [Lessons Learned Testing The Configure Backup On VMs Azure Policy](https://adinermie.com/lessons-learned-testing-the-configure-backup-on-vms-azure-policy/)
+- [Manage Azure Policy with Terraform](https://brendanthompson.com.au/posts/2022/11/manage-azure-policy-with-terraform)
 - [Managing Azure Resource Tags Using Azure Policy Modify Effect](https://blog.tyang.org/2020/03/09/managing-azure-resource-tags-using-azure-policy-modify-effect/)
 - [Monitoring Azure Policy Compliance States 2021 Edition](https://blog.tyang.org/2021/12/06/monitoring-azure-policy-compliance-states-2021-edition/)
 - [Notes On Azure Policy Exemption](https://azsec.azurewebsites.net/2021/12/22/notes-on-azure-policy-exemption/)
@@ -332,6 +333,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 
 - [AzAdvertizer](https://www.azadvertizer.net/)
 - [AzGovViz](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting)
+- [Azure Policy Intellisense](https://marketplace.visualstudio.com/items?itemName=justin-grote.azure-policy-intellisense)
 - [Azure Policy and Governance Pipelines Tasks](https://marketplace.visualstudio.com/items?itemName=razorspoint.rp-build-release-azurepolicy)
 - [Cloud Guardrails](https://cloud-guardrails.readthedocs.io/en/latest/)
 - [Search and find Azure Policy Aliases](https://policyalias.mats.codes)
