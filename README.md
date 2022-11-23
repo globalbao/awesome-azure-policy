@@ -117,6 +117,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Implementing Azure Policy using Terraform](https://techcommunity.microsoft.com/t5/azure-paas-blog/implementing-azure-policy-using-terraform/ba-p/1423775)
 - [Important change released for Guest Configuration audit policies](https://techcommunity.microsoft.com/t5/azure-governance-and-management/important-change-released-for-guest-configuration-audit-policies/ba-p/1655316)
 - [Managing Security Center at scale using ARM templates and Azure Policy](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/managing-security-center-at-scale-using-arm-templates-and-azure/ba-p/327761)
+- [Microsoft cloud security benchmark: Azure compute benchmark is now aligned with CIS!](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-cloud-security-benchmark-azure-compute-benchmark-is/ba-p/3680141)
 - [More resource policy aliases](https://azure.microsoft.com/en-au/blog/more-resource-policy-aliases/)
 - [New and updated regulatory compliance policy initiatives for NIST, FedRAMP, DoD in Azure, Azure Government](https://devblogs.microsoft.com/azuregov/new-and-updated-regulatory-compliance-policy-initiatives-for-nist-fedramp-dod-in-azure-azure-government/)
 - [On Prem To the Cloud: Everything As Code](https://devblogs.microsoft.com/devops/on-prem-to-the-cloud-everything-as-code-ep-4/)
