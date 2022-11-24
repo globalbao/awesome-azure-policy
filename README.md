@@ -259,6 +259,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Create And Assign Custom Azure Policies For Azure Governance](https://mohitgoyal.co/2019/10/08/create-and-assign-custom-azure-policies-for-azure-governance/)
 - [Create Custom Security Center Recommendation With Azure Policy](https://zimmergren.net/create-custom-security-center-recommendation-with-azure-policy/)
 - [Creating and Deploying Azure Policy via Terraform](https://blog.johnfolberth.com/creating-and-deploying-azure-policy-via-terraform/)
+- [Custom Azure Policy for Kubernetes (AKS)](https://atouati.com/posts/2022/11/custom-azure-policy-for-kubernetes-aks/)
 - [Demystify Azure DDoS Protection Azure Policy](https://azsec.azurewebsites.net/2021/07/17/demystify-azure-ddos-protection-azure-policy/)
 - [Deny Azure Role Assignment With Azure Policy](https://azsec.azurewebsites.net/2021/04/15/deny-azure-role-assignment-with-azure-policy/)
 - [Deny Resource Type Creation with Azure Policy](https://euc365.com/post/deny-resource-type-creation-azure-policy/)
