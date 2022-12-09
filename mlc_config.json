@@ -11,6 +11,9 @@
     },
     {
       "pattern": "https://www.darwinsec.com/post/increasing-pci-compliance-in-your-azure-environment-by-using-custom-initiatives"
+    },
+    {
+      "pattern": "https://azsec.azurewebsites.net"
     }
   ],
   "timeout": "20s",
