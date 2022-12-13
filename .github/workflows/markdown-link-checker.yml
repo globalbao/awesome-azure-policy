@@ -21,11 +21,11 @@ jobs:
       with:
         use-quiet-mode: 'yes'
         use-verbose-mode: 'yes'
-    - name: Sleep for 30mins
+    - name: Sleep for 3hrs
       if: ${{ steps.markdownlinkcheck.outcome == 'failure' && steps.markdownlinkcheck.conclusion == 'success' }}
       uses: juliangruber/sleep-action@v1
       with:
-        time: 1800s #sleep for 30mins
+        time: 10800s #Sleep for 3hrs. In case link host is offline for maintenance.
     - name: markdown-link-check-retry
       if: ${{ steps.markdownlinkcheck.outcome == 'failure' && steps.markdownlinkcheck.conclusion == 'success' }}
       uses: gaurav-nelson/github-action-markdown-link-check@v1
