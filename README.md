@@ -234,7 +234,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Policy – Export Azure Policy Definitions](https://www.stefanroth.net/2019/07/30/azure-policy-export-azure-policy-definitions/)
 - [Azure Policy – How Precedence Works](https://www.stefanroth.net/2020/01/17/azure-policy-how-precedence-works/)
 - [Azure Policy - Looking at the DenyAction Effect](https://www.georgeollis.com/azure-policy-deny-action-effect/)
-- [Azure Policy A Love Story](https://michaelhowardsecure.blog/2019/03/29/azure-policy-a-love-s1tory/)
+- [Azure Policy A Love Story](https://michaelhowardsecure.blog/2019/03/29/azure-policy-a-love-story/)
 - [Azure Policy As Code – Accelerate Governance In Cloud](https://suneelsunkara.wordpress.com/2021/02/21/azure-policy-as-code-accelerate-governance-in-cloud/)
 - [Azure Policy As Code With Terraform Part 1](https://jloudon.com/cloud/Azure-Policy-as-Code-with-Terraform-Part-1/)
 - [Azure Policy As Code With Terraform Part 2](https://jloudon.com/cloud/Azure-Policy-as-Code-with-Terraform-Part-2/)
