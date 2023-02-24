@@ -14,7 +14,10 @@
     },
     {
       "pattern": "https://azsec.azurewebsites.net"
-    }
+    },
+    {
+      "pattern": "https://aka.ms/cmmc/alzmap"
+    } 
   ],
   "timeout": "20s",
   "retryOn429": true,
