@@ -96,6 +96,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Azure Policy glossary](https://docs.microsoft.com/en-us/azure/governance/policy/policy-glossary?WT.mc_id=AZ-MVP-5004598)
 - [Azure Policy introduces user assigned MSI support, faster DINE deployment, and more!](https://techcommunity.microsoft.com/t5/azure-governance-and-management/azure-policy-introduces-user-assigned-msi-support-faster-dine/ba-p/2661073?WT.mc_id=AZ-MVP-5004598)
 - [Azure Policies for Automating Azure Governance - Choosing Policies](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-policies-for-automating-azure-governance-choosing-policies/ba-p/3709653?WT.mc_id=AZ-MVP-5004598)
+- [Azure Policy Recommended Practices](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-policy-recommended-practices/bc-p/3879234?WT.mc_id=AZ-MVP-5004598)
 - [Azure Unblogged - Azure Policy](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-unblogged-azure-policy/ba-p/2106247?WT.mc_id=AZ-MVP-5004598)
 - [Centralized Policy Management in Microsoft Defender for Cloud using Management Groups](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/centralized-policy-management-in-microsoft-defender-for-cloud/ba-p/1276331?WT.mc_id=AZ-MVP-5004598)
 - [Configure Security Center bundle pricing with Azure Policy](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/configure-security-center-bundle-pricing-with-azure-policy/ba-p/404035?WT.mc_id=AZ-MVP-5004598)
