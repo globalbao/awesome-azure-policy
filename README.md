@@ -372,6 +372,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Using Conftest For Azure Policy For Kubernetes](https://www.danielstechblog.io/using-conftest-for-azure-policy-for-kubernetes/)
 - [VNet peering using Azure Policy](https://rubberduckdev.com/azure-policy-vnet-peering/)
 - [Walkthrough Using Azure Policy To Audit And Enforce Compliance](https://azuredays.com/2020/07/09/walkthrough-using-azure-policy-to-audit-and-enforce-compliance/)
+- [What are Azure Policy Overrides?](https://www.georgeollis.com/what-are-azure-policy-overrides/)
 - [Writing A Custom Azure Policy](https://journeyofthegeek.com/2021/03/07/writing-a-custom-azure-policy/)
 
 ### Community Tools
