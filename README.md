@@ -214,6 +214,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [109 - Azure Policy as Code with Jesse Loudon](https://ctrlaltazure.com/episodes/109-azure-policy-as-code)
 - [S01 E16 - Azure Security Podcast - Azure Policy](https://rss.com/podcasts/azsecpodcast/93831/)
 - [S01 E43 - Everything you need to know about Azure Policy](https://rss.com/podcasts/azsecpodcast/350402/)
+- [Episode 349 – The War of the Policies](https://www.msclouditpropodcast.com/episode349/)
 
 ### Community Books
 [Back To Top](#Table-Of-Contents)
