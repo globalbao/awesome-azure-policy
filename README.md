@@ -205,6 +205,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Help Everyone Follow The Rules | Azure Policy](https://youtu.be/7xhcnxRrXYQ?si=SvyB8WczZhLjxeLD)
 - [If Only I Knew THIS About Azure 5 Years Ago](https://youtu.be/DxwKYvcMud4?si=jLk8b4EmtlzUVcDB)
 - [Inside Azure Governance - You in Control](https://www.youtube.com/watch?v=CHFLgfELV1E)
+- [Livestream: A Gentle Introduction to Azure Policy](https://www.youtube.com/live/AwI9Z_7E7eA?si=1jSWP9CxsyFwD54G)
 - [Microsoft Azure Master Class Part 3 - Governance](https://youtu.be/cIh_Nfl67T0?t=2830)
 - [Organizational Governance and Best Practices for Control](https://www.youtube.com/watch?v=utVRZg0TNu8)
 - [Regain Control with Azure Governance](https://www.youtube.com/watch?v=M2y0QsHLeSs)
