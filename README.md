@@ -201,6 +201,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Get Visibility Into Your Environment With Azure Governance Visualizer](https://youtu.be/hZXvF5oypLE)
 - [GitOps with Azure Arc Kubernetes via Azure Policy](https://youtu.be/AE5Io3qtABs)
 - [Global Azure: Policy as Code with Bicep for Enterprise Scale](https://youtu.be/qpnMJXw6pIg)
+- [Help Everyone Follow The Rules | Azure Policy](https://youtu.be/7xhcnxRrXYQ?si=SvyB8WczZhLjxeLD)
 - [Inside Azure Governance - You in Control](https://www.youtube.com/watch?v=CHFLgfELV1E)
 - [Microsoft Azure Master Class Part 3 - Governance](https://youtu.be/cIh_Nfl67T0?t=2830)
 - [Organizational Governance and Best Practices for Control](https://www.youtube.com/watch?v=utVRZg0TNu8)
