@@ -198,6 +198,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Festive Tech Calendar: Day 1 - Azure Governance](https://youtu.be/GK_8FAHwoe8)
 - [Festive Tech Calendar: Day 6 - Azure Governance: Azure customized Policies](https://www.youtube.com/watch?v=rQXZWIvW1Ww)
 - [Flexing Your Security Governance with Azure Policy As Code](https://youtu.be/-KSLh2I9e1U)
+- [Functionality and Usage of Azure Policy - AZ-900 Certification Course](https://youtu.be/z7WMqHE3R8g?si=Zp7bpzNSzD-wBewt)
 - [Get Visibility Into Your Environment With Azure Governance Visualizer](https://youtu.be/hZXvF5oypLE)
 - [GitOps with Azure Arc Kubernetes via Azure Policy](https://youtu.be/AE5Io3qtABs)
 - [Global Azure: Policy as Code with Bicep for Enterprise Scale](https://youtu.be/qpnMJXw6pIg)
