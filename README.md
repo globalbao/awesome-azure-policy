@@ -348,7 +348,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Lessons Learned Developing A Custom Policy](https://stefanstranger.github.io/2021/01/22/LessonsLearnedDevelopingACustomPolicy/)
 - [Lessons Learned Testing The Configure Backup On VMs Azure Policy](https://adinermie.com/lessons-learned-testing-the-configure-backup-on-vms-azure-policy/)
 - [Looking at Azure Policy resource selectors](https://www.georgeollis.com/azure-policy-resource-selectors/)
-- [Manage Azure Policy with Terraform](https://brendanthompson.com.au/posts/2022/11/manage-azure-policy-with-terraform)
+- [Manage Azure Policy with Terraform](https://brendanthompson.com/posts/2022/11/manage-azure-policy-with-terraform)
 - [Managing Azure Resource Tags Using Azure Policy Modify Effect](https://blog.tyang.org/2020/03/09/managing-azure-resource-tags-using-azure-policy-modify-effect/)
 - [Monitoring Azure Policy Compliance States 2021 Edition](https://blog.tyang.org/2021/12/06/monitoring-azure-policy-compliance-states-2021-edition/)
 - [Notes On Azure Policy Exemption](https://azsec.azurewebsites.net/2021/12/22/notes-on-azure-policy-exemption/)
