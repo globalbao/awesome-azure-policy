@@ -198,7 +198,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Block Deletes Using the New DenyAction Azure Policy Effect](https://youtu.be/ZVshBqY8kts)
 - [Build Your Tagging Strategy with Azure Policy and Automation](https://youtu.be/4ebXt0iMiEU)
 - [Custom Policy for Azure Governance - How to create custom Azure Policy from Scratch](https://youtu.be/n-jL_xe9858)
-- [Detailed look at Azure Policy Exemption Permission Requirements](https://youtu.be/clAu7VqpacA)\
+- [Detailed look at Azure Policy Exemption Permission Requirements](https://youtu.be/clAu7VqpacA)
 - [DevOps | Azure Policy Tutorial | Terraform | GitHub | Compliance enforcement in Azure Subscription](https://youtu.be/MQ3X7qDCddU?si=kSuv2U6Rcj791aNw)
 - [Festive Tech Calendar: Day 1 - Azure Governance](https://youtu.be/GK_8FAHwoe8)
 - [Festive Tech Calendar: Day 6 - Azure Governance: Azure customized Policies](https://www.youtube.com/watch?v=rQXZWIvW1Ww)
