@@ -22,8 +22,6 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Community Repositories](#Community-Repositories)
 - [Community Forums](#Community-Forums)
 
-> Links below are from Microsoft sources, websites, and channels.
-
 ### Microsoft Learn
 
 - [Address Tangible Risks With The Govern Methodology Of The Cloud Adoption Framework For Azure](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/?WT.mc_id=AZ-MVP-5004598)
@@ -159,8 +157,6 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 - [Azure Governance Ideas](https://feedback.azure.com/d365community/forum/675ae472-f324-ec11-b6e6-000d3a4f0da0)
 - [Microsoft Q&A for Azure Policy](https://docs.microsoft.com/en-us/answers/topics/azure-policy.html)
-
-> Links below are from community sources, websites, and channels.
 
 ### Community Videos
 
