@@ -8,27 +8,25 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 
 ## Contents
 
-- [Official](#Official)
-   - [Learn](#Official-Learn)
-   - [Docs](#Official-Docs)
-   - [Videos](#Official-Videos)
-   - [Announcements and Articles](#Official-Announcements-and-Articles)
-   - [Repositories and Tools](#Official-Repositories-and-Tools)
-   - [Forums and Feedback](#Official-Forums-and-Feedback)
-- [Community](#Community)
-   - [Videos](#Community-Videos)
-   - [Podcasts](#Community-Podcasts)
-   - [Books](#Community-Books)
-   - [Articles](#Community-Articles)
-   - [Tools](#Community-Tools)
-   - [Repositories](#Community-Repositories)
-   - [Forums](#Community-Forums)
+- [Microsoft Learn](#Microsoft-Learn)
+- [Microsoft Docs](#Microsoft-Docs)
+- [Microsoft Videos](#Microsoft-Videos)
+- [Microsoft Announcements and Articles](#Microsoft-Announcements-and-Articles)
+- [Microsoft Repositories and Tools](#Microsoft-Repositories-and-Tools)
+- [Microsoft Forums and Feedback](#Microsoft-Forums-and-Feedback)
+- [Community Videos](#Community-Videos)
+- [Community Podcasts](#Community-Podcasts)
+- [Community Books](#Community-Books)
+- [Community Articles](#Community-Articles)
+- [Community Tools](#Community-Tools)
+- [Community Repositories](#Community-Repositories)
+- [Community Forums](#Community-Forums)
 
-## Official
+## Microsoft
 
-> Links below are from official Microsoft sources, websites, and channels.
+> Links below are from Microsoft sources, websites, and channels.
 
-### Official Learn
+### Microsoft Learn
 
 - [Address Tangible Risks With The Govern Methodology Of The Cloud Adoption Framework For Azure](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/?WT.mc_id=AZ-MVP-5004598)
 - [Azure Kubernetes Services Governance with Azure Policy](https://docs.microsoft.com/en-us/learn/modules/aks-governance-azure-policy/?WT.mc_id=AZ-MVP-5004598)
@@ -39,7 +37,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Intro to Azure Policy](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-policy/?WT.mc_id=AZ-MVP-5004598)
 - [Manage security operations in Azure](https://docs.microsoft.com/en-us/learn/paths/manage-security-operations/?WT.mc_id=AZ-MVP-5004598)
 
-### Official Docs
+### Microsoft Docs
 
 - [Adopt Policy-Driven Guardrails](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/dine-guidance?WT.mc_id=AZ-MVP-5004598)
 - [ARM Templates - Azure Policy Assignments](https://docs.microsoft.com/en-us/azure/templates/microsoft.authorization/policyassignments?tabs=bicep?WT.mc_id=AZ-MVP-5004598)
@@ -55,7 +53,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Understand Azure Policy for Kubernetes clusters](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/policy-for-kubernetes?WT.mc_id=AZ-MVP-5004598)
 - [Use Azure Policy extension for Visual Studio Code](https://docs.microsoft.com/en-us/azure/governance/policy/how-to/extension-for-vscode?WT.mc_id=AZ-MVP-5004598)
 
-### Official Videos
+### Microsoft Videos
 
 - [Azure Governance & Deployments Quarterly Customer Panel December 2021](https://youtu.be/oYC5Ns7kLCY)
 - [Azure Governance and Deployments Quarterly Customer Panel Feb 2021](https://www.youtube.com/watch?v=ONKn9XMPZCs)
@@ -77,7 +75,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Using Management Group with Azure Policy](https://youtu.be/S_-JenO43G8)
 - [What is Azure Policy](https://www.youtube.com/watch?v=obWeyLHWQIY)
 
-### Official Announcements and Articles
+### Microsoft Announcements and Articles
 
 - [7 steps to author, develop, and deploy custom recommendations for Windows using Guest Configuration](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/7-steps-to-author-develop-and-deploy-custom-recommendations-for/ba-p/3166026?WT.mc_id=AZ-MVP-5004598)
 - [Aligning CMMC Controls with your Azure Landing Zone](https://techcommunity.microsoft.com/t5/public-sector-blog/aligning-cmmc-controls-with-your-azure-landing-zone/ba-p/2736511?WT.mc_id=AZ-MVP-5004598)
@@ -147,7 +145,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [Using GitHub for Azure Policy as Code](https://techcommunity.microsoft.com/t5/azure-governance-and-management/using-github-for-azure-policy-as-code/ba-p/1886464?WT.mc_id=AZ-MVP-5004598)
 - [What's the difference between Group Policy and Azure Policy?](https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-group-policy-and-azure-policy/ba-p/1016312?WT.mc_id=AZ-MVP-5004598)
 
-### Official Repositories and Tools
+### Microsoft Repositories and Tools
 
 - [azure cyber security maturity model (CMMC) policy mapping](https://aka.ms/cmmc/alzmap)
 - [azure policy visual studio code extension](https://marketplace.visualstudio.com/items?itemname=azurepolicy.azurepolicyextension)
@@ -159,7 +157,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts... anyt
 - [azure/regulatory-compliance-initiatives](https://github.com/Azure/regulatory-compliance-initiatives)
 - [microsoft/azurepolicytestframework](https://github.com/microsoft/AzurePolicyTestFramework)
 
-### Official Forums and Feedback
+### Microsoft Forums and Feedback
 
 - [Azure Governance Ideas](https://feedback.azure.com/d365community/forum/675ae472-f324-ec11-b6e6-000d3a4f0da0)
 - [Microsoft Q&A for Azure Policy](https://docs.microsoft.com/en-us/answers/topics/azure-policy.html)
