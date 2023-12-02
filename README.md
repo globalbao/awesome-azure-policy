@@ -1,13 +1,10 @@
-<!-- omit in toc -->
-# Awesome Azure Policy
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
+# Awesome Azure Policy [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anything which can help you learn Azure Policy and quickly get started with designing, planning, and implementing governance controls to your resources.
 
-> Community contributions are most welcome! Check out our [contribution guide](./CONTRIBUTING.md) today and submit a **pull request** with any adds/removes/changes to content!
+> Community contributions are welcome! Check out the [contribution guide](./CONTRIBUTING.md) today and submit a **pull request**!
 
 [![Awesome Azure Policy](./Awesome-Azure-Policy-Logo.svg)](https://github.com/jesseloudon)
-<!-- omit in toc -->
+
 ## Contents
 
 - [Microsoft Learn](#Microsoft-Learn)
