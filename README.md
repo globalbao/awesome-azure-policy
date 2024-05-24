@@ -79,6 +79,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Apply GitOps configurations on AKS as an Azure Arc Connected Cluster using Azure Policy for Kubernetes](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_k8s/day2/aks/aks_policy/?WT.mc_id=AZ-MVP-5004598)
 - [Automation for Large Scale Deployment of Agents on Servers managed by Azure Arc](https://techcommunity.microsoft.com/t5/azure-arc-blog/automation-for-large-scale-deployment-of-agents-on-servers/ba-p/3713328?WT.mc_id=AZ-MVP-5004598)
 - [Azure Backup Center - Backups and Good Governance](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-backup-center-backups-and-good-governance/ba-p/2318843?WT.mc_id=AZ-MVP-5004598)
+- [Azure Custom Policy- PostgreSQL Product - Compliance Report not Available- New Feature Request](https://techcommunity.microsoft.com/t5/microsoft-developer-community/azure-custom-policy-postgresql-product-compliance-report-not/ba-p/4140715?WT.mc_id=AZ-MVP-5004598)
 - [Azure Enterprise Policy as Code – A New Approach](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-enterprise-policy-as-code-a-new-approach/ba-p/3607843?WT.mc_id=AZ-MVP-5004598)
 - [Azure Enterprise Policy as Code – Azure Landing Zones Integration](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/azure-enterprise-policy-as-code-azure-landing-zones-integration/ba-p/3642784?WT.mc_id=AZ-MVP-5004598)
 - [Azure Policy – Perform policy operations through Azure DevOps](https://techcommunity.microsoft.com/t5/azure-paas-blog/azure-policy-perform-policy-operations-through-azure-devops/ba-p/2045515?WT.mc_id=AZ-MVP-5004598)
@@ -142,6 +143,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Using Azure Policy to onboard multiple SQL Servers at scale to Azure Arc-enabled SQL Server - Part 1](https://techcommunity.microsoft.com/t5/azure-arc-blog/using-azure-policy-to-onboard-multiple-sql-servers-at-scale-to/ba-p/3788886?WT.mc_id=AZ-MVP-5004598)
 - [Using GitHub for Azure Policy as Code](https://techcommunity.microsoft.com/t5/azure-governance-and-management/using-github-for-azure-policy-as-code/ba-p/1886464?WT.mc_id=AZ-MVP-5004598)
 - [What's the difference between Group Policy and Azure Policy?](https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-group-policy-and-azure-policy/ba-p/1016312?WT.mc_id=AZ-MVP-5004598)
+- [What’s new across Azure Governance services, Microsoft Build 2024](https://techcommunity.microsoft.com/t5/azure-governance-and-management/what-s-new-across-azure-governance-services-microsoft-build-2024/ba-p/4150428?WT.mc_id=AZ-MVP-5004598)
 
 ### Microsoft Repositories and Tools
 
@@ -281,6 +283,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Azure Spring Clean: Using Azure Policy And Security Center For Organizational Governance](https://captainhyperscaler.github.io/community/2021/03/24/azure-spring-clean/)
 - [Azure Spring Clean: Unleashing the Power of Azure Policy for Seamless Azure Arc Governance!](https://wmatthyssen.com/2024/03/07/azure-spring-clean-unleashing-the-power-of-azure-policy-for-seamless-azure-arc-governance/)
 - [Azure SQL Database Cost Optimization via Azure Policies](https://medium.com/@ashu.tripathi91/azure-sql-database-cost-optimization-via-azure-policies-2a11b02c828b)
+- [Bicep - Creating Custom Azure Policy Initiatives](https://www.jorgebernhardt.com/bicep-azurepolicy-custom-initiative-definition/)
 - [Bypassing policies in Azure](https://dev.to/cse/bypassing-policies-in-azure-29fc)
 - [Build Azure Policy Compliance Workbook](https://www.cloudsma.com/2021/10/build-azure-policy-compliance-workbook/)
 - [Bulk Enablement of Windows Admin Center Extension on Azure Arc](https://medium.com/@pratheep.sinnathurai/bulk-enablement-of-windows-admin-center-extension-on-azure-arc-de6f7ac17f19)
