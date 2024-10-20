@@ -137,7 +137,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [What's the difference between Group Policy and Azure Policy?](https://techcommunity.microsoft.com/t5/itops-talk-blog/what-s-the-difference-between-group-policy-and-azure-policy/ba-p/1016312?WT.mc_id=AZ-MVP-5004598)
 - [What’s new across Azure Governance services, Microsoft Build 2024](https://techcommunity.microsoft.com/t5/azure-governance-and-management/what-s-new-across-azure-governance-services-microsoft-build-2024/ba-p/4150428?WT.mc_id=AZ-MVP-5004598)
 
-### Microsoft Repositories and Tools
+## Microsoft Repositories and Tools
 
 - [azure cyber security maturity model (CMMC) policy mapping](https://aka.ms/cmmc/alzmap)
 - [azure policy visual studio code extension](https://marketplace.visualstudio.com/items?itemname=azurepolicy.azurepolicyextension)
@@ -150,12 +150,12 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [azure-samples/aca-azure-policy](https://github.com/Azure-Samples/aca-azure-policy)
 - [microsoft/azurepolicytestframework](https://github.com/microsoft/AzurePolicyTestFramework)
 
-### Microsoft Forums and Feedback
+## Microsoft Forums and Feedback
 
 - [Azure Governance Ideas](https://feedback.azure.com/d365community/forum/675ae472-f324-ec11-b6e6-000d3a4f0da0)
 - [Microsoft Q&A for Azure Policy](https://docs.microsoft.com/en-us/answers/topics/azure-policy.html)
 
-### Community Videos
+## Community Videos
 
 - [A summary of the Diagnostic Settings](https://www.youtube.com/watch?v=zAxvFH9EsGY)
 - [Admission Control on AKS with Azure Policy](https://youtu.be/OJGmwCMsUNE)
