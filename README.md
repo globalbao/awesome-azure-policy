@@ -5,23 +5,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 > Community contributions are welcome! Check out the [contribution guide](./CONTRIBUTING.md) today and submit a **pull request**!
 
-## Contents
-
-- [Microsoft Learn](#Microsoft-Learn)
-- [Microsoft Docs](#Microsoft-Docs)
-- [Microsoft Videos](#Microsoft-Videos)
-- [Microsoft Announcements and Articles](#Microsoft-Announcements-and-Articles)
-- [Microsoft Repositories and Tools](#Microsoft-Repositories-and-Tools)
-- [Microsoft Forums and Feedback](#Microsoft-Forums-and-Feedback)
-- [Community Videos](#Community-Videos)
-- [Community Podcasts](#Community-Podcasts)
-- [Community Books](#Community-Books)
-- [Community Articles](#Community-Articles)
-- [Community Tools](#Community-Tools)
-- [Community Repositories](#Community-Repositories)
-- [Community Forums](#Community-Forums)
-
-### Microsoft Learn
+## Microsoft Learn
 
 - [Address Tangible Risks With The Govern Methodology Of The Cloud Adoption Framework For Azure](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/?WT.mc_id=AZ-MVP-5004598)
 - [Azure Kubernetes Services Governance with Azure Policy](https://docs.microsoft.com/en-us/learn/modules/aks-governance-azure-policy/?WT.mc_id=AZ-MVP-5004598)
@@ -32,7 +16,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Intro to Azure Policy](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-policy/?WT.mc_id=AZ-MVP-5004598)
 - [Manage security operations in Azure](https://docs.microsoft.com/en-us/learn/paths/manage-security-operations/?WT.mc_id=AZ-MVP-5004598)
 
-### Microsoft Docs
+## Microsoft Docs
 
 - [Adopt Policy-Driven Guardrails](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/dine-guidance?WT.mc_id=AZ-MVP-5004598)
 - [ARM Templates - Azure Policy Assignments](https://docs.microsoft.com/en-us/azure/templates/microsoft.authorization/policyassignments?tabs=bicep?WT.mc_id=AZ-MVP-5004598)
@@ -48,7 +32,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Understand Azure Policy for Kubernetes clusters](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/policy-for-kubernetes?WT.mc_id=AZ-MVP-5004598)
 - [Use Azure Policy extension for Visual Studio Code](https://docs.microsoft.com/en-us/azure/governance/policy/how-to/extension-for-vscode?WT.mc_id=AZ-MVP-5004598)
 
-### Microsoft Videos
+## Microsoft Videos
 
 - [Azure Governance & Deployments Quarterly Customer Panel December 2021](https://youtu.be/oYC5Ns7kLCY)
 - [Azure Governance and Deployments Quarterly Customer Panel Feb 2021](https://www.youtube.com/watch?v=ONKn9XMPZCs)
@@ -71,7 +55,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Using Management Group with Azure Policy](https://youtu.be/S_-JenO43G8)
 - [What is Azure Policy](https://www.youtube.com/watch?v=obWeyLHWQIY)
 
-### Microsoft Announcements and Articles
+## Microsoft Announcements and Articles
 
 - [7 steps to author, develop, and deploy custom recommendations for Windows using Guest Configuration](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/7-steps-to-author-develop-and-deploy-custom-recommendations-for/ba-p/3166026?WT.mc_id=AZ-MVP-5004598)
 - [Aligning CMMC Controls with your Azure Landing Zone](https://techcommunity.microsoft.com/t5/public-sector-blog/aligning-cmmc-controls-with-your-azure-landing-zone/ba-p/2736511?WT.mc_id=AZ-MVP-5004598)
@@ -216,7 +200,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Virtual Machine Scale Sets Logs With An Azure Policy](https://youtu.be/wT0-BA5MrZ8)
 - [Writing DSC Resources for Azure Policy Guest Configuration - For Linux](https://youtu.be/RxnxpZqvEmg)
 
-### Community Podcasts
+## Community Podcasts
 
 - [057 - Azure Policy and Azure Key Vault integration](https://ctrlaltazure.com/episodes/057-azure-policy-and-azure-key-vault-integration)
 - [109 - Azure Policy as Code with Jesse Loudon](https://ctrlaltazure.com/episodes/109-azure-policy-as-code)
@@ -224,12 +208,12 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [S01 E43 - Everything you need to know about Azure Policy](https://rss.com/podcasts/azsecpodcast/350402/)
 - [Episode 349 – The War of the Policies](https://www.msclouditpropodcast.com/episode349/)
 
-### Community Books
+## Community Books
 
 - [Policy Design in the Age of Digital Adoption: Explore how PolicyOps can drive Policy as Code adoption in an organization's digital transformation](https://www.amazon.com/Policy-Design-Digital-Adoption-transformation-dp-1801811741/dp/1801811741/?)
 - [Pro Azure Governance and Security: A Comprehensive Guide to Azure Policy, Blueprints, Security Center, and Sentinel](https://www.amazon.com/Pro-Azure-Governance-Security-Comprehensive/dp/1484249097)
 
-### Community Articles
+## Community Articles
 
 - [AKS Policy Reference Overriding Or Disabling Of Containers Apparmor Profile Should Be Restricted](https://securecloud.blog/2021/11/18/aks-policy-reference-overriding-or-disabling-of-containers-apparmor-profile-should-be-restricted/)
 - [Assign policy definitions from Azure landing zones Terraform module](https://trond.sjovang.no/posts/azure_policy_terraform_alz/)
@@ -401,7 +385,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [What are Azure Policy Overrides?](https://www.georgeollis.com/what-are-azure-policy-overrides/)
 - [Writing A Custom Azure Policy](https://journeyofthegeek.com/2021/03/07/writing-a-custom-azure-policy/)
 
-### Community Tools
+## Community Tools
 
 - [AzAdvertizer](https://www.azadvertizer.net/)
 - [AzGovViz](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting)
@@ -410,7 +394,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Cloud Guardrails](https://cloud-guardrails.readthedocs.io/en/latest/)
 - [Search and find Azure Policy Aliases](https://policyalias.mats.codes)
 
-### Community Repositories
+## Community Repositories
 
 - [andrewcluey/terraform-azurerm-policy-definition](https://github.com/andrewcluey/terraform-azurerm-policy-definition)
 - [andrewmatveychuk/azure.policy](https://github.com/andrewmatveychuk/azure.policy)
@@ -442,7 +426,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [tyconsulting/azurepolicy](https://github.com/tyconsulting/azurepolicy)
 - [yangdeal/azure_policy_deployment](https://github.com/yangdeal/azure_policy_deployment)
 
-### Community Forums
+## Community Forums
 
 - [Reddit - Azure Policy](https://www.reddit.com/search/?q=azure%20policy)
 - [Stack Overflow - Azure Policy](https://stackoverflow.com/questions/tagged/azure-policy)
