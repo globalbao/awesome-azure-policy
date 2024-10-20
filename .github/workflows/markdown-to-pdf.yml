@@ -21,10 +21,9 @@ jobs:
         id: publish-document
         with:
           input_path: README.md
-          images_dir: ./
-          image_import: ./
           output_dir: generated
-          table_of_contents: true
+          table_of_contents: false
+          build_html: false
           
       - name: Upload Document
         uses: actions/upload-artifact@v4
