@@ -13,11 +13,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Set Date
+        id: set_date
+        run: echo "DATE=$(date +'%m-%Y')" >> $GITHUB_ENV
       - name: Publish PDF Document
         uses: baileyjm02/markdown-to-pdf@v1
         id: publish-document
         with:
           input_path: README.md
+          images_dir: Awesome-Azure-Policy-Logo.svg
           output_dir: generated
           table_of_contents: true
           build_html: true
@@ -26,5 +30,5 @@ jobs:
         uses: actions/upload-artifact@v4
         id: upload-document
         with:
-          name: 'Awesome-Azure-Policy.pdf'
+          name: 'Awesome-Azure-Policy-${{ env.DATE }}.pdf'
           path: generated
