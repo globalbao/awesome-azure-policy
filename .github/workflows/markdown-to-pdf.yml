@@ -22,7 +22,7 @@ jobs:
         with:
           input_path: README.md
           images_dir: ./
-          images_import: ./
+          image_import: ./
           output_dir: generated
           table_of_contents: true
           
