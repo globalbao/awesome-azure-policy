@@ -1,4 +1,4 @@
-name: Upload Document as Artifact
+name: Generate PDF from README
 
 on: 
   workflow_dispatch:
