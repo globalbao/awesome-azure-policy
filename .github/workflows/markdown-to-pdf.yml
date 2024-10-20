@@ -1,4 +1,4 @@
-name: Upload Document as Artifact
+name: Generate PDF from README
 
 on: 
   workflow_dispatch:
@@ -9,18 +9,25 @@ env:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    name: Publish Document
+    name: Generate PDF from README
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
+      - name: Set Date
+        id: set_date
+        run: echo "DATE=$(date +'%m-%Y')" >> $GITHUB_ENV
       - name: Publish PDF Document
-        uses: shrink/actions-document-publish@v1
+        uses: baileyjm02/markdown-to-pdf@v1
         id: publish-document
         with:
-          sources: 'README.md'
+          input_path: README.md
+          output_dir: generated
+          table_of_contents: false
+          build_html: false
+          
       - name: Upload Document
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         id: upload-document
         with:
-          name: 'Awesome-Azure-Policy.pdf'
-          path: ${{ steps.publish-document.outputs.pdf }}
+          name: 'Awesome-Azure-Policy-${{ env.DATE }}'
+          path: generated
