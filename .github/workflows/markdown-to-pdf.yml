@@ -12,14 +12,16 @@ jobs:
     name: Publish Document
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Publish PDF Document
-        uses: shrink/actions-document-publish@v1
+        uses: baileyjm02/markdown-to-pdf@v1
         id: publish-document
         with:
-          sources: 'README.md'
+          table_of_contents: true
+          build_html: true
+          
       - name: Upload Document
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         id: upload-document
         with:
           name: 'Awesome-Azure-Policy.pdf'
