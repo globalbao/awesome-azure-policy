@@ -9,7 +9,7 @@ env:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    name: Publish Document
+    name: Generate PDF from README
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,14 +21,14 @@ jobs:
         id: publish-document
         with:
           input_path: README.md
-          images_dir: Awesome-Azure-Policy-Logo.svg
+          images_dir: ./
+          images_import: ./
           output_dir: generated
           table_of_contents: true
-          build_html: true
           
       - name: Upload Document
         uses: actions/upload-artifact@v4
         id: upload-document
         with:
-          name: 'Awesome-Azure-Policy-${{ env.DATE }}.pdf'
+          name: 'Awesome-Azure-Policy-${{ env.DATE }}'
           path: generated
