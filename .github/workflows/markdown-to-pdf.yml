@@ -17,6 +17,8 @@ jobs:
         uses: baileyjm02/markdown-to-pdf@v1
         id: publish-document
         with:
+          input_path: README.md
+          output_dir: generated
           table_of_contents: true
           build_html: true
           
@@ -25,4 +27,4 @@ jobs:
         id: upload-document
         with:
           name: 'Awesome-Azure-Policy.pdf'
-          path: ${{ steps.publish-document.outputs.pdf }}
+          path: generated
