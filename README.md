@@ -1,5 +1,4 @@
 # Awesome Azure Policy
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anything which can help you learn Azure Policy and quickly get started with designing, planning, and implementing governance controls to your resources.
 
