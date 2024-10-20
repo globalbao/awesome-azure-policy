@@ -22,7 +22,7 @@ jobs:
         with:
           input_path: README.md
           output_dir: generated
-          table_of_contents: false
+          table_of_contents: true
           build_html: false
           
       - name: Upload Document
