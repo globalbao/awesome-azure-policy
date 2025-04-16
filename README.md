@@ -4,6 +4,31 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 > Community contributions are welcome! Check out the [contribution guide](./CONTRIBUTING.md) today and submit a **pull request**!
 
+## Community Articles Leaderboard
+
+| Top-level Domain                | Number of Posts |
+|---------------------------------|-----------------|
+| charbelnemnom.com               | 13              |
+| andrewmatveychuk.com            | 9               |
+| medium.com                      | 7               |
+| jloudon.com                     | 6               |
+| blog.tyang.org                  | 6               |
+| adinermie.com                   | 6               |
+| www.stefanroth.net              | 5               |
+| www.georgeollis.com             | 4               |
+| www.cloudsma.com                | 4               |
+| samcogan.com                    | 3               |
+| autosysops.com                  | 3               |
+| www.m365princess.com            | 3               |
+| checinski.cloud                 | 2               |
+| manbearpiet.com                 | 2               |
+| cloudadministrator.net          | 2               |
+| blog.djurasovic.com             | 2               |
+| www.thomasmaurer.ch             | 2               |
+| www.danielstechblog.io          | 2               |
+| wedoazure.ie                    | 2               |
+| yourazurecoach.com              | 2               |
+
 ## Microsoft Learn
 
 - [Address Tangible Risks With The Govern Methodology Of The Cloud Adoption Framework For Azure](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/?WT.mc_id=AZ-MVP-5004598)
