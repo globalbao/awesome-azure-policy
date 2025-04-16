@@ -8,26 +8,27 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 | Top-level Domain                | Number of Posts |
 |---------------------------------|-----------------|
-| charbelnemnom.com               | 13              |
-| andrewmatveychuk.com            | 9               |
-| medium.com                      | 7               |
-| jloudon.com                     | 6               |
-| blog.tyang.org                  | 6               |
-| adinermie.com                   | 6               |
-| www.stefanroth.net              | 5               |
-| www.georgeollis.com             | 4               |
-| www.cloudsma.com                | 4               |
-| samcogan.com                    | 3               |
-| autosysops.com                  | 3               |
-| www.m365princess.com            | 3               |
-| checinski.cloud                 | 2               |
-| manbearpiet.com                 | 2               |
-| cloudadministrator.net          | 2               |
-| blog.djurasovic.com             | 2               |
-| www.thomasmaurer.ch             | 2               |
-| www.danielstechblog.io          | 2               |
-| wedoazure.ie                    | 2               |
-| yourazurecoach.com              | 2               |
+| 🏆 **charbelnemnom.com**        | 14              |
+| 🥈 **blog.tyang.org**           | 13              |
+| 🥉 **andrewmatveychuk.com**     | 10              |
+| medium.com                      | 9               |
+| jloudon.com                     | 8               |
+| adinermie.com                   | 7               |
+| www.stefanroth.net              | 6               |
+| azsec.azurewebsites.net         | 6               |
+| www.georgeollis.com             | 5               |
+| www.cloudsma.com                | 5               |
+| samcogan.com                    | 4               |
+| autosysops.com                  | 4               |
+| www.m365princess.com            | 4               |
+| checinski.cloud                 | 3               |
+| manbearpiet.com                 | 3               |
+| cloudadministrator.net          | 3               |
+| blog.djurasovic.com             | 3               |
+| www.thomasmaurer.ch             | 3               |
+| www.danielstechblog.io          | 3               |
+| wedoazure.ie                    | 3               |
+| yourazurecoach.com              | 3               |
 
 ## Microsoft Learn
 
