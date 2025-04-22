@@ -59,6 +59,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 ## Microsoft Videos
 
+- [Author custom Azure Machine Configuration policies using PowerShell DSC](https://youtu.be/75MTIftSEfk?si=3ZRsny8ElHdPbF1a)
 - [Azure Governance & Deployments Quarterly Customer Panel December 2021](https://youtu.be/oYC5Ns7kLCY)
 - [Azure Governance and Deployments Quarterly Customer Panel Feb 2021](https://www.youtube.com/watch?v=ONKn9XMPZCs)
 - [Azure Governance and Deployments Quarterly Customer Panel May 2021](https://www.youtube.com/watch?v=tHyPDESIThk)
@@ -214,6 +215,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Global Azure: Policy as Code with Bicep for Enterprise Scale](https://youtu.be/qpnMJXw6pIg)
 - [Help Everyone Follow The Rules | Azure Policy](https://youtu.be/7xhcnxRrXYQ?si=SvyB8WczZhLjxeLD)
 - [How to enforce Azure Naming Convention Using Azure Policies](https://youtu.be/eqNIV9QKflg?si=VG2KDsFagFKctbDD)
+- [How to Apply an Azure Policy: Step-by-Step Guide](https://youtu.be/_Alx1wiDUU8?si=3jqpBm-uSdvyQF5n)
 - [If Only I Knew THIS About Azure 5 Years Ago](https://youtu.be/DxwKYvcMud4?si=jLk8b4EmtlzUVcDB)
 - [Inside Azure Governance - You in Control](https://www.youtube.com/watch?v=CHFLgfELV1E)
 - [Livestream: A Gentle Introduction to Azure Policy](https://www.youtube.com/live/AwI9Z_7E7eA?si=1jSWP9CxsyFwD54G)
@@ -224,6 +226,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Using Azure Security Center for Policy and Regulatory Compliance](https://youtu.be/AXgBoSz0dAs)
 - [Virtual Machine Scale Sets Logs With An Azure Policy](https://youtu.be/wT0-BA5MrZ8)
 - [Writing DSC Resources for Azure Policy Guest Configuration - For Linux](https://youtu.be/RxnxpZqvEmg)
+- [Who Polices the Policies Privilege Escalation and Persistence with Azure Policy](https://youtu.be/HCMxx_1Qfjo?si=0ykRgMx3NlLrOkT-)
 
 ## Community Podcasts
 
@@ -258,12 +261,14 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [AzGovViz With Azure DevOps](https://jacktracey.co.uk/azgovviz-with-azure-devops/)
 - [Azure GitHub Export and Visual studio code](https://www.cloudpartner.fi/?p=5232)
 - [Azure Policy – Add Date/Time Resource Group Tag](https://www.stefanroth.net/2019/10/06/azure-policy-add-date-time-resource-group-tag/)
+- [Azure Policy — allowed locations](https://michalmolka.medium.com/azure-policy-allowed-locations-8ecb21e4336b)
 - [Azure Policy – an underrated component of a scalable data platform (part1)](https://pl.seequality.net/azure-policy-underrated-part1/)
 - [Azure Policy – an underrated component of a scalable data platform (part2)](https://pl.seequality.net/azure-policy-underrated-part2/)
 - [Azure Policy – Audit And Deploy CanNotDelete Lock On Resource Group Based On Tags](https://www.stefanroth.net/2020/02/03/azure-policy-audit-and-deploy-cannotdelete-lock-on-resource-group-based-on-tags/)
 - [Azure Policy – Export Azure Policy Definitions](https://www.stefanroth.net/2019/07/30/azure-policy-export-azure-policy-definitions/)
 - [Azure Policy – How Precedence Works](https://www.stefanroth.net/2020/01/17/azure-policy-how-precedence-works/)
 - [Azure Policy - Looking at the DenyAction Effect](https://www.georgeollis.com/azure-policy-deny-action-effect/)
+- [Azure Policy – Resolve Managed Identity IAM GUID](https://www.stefanroth.net/2025/04/06/azure-policy-resolve-managed-identity-iam-guid/)
 - [Azure Policy A Love Story](https://michaelhowardsecure.blog/2019/03/29/azure-policy-a-love-story/)
 - [Azure Policy, Application Gateway WAF and OWASP rulesets](https://www.yobyot.com/azure/azure-policy-application-gateway-waf-and-owasp-rulesets/2023/04/18/)
 - [Azure Policy As Code – Accelerate Governance In Cloud](https://suneelsunkara.wordpress.com/2021/02/21/azure-policy-as-code-accelerate-governance-in-cloud/)
@@ -313,6 +318,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Cloud Governance With Azure Policy Part 2](https://jloudon.com/cloud/Cloud-Governance-with-Azure-Policy-Part-2/)
 - [Compliance and delegation of Azure Locks through Azure Policy](https://faun.pub/compliance-and-delegation-of-azure-locks-through-azure-policy-9f464d40faee)
 - [Controlling Azure SQL Firewall Rules](https://cloudadministrator.net/2021/03/31/controlling-azure-sql-firewall-rules/)
+- [Convert MS security baselines to Azure ARC Guest Configuration packages](https://doitpshway.com/convert-ms-security-baselines-to-azure-arc-guest-configuration-packages)
 - [Create And Assign Custom Azure Policies For Azure Governance](https://mohitgoyal.co/2019/10/08/create-and-assign-custom-azure-policies-for-azure-governance/)
 - [Create Azure Policy to limit VNet Address Space creation to certain address spaces only](https://blog.djurasovic.com/create-azure-policy-to-limit-vnet-address-space-creation-to-certain-address-spaces-only/)
 - [Create Azure Policy Assignment to block the creation of expensive VMs and block creation of certain resource types](https://blog.djurasovic.com/create-azure-policy-assignment-to-block-the-creation-of-expensive-vms-and-block-creation-of-certain-resource-types/)
@@ -346,6 +352,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Enforce API Management Product Subscriptions With Azure Policy](https://yourazurecoach.com/2020/08/05/enforce-api-management-product-subscriptions-with-azure-policy/)
 - [Enforce CanNotDelete Resource Lock using Azure Policy](https://jeffbrown.tech/azure-policy-resource-lock/)
 - [Enforce TLS 1.2 on Web Apps with Azure Policy](https://charbelnemnom.com/enforce-tls-1-2-on-web-apps-with-azure-policy/)
+- [Enforcing Design Consistency with Azure Policy and Tags(https://www.shankuehn.io/post/enforcing-design-consistency-with-azure-policy-and-tags)]
 - [Enhancing PCI Compliance In Your Azure Environment By Using Azure Policy Custom Initiatives](https://www.darwinsec.com/post/increasing-pci-compliance-in-your-azure-environment-by-using-custom-initiatives)
 - [Enterprise Scale Policy Driven Governance](https://stefanstranger.github.io/2020/08/28/EnterpriseScalePolicyDrivenGovernance/)
 - [Generic Azure Policy Definitions for Private Endpoint DNS Registrations](https://blog.tyang.org/2024/12/21/generic-azure-policy-definitions-for-pe-dns-registrations)
@@ -371,10 +378,12 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Identify and prevent abuse of Managed Identities with Federated Credentials from unauthorized entities](https://www.cloud-architekt.net/identify-prevent-abuse-uami-fedcreds/)
 - [Implementing and troubleshooting a custom Azure Policy Definition Step-by-step Guide](https://itnext.io/implementing-and-troubleshooting-a-custom-azure-policy-definition-1ab8d0634bb2)
 - [Improving The User Experience Of Azure Policy](https://yourazurecoach.com/2022/01/21/improving-the-user-experience-of-azure-policy/)
+- [Integrating Azure Policy in your AKS cluster using Terraform](https://www.willvelida.com/posts/aks-with-azure-policy/)
 - [Keep Control Of Your Azure Environment With Azure Policy](https://www.thomasmaurer.ch/2020/03/keep-control-of-your-azure-environment-with-azure-policy/)
 - [Keeping AKS Clusters Continuously Secure With Azure Policy](https://kristhecodingunicorn.com/post/aks_azure_policy/)
 - [Lessons Learned Developing A Custom Policy](https://stefanstranger.github.io/2021/01/22/LessonsLearnedDevelopingACustomPolicy/)
 - [Lessons Learned Testing The Configure Backup On VMs Azure Policy](https://adinermie.com/lessons-learned-testing-the-configure-backup-on-vms-azure-policy/)
+- [Level up your security posture with Azure Policy Initiatives](https://gillianstravers.com/azure/level-up-your-security-posture-with-azure-policy-initiatives/)
 - [Looking at Azure Policy resource selectors](https://www.georgeollis.com/azure-policy-resource-selectors/)
 - [Manage Azure Policy with Terraform](https://brendanthompson.com/posts/2022/11/manage-azure-policy-with-terraform)
 - [Managing Azure Private Endpoints using Azure Policy](https://blog.tyang.org/2023/12/17/manage-private-endpoint-using-azure-policy/)
@@ -409,6 +418,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Updated Azure Policy Definition for Storage Account Minimum TLS Version](https://blog.tyang.org/2025/02/10/updated-azure-policy-for-storage-minimum-tls-ver)
 - [Use Azure Policies to Require Resource Tags with PowerShell](https://jeffbrown.tech/use-azure-policies-to-require-resource-tags-with-powershell/)
 - [Use Azure Policy to audit if Azure Arc-enabled servers meet security baseline requirements](https://azurearcjumpstart.io/azure_arc_jumpstart/azure_arc_servers/day2/arc_security_baseline/)
+- [Using Terraform to configure Azure Policy Parameters](https://medium.com/@robbiedouglas/using-terraform-to-configure-azure-policy-parameters-3c3ad572320d)
 - [Using ARM Templates To Deploy Azure Policy Initiative](https://andrewmatveychuk.com/using-arm-templates-to-deploy-azure-policy-initiatives/)
 - [Using Azure Policy To Audit Resource Group Resource Locks](https://adinermie.com/using-azure-policy-to-audit-resource-group-resource-locks/)
 - [Using Azure Policy to configure your resources](https://manbearpiet.com/posts/applying-guest-configuration-policy/)
@@ -419,6 +429,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [VNet peering using Azure Policy](https://rubberduckdev.com/azure-policy-vnet-peering/)
 - [Walkthrough Using Azure Policy To Audit And Enforce Compliance](https://azuredays.com/2020/07/09/walkthrough-using-azure-policy-to-audit-and-enforce-compliance/)
 - [What are Azure Policy Overrides?](https://www.georgeollis.com/what-are-azure-policy-overrides/)
+- [Who polices your policies? Azure policy abuse for privileges escalation and persistence](https://securitylabs.datadoghq.com/articles/azure-policy-privilege-escalation/)
 - [Writing A Custom Azure Policy](https://journeyofthegeek.com/2021/03/07/writing-a-custom-azure-policy/)
 
 ## Community Tools
