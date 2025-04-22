@@ -352,7 +352,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Enforce API Management Product Subscriptions With Azure Policy](https://yourazurecoach.com/2020/08/05/enforce-api-management-product-subscriptions-with-azure-policy/)
 - [Enforce CanNotDelete Resource Lock using Azure Policy](https://jeffbrown.tech/azure-policy-resource-lock/)
 - [Enforce TLS 1.2 on Web Apps with Azure Policy](https://charbelnemnom.com/enforce-tls-1-2-on-web-apps-with-azure-policy/)
-- [Enforcing Design Consistency with Azure Policy and Tags(https://www.shankuehn.io/post/enforcing-design-consistency-with-azure-policy-and-tags)]
+- [Enforcing Design Consistency with Azure Policy and Tags](https://www.shankuehn.io/post/enforcing-design-consistency-with-azure-policy-and-tags)
 - [Enhancing PCI Compliance In Your Azure Environment By Using Azure Policy Custom Initiatives](https://www.darwinsec.com/post/increasing-pci-compliance-in-your-azure-environment-by-using-custom-initiatives)
 - [Enterprise Scale Policy Driven Governance](https://stefanstranger.github.io/2020/08/28/EnterpriseScalePolicyDrivenGovernance/)
 - [Generic Azure Policy Definitions for Private Endpoint DNS Registrations](https://blog.tyang.org/2024/12/21/generic-azure-policy-definitions-for-pe-dns-registrations)
