@@ -476,6 +476,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [robinchapas/converttopolicy](https://github.com/robinchapas/ConvertToPolicy)
 - [salesforce/cloud-guardrails](https://github.com/salesforce/cloud-guardrails)
 - [stefanrothnet/azure-policy](https://github.com/stefanrothnet/azure-policy)
+- [siddharthtanna7/azpolicygenerator](https://github.com/siddharthtanna7/AzPolicyGenerator)
 - [tyconsulting/azure.policy.monitor](https://github.com/tyconsulting/azure.policy.monitor)
 - [tyconsulting/azurepolicy](https://github.com/tyconsulting/azurepolicy)
 - [yangdeal/azure_policy_deployment](https://github.com/yangdeal/azure_policy_deployment)
