@@ -193,6 +193,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Azure Back To School: Bicep Builders: Azure Sentinel and Policy as Code](https://youtu.be/B03V3Tazcec)
 - [Azure Governance - #3 - Policy & Blueprints](https://youtu.be/EwO25vecGUo)
 - [Azure Governance And Security | Secure Azure Key Vault Using Azure Policy](https://youtu.be/o4EfqtlVyR4)
+- [Azure Policy Governance: Insights with AzPolicyAdvertizer](https://youtu.be/a0zron2ve0E?si=oyR2sn0okUzxRwA2)
 - [Azure Key Vault RBAC and Policy Deep Dive](https://youtu.be/oYzFWOrZMKc)
 - [Azure Policy - Non-Compliance Messages](https://youtu.be/N4Xom4IYcUE)
 - [Azure Policy as Code - Zero to Hero in 60 minutes](https://youtu.be/AVn5glYBz84?t=2380)
@@ -200,6 +201,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Azure Policy](https://youtu.be/1NzWYIsKUl4)
 - [Azure Spring Clean: Some points to remember about Azure Governance](https://youtu.be/lOHK_k6w4e4)
 - [Azure Update Manager with Azure Policies](https://www.youtube.com/watch?v=Da1EsoAzUoY)
+- [Become Industry Compliant - Azure Regulatory Policy Featurette](https://youtu.be/l7-PTbJ5liM?si=Ep6lY_cLo4qFAQcg)
 - [Block Deletes Using the New DenyAction Azure Policy Effect](https://youtu.be/ZVshBqY8kts)
 - [Build Your Tagging Strategy with Azure Policy and Automation](https://youtu.be/4ebXt0iMiEU)
 - [Custom Policy for Azure Governance - How to create custom Azure Policy from Scratch](https://youtu.be/n-jL_xe9858)
@@ -216,6 +218,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Help Everyone Follow The Rules | Azure Policy](https://youtu.be/7xhcnxRrXYQ?si=SvyB8WczZhLjxeLD)
 - [How to enforce Azure Naming Convention Using Azure Policies](https://youtu.be/eqNIV9QKflg?si=VG2KDsFagFKctbDD)
 - [How to Apply an Azure Policy: Step-by-Step Guide](https://youtu.be/_Alx1wiDUU8?si=3jqpBm-uSdvyQF5n)
+- [How to Save Costs with Azure Policy! - Azure Policy Deep Dive](https://youtu.be/1Y81v4R1JL8?si=Jlk8CKIAA0FUdXw6)
 - [If Only I Knew THIS About Azure 5 Years Ago](https://youtu.be/DxwKYvcMud4?si=jLk8b4EmtlzUVcDB)
 - [Inside Azure Governance - You in Control](https://www.youtube.com/watch?v=CHFLgfELV1E)
 - [Livestream: A Gentle Introduction to Azure Policy](https://www.youtube.com/live/AwI9Z_7E7eA?si=1jSWP9CxsyFwD54G)
@@ -232,12 +235,16 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 - [057 - Azure Policy and Azure Key Vault integration](https://ctrlaltazure.com/episodes/057-azure-policy-and-azure-key-vault-integration)
 - [109 - Azure Policy as Code with Jesse Loudon](https://ctrlaltazure.com/episodes/109-azure-policy-as-code)
-- [S01 E16 - Azure Security Podcast - Azure Policy](https://rss.com/podcasts/azsecpodcast/93831/)
+- [272 - Lessons learned with Azure Policy](https://ctrlaltazure.com/episodes/272-lessons-learned-with-azure-policy)
+- [S01 E74 - Azure Security Podcast - What's New in Azure Policy](https://rss.com/podcasts/azsecpodcast/899368/)
 - [S01 E43 - Everything you need to know about Azure Policy](https://rss.com/podcasts/azsecpodcast/350402/)
+- [S01 E16 - Azure Security Podcast - Azure Policy](https://rss.com/podcasts/azsecpodcast/93831/)
 - [Episode 349 – The War of the Policies](https://www.msclouditpropodcast.com/episode349/)
+- [Episode 265 – Azure Automation State Configuration vs Azure Policy guest configuration](https://www.msclouditpropodcast.com/episode265/)
 
 ## Community Books
 
+- [Policy as Code: Improving Cloud Native Security](https://amzn.asia/d/2a0KhUK)
 - [Policy Design in the Age of Digital Adoption: Explore how PolicyOps can drive Policy as Code adoption in an organization's digital transformation](https://www.amazon.com/Policy-Design-Digital-Adoption-transformation-dp-1801811741/dp/1801811741/?)
 - [Pro Azure Governance and Security: A Comprehensive Guide to Azure Policy, Blueprints, Security Center, and Sentinel](https://www.amazon.com/Pro-Azure-Governance-Security-Comprehensive/dp/1484249097)
 
