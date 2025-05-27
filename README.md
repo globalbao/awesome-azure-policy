@@ -43,17 +43,16 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 ## Microsoft Docs
 
-- [Adopt Policy-Driven Guardrails](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/dine-guidance?WT.mc_id=AZ-MVP-5004598)
-- [ARM Templates - Azure Policy Assignments](https://docs.microsoft.com/en-us/azure/templates/microsoft.authorization/policyassignments?tabs=bicep?WT.mc_id=AZ-MVP-5004598)
-- [ARM Templates - Azure Policy Definitions](https://docs.microsoft.com/en-us/azure/templates/microsoft.authorization/policydefinitions?tabs=bicep?WT.mc_id=AZ-MVP-5004598)
-- [ARM Templates - Azure Policy Exemptions](https://docs.microsoft.com/en-us/azure/templates/microsoft.authorization/policyexemptions?tabs=bicep?WT.mc_id=AZ-MVP-5004598)
-- [ARM Templates - Azure PolicySet Definitions](https://docs.microsoft.com/en-us/azure/templates/microsoft.authorization/policysetdefinitions?tabs=bicep?WT.mc_id=AZ-MVP-5004598)
-- [Azure CLI - Azure Policy](https://docs.microsoft.com/en-us/cli/azure/policy?view=azure-cli-latest?WT.mc_id=AZ-MVP-5004598)
 - [Azure Policy](https://docs.microsoft.com/en-us/azure/governance/policy/?WT.mc_id=AZ-MVP-5004598)
-- [Deploy and manage Traffic Analytics using Azure Policy](https://docs.microsoft.com/en-us/azure/network-watcher/traffic-analytics-policy-portal?WT.mc_id=AZ-MVP-5004598)
+- [Adopt Policy-Driven Guardrails](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/enterprise-scale/dine-guidance?WT.mc_id=AZ-MVP-5004598)
+- [Determine causes of non-compliance](https://learn.microsoft.com/en-us/azure/governance/policy/how-to/determine-non-compliance)
+- [Design Azure Policy as Code workflows](https://learn.microsoft.com/en-us/azure/governance/policy/concepts/policy-as-code)
+- [Enterprise Policy As Code (EPAC)](https://azure.github.io/enterprise-azure-policy-as-code/)
+- [Get compliance data of Azure resources](https://learn.microsoft.com/en-us/azure/governance/policy/how-to/get-compliance-data)
 - [Policies included in Azure Landing Zones reference implementations](https://github.com/Azure/Enterprise-Scale/blob/main/docs/ESLZ-Policies.md)
-- [PowerShell - Azure Policy](https://docs.microsoft.com/en-us/powershell/module/az.resources/?view=azps-7.1.0#policy?WT.mc_id=AZ-MVP-5004598)
 - [Secure your cluster with Azure Policy](https://docs.microsoft.com/en-us/azure/aks/use-azure-policy?toc=/azure/governance/policy/toc.json&bc=/azure/governance/policy/breadcrumb/toc.json?WT.mc_id=AZ-MVP-5004598)
+- [Remediate non-compliant resources with Azure Policy](https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal)
+- [Safe deployment of Azure Policy assignments](https://learn.microsoft.com/en-us/azure/governance/policy/how-to/policy-safe-deployment-practices)
 - [Understand Azure Policy for Kubernetes clusters](https://docs.microsoft.com/en-us/azure/governance/policy/concepts/policy-for-kubernetes?WT.mc_id=AZ-MVP-5004598)
 - [Use Azure Policy extension for Visual Studio Code](https://docs.microsoft.com/en-us/azure/governance/policy/how-to/extension-for-vscode?WT.mc_id=AZ-MVP-5004598)
 
@@ -138,6 +137,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Important change released for Guest Configuration audit policies](https://techcommunity.microsoft.com/t5/azure-governance-and-management/important-change-released-for-guest-configuration-audit-policies/ba-p/1655316?WT.mc_id=AZ-MVP-5004598)
 - [Infrastructure as Code Testing with Azure Policy](https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/infrastructure-as-code-testing-with-azure-policy/ba-p/3921765?WT.mc_id=AZ-MVP-5004598)
 - [Introducing the Azure Policy Community Repo](https://techcommunity.microsoft.com/t5/azure-governance-and-management/introducing-the-azure-policy-community-repo/ba-p/4220084?WT.mc_id=AZ-MVP-5004598)
+- [Keep your Azure Landing Zones policy assignments up to date with Azure Governance Visualizer](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/keep-your-azure-landing-zones-policy-assignments-up-to-date-with-azure-governanc/4292789)
 - [Manage NSG association on Subnets via Azure Policy](https://techcommunity.microsoft.com/t5/azure-networking-blog/manage-nsg-association-on-subnets-via-azure-policy/ba-p/4243157?WT.mc_id=AZ-MVP-5004598)
 - [Managing Security Center at scale using ARM templates and Azure Policy](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/managing-security-center-at-scale-using-arm-templates-and-azure/ba-p/327761?WT.mc_id=AZ-MVP-5004598)
 - [Microsoft cloud security benchmark: Azure compute benchmark is now aligned with CIS!](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/microsoft-cloud-security-benchmark-azure-compute-benchmark-is/ba-p/3680141?WT.mc_id=AZ-MVP-5004598)
