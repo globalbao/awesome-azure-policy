@@ -29,6 +29,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 | www.danielstechblog.io          | 3               |
 | wedoazure.ie                    | 3               |
 | yourazurecoach.com              | 3               |
+| amdocs.com                      | 1               |
 
 ## Microsoft Learn
 
@@ -436,6 +437,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [VNet peering using Azure Policy](https://rubberduckdev.com/azure-policy-vnet-peering/)
 - [Walkthrough Using Azure Policy To Audit And Enforce Compliance](https://azuredays.com/2020/07/09/walkthrough-using-azure-policy-to-audit-and-enforce-compliance/)
 - [What are Azure Policy Overrides?](https://www.georgeollis.com/what-are-azure-policy-overrides/)
+- [What you need to know about managing Azure Policy at scale](https://www.amdocs.com/insights/blog/what-you-need-know-about-managing-azure-policy-scale)
 - [Who polices your policies? Azure policy abuse for privileges escalation and persistence](https://securitylabs.datadoghq.com/articles/azure-policy-privilege-escalation/)
 - [Writing A Custom Azure Policy](https://journeyofthegeek.com/2021/03/07/writing-a-custom-azure-policy/)
 
