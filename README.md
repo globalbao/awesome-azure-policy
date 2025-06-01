@@ -106,6 +106,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Azure Policy Support is Generally Available for PostgreSQL Flexible Server](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/azure-policy-support-is-generally-available-for-postgresql/ba-p/4180189?WT.mc_id=AZ-MVP-5004598)
 - [Azure Unblogged - Azure Policy](https://techcommunity.microsoft.com/t5/itops-talk-blog/azure-unblogged-azure-policy/ba-p/2106247?WT.mc_id=AZ-MVP-5004598)
 - [Centralized Policy Management in Microsoft Defender for Cloud using Management Groups](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/centralized-policy-management-in-microsoft-defender-for-cloud/ba-p/1276331?WT.mc_id=AZ-MVP-5004598)
+- [Common Azure Policy Issues and Solutions](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/common-azure-policy-issues-and-solutions/4407332)
 - [Configure Security Center bundle pricing with Azure Policy](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/configure-security-center-bundle-pricing-with-azure-policy/ba-p/404035?WT.mc_id=AZ-MVP-5004598)
 - [Continuously Export Microsoft Defender for Cloud Alerts and Recommendations via Policy](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/continuously-export-microsoft-defender-for-cloud-alerts-and/ba-p/1440745?WT.mc_id=AZ-MVP-5004598)
 - [Controlling Release Pipelines with Gates and Azure Policy Compliance](https://devblogs.microsoft.com/devops/controlling-release-pipelines-with-gates-and-azure-policy-compliance/?WT.mc_id=AZ-MVP-5004598)
@@ -130,6 +131,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Guest configuration renames to machine configuration](https://techcommunity.microsoft.com/t5/azure-governance-and-management/coming-soon-guest-configuration-renames-to-machine-configuration/ba-p/3474116?WT.mc_id=AZ-MVP-5004598)
 - [How Does Azure Policies In Enterprise-Scale Landing Zone Help?](https://techcommunity.microsoft.com/t5/azure-architecture-blog/how-does-azure-policies-in-enterprise-scale-landing-zone-help/ba-p/2121478?WT.mc_id=AZ-MVP-5004598)
 - [How to build an audit Azure Policy with multiple parameters](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-build-an-audit-azure-policy-with-multiple-parameters/ba-p/1866062?WT.mc_id=AZ-MVP-5004598)
+- [How to control your Azure costs with Governance and Azure Policy](https://techcommunity.microsoft.com/blog/finopsblog/how-to-control-your-azure-costs-with-governance-and-azure-policy/4397977)
 - [How to debug unexpected Azure Policy compliance status for Azure resources?](https://techcommunity.microsoft.com/t5/azure-paas-blog/how-to-debug-unexpected-azure-policy-compliance-status-for-azure/ba-p/2111068?WT.mc_id=AZ-MVP-5004598)
 - [How to Troubleshoot Deny Policy Step by Step](https://techcommunity.microsoft.com/t5/azure-paas-blog/how-to-troubleshoot-deny-policy-step-by-step/ba-p/3704375?WT.mc_id=AZ-MVP-5004598)
 - [How to update Azure Policy parameters in Azure Blueprints](https://techcommunity.microsoft.com/t5/itops-talk-blog/how-to-update-azure-policy-parameters-in-azure-blueprints/ba-p/3037875?WT.mc_id=AZ-MVP-5004598)
@@ -166,15 +168,16 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 ## Microsoft Repositories and Tools
 
-- [azure cyber security maturity model (CMMC) policy mapping](https://aka.ms/cmmc/alzmap)
-- [azure policy visual studio code extension](https://marketplace.visualstudio.com/items?itemname=azurepolicy.azurepolicyextension)
 - [azure/azure-policy](https://github.com/azure/azure-policy)
 - [azure/community-policy](https://github.com/azure/community-policy)
 - [azure/enterprise-azure-policy-as-code](https://github.com/azure/enterprise-azure-policy-as-code)
+- [azure/azure-landing-zones-library](https://github.com/Azure/Azure-Landing-Zones-Library)
 - [azure/manage-azure-policy](https://github.com/azure/manage-azure-policy)
 - [azure/policy-compliance-scan](https://github.com/azure/policy-compliance-scan)
 - [azure/regulatory-compliance-initiatives](https://github.com/Azure/regulatory-compliance-initiatives)
 - [azure-samples/aca-azure-policy](https://github.com/Azure-Samples/aca-azure-policy)
+- [azure cyber security maturity model (CMMC) policy mapping](https://aka.ms/cmmc/alzmap)
+- [azure policy visual studio code extension](https://marketplace.visualstudio.com/items?itemname=azurepolicy.azurepolicyextension)
 - [microsoft/azurepolicytestframework](https://github.com/microsoft/AzurePolicyTestFramework)
 
 ## Microsoft Forums and Feedback
