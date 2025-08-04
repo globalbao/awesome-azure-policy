@@ -13,17 +13,17 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 | 🥉 **[andrewmatveychuk.com](https://andrewmatveychuk.com)** | 9               |
 | [jloudon.com](https://jloudon.com)                           | 8               |
 | [stefanroth.net](https://www.stefanroth.net)                 | 5               |
-| [www.georgeollis.com](https://www.georgeollis.com)           | 5               |
-| [www.cloudsma.com](https://www.cloudsma.com)                 | 4               |
+| [georgeollis.com](https://www.georgeollis.com)           | 5               |
+| [cloudsma.com](https://www.cloudsma.com)                 | 4               |
 | [wedoazure.ie](https://wedoazure.ie)                         | 4               |
-| [www.m365princess.com](https://www.m365princess.com)         | 3               |
+| [m365princess.com](https://www.m365princess.com)         | 3               |
 | [cloudadministrator.net](https://cloudadministrator.net)     | 3               |
-| [www.danielstechblog.io](https://www.danielstechblog.io)   | 3               |
+| [danielstechblog.io](https://www.danielstechblog.io)   | 3               |
 | [yourazurecoach.com](https://yourazurecoach.com)           | 3               |
 | [autosysops.com](https://autosysops.com)                   | 2               |
 | [samcogan.com](https://samcogan.com)                       | 2               |
 | [manbearpiet.com](https://manbearpiet.com)                 | 2               |
-| [www.thomasmaurer.ch](https://www.thomasmaurer.ch)         | 2               |
+| [thomasmaurer.ch](https://www.thomasmaurer.ch)         | 2               |
 
 ## Microsoft Learn
 
