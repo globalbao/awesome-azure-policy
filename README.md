@@ -66,14 +66,19 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [AzureFunBytes - Intro to Azure Policy](https://youtu.be/2ebTY4Bzah0)
 - [Compliance with Azure Policy](https://www.youtube.com/watch?v=OZh_4gjgvGU)
 - [Deep dive into Implementing governance at scale through Azure Policy](https://youtu.be/d6c1nfoySLI)
+- [Deploying Custom Definitions using EPAC](https://youtu.be/xr1lDjfk8e0?si=65VeBuel0kQqzi2F)
 - [Enforcement with Azure Policy](https://www.youtube.com/watch?v=yQvFeuPoHe0)
+- [EPAC v11 Updates!](https://youtu.be/clRNxyx_rIY?si=CqZoSEBHM3f2VrN6)
 - [Getting started with Azure Policy](https://www.youtube.com/watch?v=b0Sp6V0VJas)
 - [Global Azure - Notes from the field: Policy-driven Governance](https://youtu.be/Ukqux_TN8uw)
 - [Govern Azure Arc-enabled K8S Clusters with Azure Policy | KubeCon NA 2021](https://youtu.be/l1ve70xD06Y)
+- [How To Install EPAC](https://www.youtube.com/watch?v=GhYZChU85LA)
 - [On Prem To The Cloud: Everything As Code](https://youtu.be/io_dX5I-6xM)
 - [Performing Remediation on Resources with Azure Policy](https://www.youtube.com/watch?v=c1d05IYBrTk)
+- [Understanding "Global-Settings"](https://www.youtube.com/watch?v=EGjjeaYMCWQ)
 - [Using Management Group with Azure Policy](https://youtu.be/S_-JenO43G8)
 - [What is Azure Policy](https://www.youtube.com/watch?v=obWeyLHWQIY)
+- [What is EPAC?](https://www.youtube.com/watch?v=_r8uxMKwy9s)
 
 ## Microsoft Announcements and Articles
 
@@ -165,6 +170,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 ## Microsoft Repositories and Tools
 
 - [azure/azure-policy](https://github.com/azure/azure-policy)
+- [azure/azurepolicyagents](https://github.com/Azure/AzurePolicyAgents)
 - [azure/community-policy](https://github.com/azure/community-policy)
 - [azure/enterprise-azure-policy-as-code](https://github.com/azure/enterprise-azure-policy-as-code)
 - [azure/azure-landing-zones-library](https://github.com/Azure/Azure-Landing-Zones-Library)
@@ -213,6 +219,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Functionality and Usage of Azure Policy - AZ-900 Certification Course](https://youtu.be/z7WMqHE3R8g?si=Zp7bpzNSzD-wBewt)
 - [Get Visibility Into Your Environment With Azure Governance Visualizer](https://youtu.be/hZXvF5oypLE)
 - [Getting to Green with Azure Policy](https://youtu.be/P3PRXf-IilI?si=HWAq3sWCjpB7TpDn)
+- [Getting Started with Enterprise Policy As Code - Azure Policy](https://www.youtube.com/watch?v=rhc5T8caBWo)
 - [GitOps with Azure Arc Kubernetes via Azure Policy](https://youtu.be/AE5Io3qtABs)
 - [Global Azure: Policy as Code with Bicep for Enterprise Scale](https://youtu.be/qpnMJXw6pIg)
 - [Help Everyone Follow The Rules | Azure Policy](https://youtu.be/7xhcnxRrXYQ?si=SvyB8WczZhLjxeLD)
