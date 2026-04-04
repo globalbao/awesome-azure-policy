@@ -134,34 +134,53 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
 2. **Extract Top-Level Domains from README**: Parse the Community Articles Leaderboard table in the README to identify all unique top-level domains (TLDs) currently tracked.
 
 3. **Build Normalized URL Index**: As you read the README:
-   - Extract all URLs from all sections
+   - Extract all URLs from all sections **EXCEPT the Leaderboard table**
    - Apply URL normalization (see Guidelines section)
    - Store normalized URL → original markdown line mapping
    - This becomes your master duplicate check list
 
-4. **Search for New Azure Policy Content (with Retry & Timeout Strategy)**: For each domain in the Leaderboard and monitored domains:
-   - **Pre-Flight Check**: If domain has consecutive_failures ≥ 3, skip to fallback (see step 4b)
-   - **Request Attempt**: Try to fetch domain's latest blog posts/articles (past 60 days)
-     - SET 10-SECOND TIMEOUT PER REQUEST
-     - If timeout or connection error → **Retry Strategy** (see Guidelines: Request Handling)
-   - **Success**: Record articles found and update domain_failures status to "ok", reset consecutive_failures to 0
-   - **Fallback on Failure**: If all retries fail → **Use cached_articles_by_domain** (see step 4b)
-   - For each candidate article, record: `url`, `title`, `publication_date`, `domain`, `section_category`, `source` ("live" or "cached")
+4. **Search for New Azure Policy Content (Discovery Phase)**: For each domain in the Leaderboard and monitored domains:
+   - Use multiple discovery methods in this order:
+     1. Targeted site-specific searches:
+        - Query examples: `site:<domain> "Azure Policy"`, `site:<domain> azure governance`, `site:<domain> "policy as code"`
+        - Prefer results from the past 60-90 days.
+     2. RSS/Atom feed discovery:
+        - If the domain exposes a feed, parse feed items for policy-related terms.
+     3. Homepage/category page scraping:
+        - Find recent posts and inspect titles/content for Azure Policy relevance.
+     4. Search APIs or search engines:
+        - Use Bing Search, Google Custom Search, or other available search endpoints.
+        - Query both domain-specific and cross-domain terms such as `"Azure Policy" blog`, `"Azure Policy" community`, and `policy as code`.
+   - **Discovery Timeout**: Use a longer timeout for discovery requests, such as 20 seconds per request.
+   - **Retry Behavior**: Retry failed discovery requests up to 2 additional times, waiting 2 seconds between attempts.
+   - For each live candidate article, record: `url`, `title`, `publication_date`, `domain`, `section_category`, `source` ("live")
 
-4b. **Graceful Degradation for Failed Domains**:
-   - If domain failed to respond after retries:
-     - Increment consecutive_failures counter
-     - Check if cached_articles_by_domain exists for this domain from previous runs
-     - **If cache available**: Use cached articles (mark as "cached" source)
-     - **If no cache & consecutive_failures ≥ 3**: Skip domain this run (log as failed)
-     - **If no cache & consecutive_failures < 3**: Attempt retries (see Guidelines)
-   - Update last_failure_date in domain_failures tracking
+4a. **Content Filtering and Relevance**:
+   - Only include articles that are clearly Azure Policy, governance, compliance, or policy-as-code focused.
+   - Reject items that only mention Azure Policy once or use it as a passing example.
+   - Prefer substantive titles such as: "Azure Policy", "Policy as Code", "Guest Configuration", "EPAC", "Azure Governance", "Compliance with Azure Policy".
+   - Use the discovery step to verify relevance before candidate consideration.
+
+4b. **Domain Discovery Beyond README**:
+   - Search for new blogger domains and community sources not currently listed in the README.
+   - Use broad community queries like `Azure Policy blog`, `Azure Policy governance`, `Azure Policy guest configuration`.
+   - Verify each new domain publishes substantive Azure Policy content before adding it to the monitoring list.
+
+4c. **Validation and Failure Handling**:
+   - **Pre-Flight Check**: If domain has consecutive_failures ≥ 3, skip live discovery and rely on cached fallback only.
+   - **Domain Fetch Validation**: For lightweight validation of discovered URLs and metadata, use a 10-second timeout.
+   - **Fallback on Failure**: If discovery or validation fails after retries, use `cached_articles_by_domain` if available.
+   - For failed domains:
+     - Increment `consecutive_failures`.
+     - Update `last_failure_date`.
+     - If no cache and consecutive_failures ≥ 3: mark as skipped for this run.
+     - If cache exists: use cached articles and mark their source as "cached".
 
 5. **Duplicate Detection (for each candidate article)**:
    - **Step 1**: Normalize the URL (apply all transformations)
    - **Step 2**: Check if normalized URL exists in `normalized_urls_in_readme` → **SKIP if match**
-   - **Step 3**: Check if article URL/title combo exists in recent `processed_articles` → **SKIP if recent match** (prevents duplicate attempts)
-   - **Step 4**: Extract article title, remove common prefixes ("Azure Policy", "Part 1/2"), search README for similar title
+   - **Step 3**: Check if article URL/title combo exists in recent `processed_articles` → **SKIP if recent match**
+   - **Step 4**: Extract article title, remove common prefixes/suffixes ("Azure Policy", "Part 1", "Part 2", etc.), search README for similar title
    - **Step 5**: If title fuzzy match found → **SKIP** (likely duplicate repost)
    - **Step 6**: If passes all checks → **CANDIDATE for addition**
 
@@ -178,7 +197,9 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
 
 8. **Update the Leaderboard Table**: 
    - Recount the number of posts for each domain in the entire README
-   - Update the "Number of Posts" column
+   - **CRITICAL**: When counting, skip the Leaderboard table header row itself (the row with links like `[blog.tyang.org](https://blog.tyang.org)`)
+   - Only count real content links in Community Articles and other content sections
+   - Update the "Number of Posts" column with corrected counts
    - Maintain medal emojis (🏆, 🥈, 🥉) for the top 3 domains
    - Keep the table sorted by number of posts (descending)
 
@@ -227,9 +248,10 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
   - Substantive (not just passing mentions of "Azure Policy" in a broader post)
 
 - **Leaderboard Accuracy**: 
-  - Count ALL mentions of each domain in the entire README (not just the Leaderboard)
-  - Include content from ALL sections: Community Articles, Microsoft Learn, Microsoft Docs, Microsoft Videos, Microsoft Announcements and Articles
-  - If a domain appears multiple times, count each occurrence
+  - Count ALL mentions of each domain in the entire README, **EXCLUDING the Leaderboard table itself**
+  - Include content from ALL sections: Community Articles, Microsoft Learn, Microsoft Docs, Microsoft Videos, Microsoft Announcements and Articles, Community Videos, Podcasts, Books, Tools, Repositories, Forums
+  - **IMPORTANT**: Only count links in actual content sections, NOT the links in the Community Articles Leaderboard table header row
+  - If a domain appears multiple times in content sections, count each occurrence
 
 - **Ranking**: After recount, reorder domains by post count descending:
   - 🏆 = 1st place (most posts)
@@ -244,7 +266,8 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
   - No trailing whitespace
 
 - **Request Handling & Retry Strategy** (Critical for reliability):
-  - **Timeout Setting**: 10 seconds per HTTP request (set per domain fetch)
+  - **Discovery Timeout**: Use 20 seconds per discovery request when searching for new content on a domain.
+  - **Validation Timeout**: Use 10 seconds per lightweight validation request when checking a discovered URL or metadata.
   - **Retry Logic**:
     - On timeout or 5xx error: Retry immediately (1 attempt)
     - Wait 2 seconds
