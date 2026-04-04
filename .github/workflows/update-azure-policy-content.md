@@ -131,7 +131,9 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
    - If cache is older than 60 days, reset it (start fresh)
    - Mark domains with consecutive_failures ≥ 3 as STATUS=DEGRADED (use fallback only, don't attempt fresh fetch)
 
-2. **Extract Top-Level Domains from README**: Parse the Community Articles Leaderboard table in the README to identify all unique top-level domains (TLDs) currently tracked.
+2. **Extract All Domains from the README**: Parse the Community Articles Leaderboard table and all other README sections to identify every unique domain currently referenced.
+   - This includes Community Articles, Microsoft Learn, Microsoft Docs, Microsoft Videos, Microsoft Announcements and Articles, Community Videos, Podcasts, Books, Tools, Repositories, and Forums
+   - Build the verified domain list from every README source, not only the Leaderboard
 
 3. **Build Normalized URL Index**: As you read the README:
    - Extract all URLs from all sections **EXCEPT the Leaderboard table**
@@ -139,8 +141,9 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
    - Store normalized URL → original markdown line mapping
    - This becomes your master duplicate check list
 
-4. **Search for New Azure Policy Content (Discovery Phase)**: For each domain in the Leaderboard and monitored domains:
+4. **Search for New Azure Policy Content (Discovery Phase)**: For each domain listed anywhere in the README:
    - **CRITICAL**: Perform ACTUAL web searches and content discovery - do NOT just count existing README content
+   - **REQUIRED**: Verify every domain in the README before the run can complete
    - Use multiple discovery methods in this order, with intelligent fallbacks:
      1. **Targeted site-specific searches** (REQUIRED FIRST METHOD):
         - Use web-fetch tool with specific queries in priority order:
@@ -193,6 +196,9 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
    - **Pre-Flight Check**: If domain has consecutive_failures ≥ 3, skip live discovery and rely on cached fallback only.
    - **Domain Fetch Validation**: For lightweight validation of discovered URLs and metadata, use a 10-second timeout.
    - **Fallback on Failure**: If discovery or validation fails after retries, use `cached_articles_by_domain` if available.
+   - **Do not finish the run until each domain is explicitly verified**:
+     - A domain is complete only when it has been checked live, marked degraded with cached fallback, or recorded as skipped due to persistent failure.
+     - Do not allow the workflow to exit early simply because a subset of domains succeeded.
    - For failed domains:
      - Increment `consecutive_failures`.
      - Update `last_failure_date`.
@@ -366,7 +372,7 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
     - Personal blogs: Site-specific search first
     - Corporate sites: Homepage scraping (may have structured archives)
   - **Batch Processing**: Process up to 5 domains concurrently if tools allow, but respect rate limits
-  - **Early Termination**: Stop searching a domain after finding 3-5 recent relevant articles
+  - **No Early Exit**: Do not conclude the job until all README domains have been fully checked and either verified, degraded, or skipped with reason
   - **Cache Efficiency**: Use cached results to skip redundant validation checks
   - **Bandwidth Preservation**: Cache fallback prevents re-fetching same data on consecutive failures
 
