@@ -22,13 +22,13 @@
 #
 # Automatically discover and update Azure Policy content in README, including new blog articles and Leaderboard statistics
 #
-# gh-aw-metadata: {"schema_version":"v3","frontmatter_hash":"7c422620e78df36a2863517b4573e502c06cf7115d8f32963678533ee548b3bc","compiler_version":"v0.65.6","strict":true,"agent_id":"copilot"}
+# gh-aw-metadata: {"schema_version":"v3","frontmatter_hash":"db69a56fb5b0d566a7dc7623f7c6dda8e9c8203625727e7794da9864a5f00f50","compiler_version":"v0.65.6","strict":true,"agent_id":"copilot"}
 
 name: "Update Azure Policy Content"
 "on":
   schedule:
-  - cron: "26 10 * * 5"
-    # Friendly format: weekly (scattered)
+  - cron: "26 10 * * *"
+    # Friendly format: daily (scattered)
   workflow_dispatch:
     inputs:
       aw_context:
@@ -136,20 +136,20 @@ jobs:
         run: |
           bash ${RUNNER_TEMP}/gh-aw/actions/create_prompt_first.sh
           {
-          cat << 'GH_AW_PROMPT_f30203e0cab55b7e_EOF'
+          cat << 'GH_AW_PROMPT_91038d89b2aecc9e_EOF'
           <system>
-          GH_AW_PROMPT_f30203e0cab55b7e_EOF
+          GH_AW_PROMPT_91038d89b2aecc9e_EOF
           cat "${RUNNER_TEMP}/gh-aw/prompts/xpia.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/temp_folder_prompt.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/markdown.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/cache_memory_prompt.md"
           cat "${RUNNER_TEMP}/gh-aw/prompts/safe_outputs_prompt.md"
-          cat << 'GH_AW_PROMPT_f30203e0cab55b7e_EOF'
+          cat << 'GH_AW_PROMPT_91038d89b2aecc9e_EOF'
           <safe-output-tools>
           Tools: create_pull_request, missing_tool, missing_data, noop
-          GH_AW_PROMPT_f30203e0cab55b7e_EOF
+          GH_AW_PROMPT_91038d89b2aecc9e_EOF
           cat "${RUNNER_TEMP}/gh-aw/prompts/safe_outputs_create_pull_request.md"
-          cat << 'GH_AW_PROMPT_f30203e0cab55b7e_EOF'
+          cat << 'GH_AW_PROMPT_91038d89b2aecc9e_EOF'
           </safe-output-tools>
           <github-context>
           The following GitHub context information is available for this workflow:
@@ -179,12 +179,12 @@ jobs:
           {{/if}}
           </github-context>
           
-          GH_AW_PROMPT_f30203e0cab55b7e_EOF
+          GH_AW_PROMPT_91038d89b2aecc9e_EOF
           cat "${RUNNER_TEMP}/gh-aw/prompts/github_mcp_tools_with_safeoutputs_prompt.md"
-          cat << 'GH_AW_PROMPT_f30203e0cab55b7e_EOF'
+          cat << 'GH_AW_PROMPT_91038d89b2aecc9e_EOF'
           </system>
           {{#runtime-import .github/workflows/update-azure-policy-content.md}}
-          GH_AW_PROMPT_f30203e0cab55b7e_EOF
+          GH_AW_PROMPT_91038d89b2aecc9e_EOF
           } > "$GH_AW_PROMPT"
       - name: Interpolate variables and render templates
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
@@ -362,12 +362,12 @@ jobs:
           mkdir -p ${RUNNER_TEMP}/gh-aw/safeoutputs
           mkdir -p /tmp/gh-aw/safeoutputs
           mkdir -p /tmp/gh-aw/mcp-logs/safeoutputs
-          cat > ${RUNNER_TEMP}/gh-aw/safeoutputs/config.json << 'GH_AW_SAFE_OUTPUTS_CONFIG_633107c1336b6bcf_EOF'
+          cat > ${RUNNER_TEMP}/gh-aw/safeoutputs/config.json << 'GH_AW_SAFE_OUTPUTS_CONFIG_33f7f55c2f998504_EOF'
           {"create_pull_request":{"max":1,"max_patch_size":1024,"protected_files":["package.json","bun.lockb","bunfig.toml","deno.json","deno.jsonc","deno.lock","global.json","NuGet.Config","Directory.Packages.props","mix.exs","mix.lock","go.mod","go.sum","stack.yaml","stack.yaml.lock","pom.xml","build.gradle","build.gradle.kts","settings.gradle","settings.gradle.kts","gradle.properties","package-lock.json","yarn.lock","pnpm-lock.yaml","npm-shrinkwrap.json","requirements.txt","Pipfile","Pipfile.lock","pyproject.toml","setup.py","setup.cfg","Gemfile","Gemfile.lock","uv.lock","CODEOWNERS"],"protected_path_prefixes":[".github/",".agents/"]},"missing_data":{},"missing_tool":{},"noop":{"max":1,"report-as-issue":"true"}}
-          GH_AW_SAFE_OUTPUTS_CONFIG_633107c1336b6bcf_EOF
+          GH_AW_SAFE_OUTPUTS_CONFIG_33f7f55c2f998504_EOF
       - name: Write Safe Outputs Tools
         run: |
-          cat > ${RUNNER_TEMP}/gh-aw/safeoutputs/tools_meta.json << 'GH_AW_SAFE_OUTPUTS_TOOLS_META_8c0dc0f4e0c7cf2a_EOF'
+          cat > ${RUNNER_TEMP}/gh-aw/safeoutputs/tools_meta.json << 'GH_AW_SAFE_OUTPUTS_TOOLS_META_fddc286364292b3b_EOF'
           {
             "description_suffixes": {
               "create_pull_request": " CONSTRAINTS: Maximum 1 pull request(s) can be created."
@@ -375,8 +375,8 @@ jobs:
             "repo_params": {},
             "dynamic_tools": []
           }
-          GH_AW_SAFE_OUTPUTS_TOOLS_META_8c0dc0f4e0c7cf2a_EOF
-          cat > ${RUNNER_TEMP}/gh-aw/safeoutputs/validation.json << 'GH_AW_SAFE_OUTPUTS_VALIDATION_b55eb8b9e513730f_EOF'
+          GH_AW_SAFE_OUTPUTS_TOOLS_META_fddc286364292b3b_EOF
+          cat > ${RUNNER_TEMP}/gh-aw/safeoutputs/validation.json << 'GH_AW_SAFE_OUTPUTS_VALIDATION_7f286ed72218ebbe_EOF'
           {
             "create_pull_request": {
               "defaultMax": 1,
@@ -472,7 +472,7 @@ jobs:
               }
             }
           }
-          GH_AW_SAFE_OUTPUTS_VALIDATION_b55eb8b9e513730f_EOF
+          GH_AW_SAFE_OUTPUTS_VALIDATION_7f286ed72218ebbe_EOF
           node ${RUNNER_TEMP}/gh-aw/actions/generate_safe_outputs_tools.cjs
       - name: Generate Safe Outputs MCP Server Config
         id: safe-outputs-config
@@ -542,7 +542,7 @@ jobs:
           export MCP_GATEWAY_DOCKER_COMMAND='docker run -i --rm --network host -v /var/run/docker.sock:/var/run/docker.sock -e MCP_GATEWAY_PORT -e MCP_GATEWAY_DOMAIN -e MCP_GATEWAY_API_KEY -e MCP_GATEWAY_PAYLOAD_DIR -e MCP_GATEWAY_PAYLOAD_SIZE_THRESHOLD -e DEBUG -e MCP_GATEWAY_LOG_DIR -e GH_AW_MCP_LOG_DIR -e GH_AW_SAFE_OUTPUTS -e GH_AW_SAFE_OUTPUTS_CONFIG_PATH -e GH_AW_SAFE_OUTPUTS_TOOLS_PATH -e GH_AW_ASSETS_BRANCH -e GH_AW_ASSETS_MAX_SIZE_KB -e GH_AW_ASSETS_ALLOWED_EXTS -e DEFAULT_BRANCH -e GITHUB_MCP_SERVER_TOKEN -e GITHUB_MCP_GUARD_MIN_INTEGRITY -e GITHUB_MCP_GUARD_REPOS -e GITHUB_REPOSITORY -e GITHUB_SERVER_URL -e GITHUB_SHA -e GITHUB_WORKSPACE -e GITHUB_TOKEN -e GITHUB_RUN_ID -e GITHUB_RUN_NUMBER -e GITHUB_RUN_ATTEMPT -e GITHUB_JOB -e GITHUB_ACTION -e GITHUB_EVENT_NAME -e GITHUB_EVENT_PATH -e GITHUB_ACTOR -e GITHUB_ACTOR_ID -e GITHUB_TRIGGERING_ACTOR -e GITHUB_WORKFLOW -e GITHUB_WORKFLOW_REF -e GITHUB_WORKFLOW_SHA -e GITHUB_REF -e GITHUB_REF_NAME -e GITHUB_REF_TYPE -e GITHUB_HEAD_REF -e GITHUB_BASE_REF -e GH_AW_SAFE_OUTPUTS_PORT -e GH_AW_SAFE_OUTPUTS_API_KEY -v /tmp/gh-aw/mcp-payloads:/tmp/gh-aw/mcp-payloads:rw -v /opt:/opt:ro -v /tmp:/tmp:rw -v '"${GITHUB_WORKSPACE}"':'"${GITHUB_WORKSPACE}"':rw ghcr.io/github/gh-aw-mcpg:v0.2.11'
           
           mkdir -p /home/runner/.copilot
-          cat << GH_AW_MCP_CONFIG_ec437928412aeca9_EOF | bash ${RUNNER_TEMP}/gh-aw/actions/start_mcp_gateway.sh
+          cat << GH_AW_MCP_CONFIG_4cd93ae4c81dda75_EOF | bash ${RUNNER_TEMP}/gh-aw/actions/start_mcp_gateway.sh
           {
             "mcpServers": {
               "github": {
@@ -583,7 +583,7 @@ jobs:
               "payloadDir": "${MCP_GATEWAY_PAYLOAD_DIR}"
             }
           }
-          GH_AW_MCP_CONFIG_ec437928412aeca9_EOF
+          GH_AW_MCP_CONFIG_4cd93ae4c81dda75_EOF
       - name: Download activation artifact
         uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:

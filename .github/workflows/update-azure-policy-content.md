@@ -1,7 +1,7 @@
 ---
 description: Automatically discover and update Azure Policy content in README, including new blog articles and Leaderboard statistics
 on:
-  schedule: weekly
+  schedule: daily
   workflow_dispatch:
 timeout-minutes: 30
 permissions:
@@ -232,9 +232,9 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
    - Ensure markdown syntax is correct
 
 8. **Update the Leaderboard Table**: 
-   - Recount the number of posts for each domain in the entire README
-   - **CRITICAL**: When counting, skip the Leaderboard table header row itself (the row with links like `[blog.tyang.org](https://blog.tyang.org)`)
-   - Only count real content links in Community Articles and other content sections
+   - Recount the number of posts for each domain using only links from actual content sections, not the leaderboard itself
+   - **CRITICAL**: Exclude the entire Community Articles Leaderboard table from the count, including both the domain link and the current post count cell
+   - Only count links in Community Articles and other content sections, not in the leaderboard rows
    - Update the "Number of Posts" column with corrected counts
    - Maintain medal emojis (🏆, 🥈, 🥉) for the top 3 domains
    - Keep the table sorted by number of posts (descending)
@@ -248,20 +248,24 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
    - **Preserve fallback cache**: Save successfully discovered articles in `cached_articles_by_domain` for future fallback use
    - Save with timestamp
 
-10. **Create a Pull Request** (if changes made):
+10. **Create a Pull Request** (if substantive content changes were made):
+   - Only raise a PR if one or more new links or content entries were added to the README, or if an existing README article was updated.
+   - Do not raise a PR if the only changes are leaderboard post count adjustments.
    - Title: "chore: update Azure Policy content and Leaderboard stats"
    - Description listing:
      - New articles added (count and titles)
-     - Updated Leaderboard stats
+     - Updated README content sections, if any
+     - Updated Leaderboard stats, only when accompanied by README content changes
      - Domains with changed counts
    - Labels: ["automation", "content-update"]
 
-11. **Report on Findings** (if no changes):
+11. **Report on Findings** (if no substantive content changes were made):
    - Call `noop` with detailed explanation:
      - All domains checked (list count and status: "ok/degraded/skipped")
      - **Domain Processing Summary**: Total domains configured vs domains checked vs domains skipped
      - Duplicates found and skipped (count)
      - No new substantive content discovered
+     - If only leaderboard counts changed, explain that leaderboard-only updates do not create a PR
      - **Failure Report**:
        - List any domains that failed (status="skip")
        - Show consecutive_failure counts for problematic domains
@@ -285,9 +289,9 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
   - Substantive (not just passing mentions of "Azure Policy" in a broader post)
 
 - **Leaderboard Accuracy**: 
-  - Count ALL mentions of each domain in the entire README, **EXCLUDING the Leaderboard table itself**
-  - Include content from ALL sections: Community Articles, Microsoft Learn, Microsoft Docs, Microsoft Videos, Microsoft Announcements and Articles, Community Videos, Podcasts, Books, Tools, Repositories, Forums
-  - **IMPORTANT**: Only count links in actual content sections, NOT the links in the Community Articles Leaderboard table header row
+  - Count ALL mentions of each domain in the README content sections only, **EXCLUDING the entire Community Articles Leaderboard table**
+  - Include content from ALL non-leaderboard sections: Community Articles, Microsoft Learn, Microsoft Docs, Microsoft Videos, Microsoft Announcements and Articles, Community Videos, Podcasts, Books, Tools, Repositories, Forums
+  - **IMPORTANT**: Do not count links in any leaderboard table row, including the domain link row itself and the current post count cell
   - If a domain appears multiple times in content sections, count each occurrence
 
 - **Ranking**: After recount, reorder domains by post count descending:
