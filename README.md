@@ -8,7 +8,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 | Top-level Domain                                             | Number of Posts |
 | ------------------------------------------------------------ | --------------- |
-| 🏆 **[blog.tyang.org](https://blog.tyang.org)**             | 18              |
+| 🏆 **[blog.tyang.org](https://blog.tyang.org)**             | 19              |
 | 🥈 **[charbelnemnom.com](https://charbelnemnom.com)**       | 14              |
 | 🥉 **[andrewmatveychuk.com](https://andrewmatveychuk.com)** | 9               |
 | [jloudon.com](https://jloudon.com)                           | 8               |
@@ -271,6 +271,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Automatically Enable Microsoft Defender For Cloud Enhanced Security Features](https://samilamppu.com/2021/12/28/automatically-enable-microsoft-defender-for-cloud-enhanced-security-features/)
 - [Automatically Tag Azure VM's Behind A Load Balancer](https://autosysops.com/blog/automatically-tag-azure-vms-behind-a-load-balancer)
 - [AzGovViz With Azure DevOps](https://jacktracey.co.uk/azgovviz-with-azure-devops/)
+- [AzPolicyTest Module Updated to 2.8.0](https://blog.tyang.org/2025/08/10/azpolicytest-module-updated-to-2-8-0)
 - [Azure GitHub Export and Visual studio code](https://www.cloudpartner.fi/?p=5232)
 - [Azure Policy – Add Date/Time Resource Group Tag](https://www.stefanroth.net/2019/10/06/azure-policy-add-date-time-resource-group-tag/)
 - [Azure Policy — allowed locations](https://michalmolka.medium.com/azure-policy-allowed-locations-8ecb21e4336b)
