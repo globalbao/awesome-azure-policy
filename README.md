@@ -8,7 +8,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 | Top-level Domain                                             | Number of Posts |
 | ------------------------------------------------------------ | --------------- |
-| 🏆 **[blog.tyang.org](https://blog.tyang.org)**             | 19              |
+| 🏆 **[blog.tyang.org](https://blog.tyang.org)**             | 20              |
 | 🥈 **[charbelnemnom.com](https://charbelnemnom.com)**       | 14              |
 | 🥉 **[andrewmatveychuk.com](https://andrewmatveychuk.com)** | 9               |
 | [jloudon.com](https://jloudon.com)                           | 8               |
@@ -345,6 +345,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Deploy And Assign Azure Policy Via Azure DevOps Pipelines](https://charbelnemnom.com/deploy-and-assign-azure-policy-via-azure-devops-pipelines/)
 - [Deploy Azure Monitor Agent at Scale](https://www.cloudsma.com/2021/09/deploy-azure-monitor-agent-scale/)
 - [Deploy Azure Policy To ManagementGroup With Bicep](https://www.nielskok.tech/infrastructure-as-code/deploy-azure-policy-to-managementgroup-with-bicep/)
+- [Deploying Azure Policy with Infrastructure as Code (IaC)](https://blog.tyang.org/2026/03/08/deploying-azure-policy-iac)
 - [Deploy Azure Policy Using Azure DevOps CI/CD Pipeline](https://autosysops.com/blog/deploy-azure-policy-with-azure-devops/)
 - [Deploy Azure Policy Using Terraform](https://ydcloud.wordpress.com/2019/12/10/deploy-azure-policy-using-terraform/)
 - [Deploying Azure Policy remediation via Azure Lighthouse with PIM](https://rios.engineer/deploying-azure-policy-remediation-via-azure-lighthouse-with-pim/)
