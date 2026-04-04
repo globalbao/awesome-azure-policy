@@ -140,19 +140,42 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
    - This becomes your master duplicate check list
 
 4. **Search for New Azure Policy Content (Discovery Phase)**: For each domain in the Leaderboard and monitored domains:
-   - Use multiple discovery methods in this order:
-     1. Targeted site-specific searches:
-        - Query examples: `site:<domain> "Azure Policy"`, `site:<domain> azure governance`, `site:<domain> "policy as code"`
-        - Prefer results from the past 60-90 days.
-     2. RSS/Atom feed discovery:
-        - If the domain exposes a feed, parse feed items for policy-related terms.
-     3. Homepage/category page scraping:
-        - Find recent posts and inspect titles/content for Azure Policy relevance.
-     4. Search APIs or search engines:
-        - Use Bing Search, Google Custom Search, or other available search endpoints.
-        - Query both domain-specific and cross-domain terms such as `"Azure Policy" blog`, `"Azure Policy" community`, and `policy as code`.
-   - **Discovery Timeout**: Use a longer timeout for discovery requests, such as 20 seconds per request.
-   - **Retry Behavior**: Retry failed discovery requests up to 2 additional times, waiting 2 seconds between attempts.
+   - **CRITICAL**: Perform ACTUAL web searches and content discovery - do NOT just count existing README content
+   - Use multiple discovery methods in this order, with intelligent fallbacks:
+     1. **Targeted site-specific searches** (REQUIRED FIRST METHOD):
+        - Use web-fetch tool with specific queries in priority order:
+          - Primary: `site:<domain> "Azure Policy" -site:github.com -site:stackoverflow.com`
+          - Secondary: `site:<domain> "policy as code" OR "Azure governance" OR "compliance policy"`
+          - Tertiary: `site:<domain> "guest configuration" OR "EPAC" OR "policy initiative"`
+        - Add date filtering: `site:<domain> "Azure Policy" after:2026-01-01` (current year)
+        - Parse search results for article URLs, titles, and publication dates
+        - **Rate Limit**: Wait 3-5 seconds between search queries to avoid blocking
+     2. **RSS/Atom feed discovery** (RELIABLE FALLBACK):
+        - Check common feed URLs in order: `<domain>/feed.xml`, `<domain>/rss`, `<domain>/feed`, `<domain>/atom.xml`
+        - If feed found, parse XML for entries containing: "Azure Policy", "policy", "governance", "compliance"
+        - Filter for entries published within last 90 days
+        - **Timeout**: 15 seconds for feed discovery (shorter than general discovery)
+     3. **Homepage/category page scraping** (STRUCTURED FALLBACK):
+        - Fetch domain homepage with 15-second timeout
+        - Look for blog/archive sections using common patterns: `/blog`, `/posts`, `/articles`, `/news`
+        - Extract recent article links from navigation or archive pages
+        - Check article titles for Azure Policy keywords before full content fetch
+        - **Smart Filtering**: Skip non-article pages (contact, about, etc.)
+     4. **Search APIs or search engines** (BROAD DISCOVERY):
+        - Use available search tools with domain-specific queries first
+        - Fallback to broad community searches: `"Azure Policy" blog after:2026-01-01`, `"policy as code" tutorial`
+        - **API Limits**: Respect rate limits, use delays between requests
+   - **Discovery Timeout**: Use 20 seconds per discovery request when searching for new content on a domain
+   - **Retry Behavior**: 
+     - Method-specific retries: RSS feeds get 1 retry, search queries get 2 retries
+     - Wait 2 seconds between retries
+     - If primary method fails, immediately try next method (don't waste retries on failed approaches)
+   - **Content Verification**: For each discovered URL, fetch and verify it contains substantive Azure Policy content
+   - **Error Classification**: Distinguish between:
+     - Network errors (retry with backoff)
+     - 404/403 errors (skip domain)
+     - Rate limiting (longer delay, try different method)
+     - Content parsing errors (try next method)
    - For each live candidate article, record: `url`, `title`, `publication_date`, `domain`, `section_category`, `source` ("live")
 
 4a. **Content Filtering and Relevance**:
@@ -266,15 +289,25 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
   - No trailing whitespace
 
 - **Request Handling & Retry Strategy** (Critical for reliability):
-  - **Discovery Timeout**: Use 20 seconds per discovery request when searching for new content on a domain.
-  - **Validation Timeout**: Use 10 seconds per lightweight validation request when checking a discovered URL or metadata.
-  - **Retry Logic**:
-    - On timeout or 5xx error: Retry immediately (1 attempt)
-    - Wait 2 seconds
-    - On second timeout: Retry once more (2 total attempts)
-    - If all retries fail → Use graceful degradation (fallback cache or skip)
-  - **Backoff Strategy**: No additional delay needed since only 2 retries; quick fail-fast approach
-  - **Rate Limiting Awareness**: Space requests ~1-2 seconds apart to respect server load
+  - **Discovery Timeout**: Use 20 seconds per discovery request when searching for new content on a domain
+  - **Validation Timeout**: Use 10 seconds per lightweight validation request when checking a discovered URL or metadata
+  - **Method-Specific Retry Logic**:
+    - **Search Queries**: 2 retries with 3-second delays (search engines may be rate-limited)
+    - **RSS Feeds**: 1 retry with 2-second delay (feeds are usually reliable if they exist)
+    - **Homepage Scraping**: 2 retries with 2-second delays (network issues common)
+    - **API Calls**: 1 retry with 5-second delay (respect API limits)
+  - **Error-Specific Handling**:
+    - **429 Rate Limited**: Wait 10 seconds, then retry once more
+    - **403 Forbidden**: Skip domain (blocked), mark as degraded
+    - **404 Not Found**: Try alternative feed URLs, then skip method
+    - **500-599 Server Errors**: Retry with backoff (2s, 5s)
+    - **Timeout/Network**: Retry immediately, then with 5s delay
+    - **DNS/Connection Refused**: Mark domain degraded, use cache fallback
+  - **Backoff Strategy**: Exponential backoff for repeated failures (2s → 5s → 10s)
+  - **Rate Limiting Awareness**: 
+    - Space requests 3-5 seconds apart to respect server load
+    - Limit to 10 search queries per domain per run
+    - Use different search methods if hitting limits
   - **Failure Tracking**: Track consecutive failures per domain; after 3 consecutive failures in separate runs, mark domain as "degraded" and only use cached fallback
   - **Fallback Priority**:
     1. Use cached_articles_by_domain from previous run (if available)
@@ -304,13 +337,38 @@ You are an AI agent responsible for keeping the Awesome Azure Policy repository 
 
 - **Recent Content Priority**: Prioritize discovering content from the past 2-3 months
 
+- **Query Optimization & Failure Prevention**:
+  - **Search Query Best Practices**:
+    - Use quotes for exact phrases: `"Azure Policy"` not `Azure Policy`
+    - Exclude irrelevant sites: `-site:github.com -site:stackoverflow.com`
+    - Add date filters: `after:2026-01-01` for current year content
+    - Use OR operators for synonyms: `"policy as code" OR "Azure governance"`
+  - **Common Failure Prevention**:
+    - Test RSS feed URLs before full parsing (HEAD request first)
+    - Validate search results contain actual article links (not just mentions)
+    - Skip domains that return only error pages or redirects
+    - Use user-agent headers that mimic real browsers
+    - Handle JavaScript-heavy sites by focusing on RSS feeds instead
+  - **Content Quality Gates**:
+    - Minimum word count: 200+ words for substantive articles
+    - Must contain Azure Policy in title OR multiple mentions in content
+    - Reject if Azure Policy is only mentioned in passing
+    - Prefer articles with code examples or tutorials
+
 - **GitHub Actions**: You have read access to the repository to fetch the current README
 
 - **Performance Optimization**:
   - **Prevent Runaway Workflows**: 30-minute timeout enforced at workflow level (hard limit)
   - **Efficient Domain Iteration**: Process domains in priority order (Leaderboard first, then others)
   - **Skip Fast-Fail Domains**: Domains with status="skip" are never attempted until consecutive_failures resets
-  - **Preserve Bandwidth**: Cache fallback prevents re-fetching same data on consecutive failures
+  - **Smart Method Selection**: Start with most reliable method per domain type:
+    - Blog platforms: RSS feeds first (usually reliable)
+    - Personal blogs: Site-specific search first
+    - Corporate sites: Homepage scraping (may have structured archives)
+  - **Batch Processing**: Process up to 5 domains concurrently if tools allow, but respect rate limits
+  - **Early Termination**: Stop searching a domain after finding 3-5 recent relevant articles
+  - **Cache Efficiency**: Use cached results to skip redundant validation checks
+  - **Bandwidth Preservation**: Cache fallback prevents re-fetching same data on consecutive failures
 
 ## Safe Outputs
 
