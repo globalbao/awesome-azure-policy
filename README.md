@@ -8,22 +8,22 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 | Top-level Domain                                             | Number of Posts |
 | ------------------------------------------------------------ | --------------- |
-| 🏆 **[blog.tyang.org](https://blog.tyang.org)**             | 19              |
+| 🏆 **[blog.tyang.org](https://blog.tyang.org)**             | 20              |
 | 🥈 **[charbelnemnom.com](https://charbelnemnom.com)**       | 14              |
 | 🥉 **[andrewmatveychuk.com](https://andrewmatveychuk.com)** | 9               |
+| [medium.com](https://medium.com)                             | 8               |
 | [jloudon.com](https://jloudon.com)                           | 8               |
 | [stefanroth.net](https://www.stefanroth.net)                 | 5               |
-| [georgeollis.com](https://www.georgeollis.com)           | 5               |
-| [cloudsma.com](https://www.cloudsma.com)                 | 4               |
+| [georgeollis.com](https://www.georgeollis.com)               | 5               |
+| [azsec.azurewebsites.net](https://azsec.azurewebsites.net)   | 5               |
 | [wedoazure.ie](https://wedoazure.ie)                         | 4               |
-| [m365princess.com](https://www.m365princess.com)         | 3               |
+| [cloudsma.com](https://www.cloudsma.com)                     | 4               |
+| [yourazurecoach.com](https://yourazurecoach.com)             | 3               |
+| [m365princess.com](https://www.m365princess.com)             | 3               |
+| [kristhecodingunicorn.com](https://kristhecodingunicorn.com) | 3               |
+| [danielstechblog.io](https://www.danielstechblog.io)         | 3               |
+| [cloudcorner.gr](https://cloudcorner.gr)                     | 3               |
 | [cloudadministrator.net](https://cloudadministrator.net)     | 3               |
-| [danielstechblog.io](https://www.danielstechblog.io)   | 3               |
-| [yourazurecoach.com](https://yourazurecoach.com)           | 3               |
-| [autosysops.com](https://autosysops.com)                   | 2               |
-| [samcogan.com](https://samcogan.com)                       | 2               |
-| [manbearpiet.com](https://manbearpiet.com)                 | 2               |
-| [thomasmaurer.ch](https://www.thomasmaurer.ch)         | 2               |
 
 ## Microsoft Learn
 
@@ -348,6 +348,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Deploy Azure Policy Using Azure DevOps CI/CD Pipeline](https://autosysops.com/blog/deploy-azure-policy-with-azure-devops/)
 - [Deploy Azure Policy Using Terraform](https://ydcloud.wordpress.com/2019/12/10/deploy-azure-policy-using-terraform/)
 - [Deploying Azure Policy remediation via Azure Lighthouse with PIM](https://rios.engineer/deploying-azure-policy-remediation-via-azure-lighthouse-with-pim/)
+- [Deploying Azure Policy with Infrastructure as Code (IaC)](https://blog.tyang.org/2026/03/08/deploying-azure-policy-iac)
 - [Do you see value in Azure Policy Evaluator?](https://www.jannemattila.com/azure/2024/02/26/do-you-see-value-in-azure-policy-evaluator.html)
 - [Diagnostic Settings Storage Accounts Event Hub](https://charbelnemnom.com/diagnostic-settings-storage-accounts-event-hub/)
 - [Duplicate Azure Policy Definition and Initiative](https://charbelnemnom.com/duplicate-azure-policy-definition-and-initiative/)
