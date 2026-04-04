@@ -114,6 +114,8 @@ safe-outputs:
     max: 1
   missing-tool:
     create-issue: false
+  noop:
+    report-as-issue: false
 ---
 
 # Update Azure Policy Content
