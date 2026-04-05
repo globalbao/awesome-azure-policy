@@ -8,7 +8,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 | Top-level Domain                                             | Number of Posts |
 | ------------------------------------------------------------ | --------------- |
-| 🏆 **[blog.tyang.org](https://blog.tyang.org)**             | 20              |
+| 🏆 **[blog.tyang.org](https://blog.tyang.org)**             | 21              |
 | 🥈 **[charbelnemnom.com](https://charbelnemnom.com)**       | 14              |
 | 🥉 **[andrewmatveychuk.com](https://andrewmatveychuk.com)** | 9               |
 | [medium.com](https://medium.com)                             | 8               |
@@ -407,6 +407,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Orphaned Azure Security Principals Clean-up & Azure Policy Managed Identity Role Assignment Automation](https://mortenknudsen.net/?p=938)
 - [Persistence with Azure Policy Guest Configuration](https://cloudbrothers.info/en/azure-persistence-azure-policy-guest-configuration/)
 - [Prevent deletion of resources with Azure Policy](https://gillianstravers.com/azure/prevent-deletion-of-resources-with-azure-policy/)
+- [Policy Integration Testing Framework in AzPolicyFactory](https://blog.tyang.org/2026/04/05/policy-int-test-in-azpolicyfactory)
 - [Policy as Code: Using Azure Bicep to deploy Azure Policies](https://periwalmanish.wordpress.com/2022/08/13/policy-as-code-using-bicep-to-deploy-azure-policies/)
 - [Policy as Code: Using Modules and defining Custom Roles using Azure Bicep](https://periwalmanish.wordpress.com/2022/08/23/policy-as-code-using-modules-and-defining-custom-roles-using-azure-bicep/)
 - [Policy Restriction REST API for Azure Policy](https://blog.tyang.org/2024/12/24/2024-12-24-azure-policy-restriction-rest-api)
