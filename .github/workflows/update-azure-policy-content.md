@@ -1,7 +1,7 @@
 ---
 description: Automatically discover and update Azure Policy content in README, including new blog articles and Leaderboard statistics
 on:
-  schedule: daily
+  schedule: '0 0 1 * *'
   workflow_dispatch:
 timeout-minutes: 30
 permissions:
