@@ -399,4 +399,30 @@ When you complete your work:
 - **If you found new content or updated stats**: Use `create-pull-request` to submit the changes with a clear description of what was added/updated
 - **If no changes are needed**: Use `noop` to explain that all content has been verified and is current
 
+## Runtime secret file mount (Copilot token)
+
+When running the Copilot CLI inside the `awf` sandbox, the awf process may exclude sensitive environment variables (for example via `--exclude-env COPILOT_GITHUB_TOKEN`). To ensure the Copilot process can still authenticate without exposing the token in the parent runner environment, write the `COPILOT_GITHUB_TOKEN` secret to a file with restricted permissions and mount that file into the sandbox. Then, export the variable from the mounted file immediately before launching the Copilot CLI.
+
+Add the following step (before the Copilot/awf invocation) in the generated workflow so the token is available inside the sandbox while remaining masked and file-protected:
+
+```yaml
+- name: Prepare Copilot token file
+  run: |
+    set -eo pipefail
+    if [ -z "${COPILOT_GITHUB_TOKEN}" ]; then
+      echo "COPILOT_GITHUB_TOKEN secret is missing (set as repository secret named COPILOT_GITHUB_TOKEN)"
+      exit 1
+    fi
+    echo "::add-mask::${COPILOT_GITHUB_TOKEN}"
+    mkdir -p "${RUNNER_TEMP}"
+    printf "%s" "${COPILOT_GITHUB_TOKEN}" > "${RUNNER_TEMP}/copilot_token"
+    chmod 600 "${RUNNER_TEMP}/copilot_token"
+
+# Mount the file into awf and set COPILOT_GITHUB_TOKEN inside the container before running copilot
+sudo -E awf --mount "${RUNNER_TEMP}/copilot_token:${RUNNER_TEMP}/copilot_token:ro" ... \
+  -- /bin/bash -c 'export COPILOT_GITHUB_TOKEN="$(cat "'"${RUNNER_TEMP}"'"/copilot_token)" && /usr/local/bin/copilot ...'
+```
+
+This is the secure approach implemented in the compiled workflow to avoid passing the token via process environment across the sandbox boundary. If you run `gh aw compile` the compiled `.lock.yml` should include the equivalent steps.
+
 Remember: The goal is to keep this awesome list current and valuable for the Azure Policy community. Quality over quantity—we want substantive, relevant content that helps people learn and implement Azure Policy effectively.
