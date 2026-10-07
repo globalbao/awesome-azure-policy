@@ -12,7 +12,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 | 🥈 **[charbelnemnom.com](https://charbelnemnom.com)**       | 14              |
 | 🥉 **[andrewmatveychuk.com](https://andrewmatveychuk.com)** | 10              |
 | [medium.com](https://medium.com)                             | 8               |
-| [jloudon.com](https://jloudon.com)                           | 8               |
+| [jloudon.com](https://jloudon.com)                           | 9               |
 | [stefanroth.net](https://www.stefanroth.net)                 | 5               |
 | [georgeollis.com](https://www.georgeollis.com)               | 5               |
 | [azsec.azurewebsites.net](https://azsec.azurewebsites.net)   | 5               |
@@ -155,6 +155,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [New and updated regulatory compliance policy initiatives for NIST, FedRAMP, DoD in Azure, Azure Government](https://devblogs.microsoft.com/azuregov/new-and-updated-regulatory-compliance-policy-initiatives-for-nist-fedramp-dod-in-azure-azure-government/)
 - [New feature: easily assign regulatory compliance policies to your Azure Landing Zone](https://techcommunity.microsoft.com/t5/azure-architecture-blog/new-feature-easily-assign-regulatory-compliance-policies-to-your/ba-p/4074957)
 - [On Prem To the Cloud: Everything As Code](https://devblogs.microsoft.com/devops/on-prem-to-the-cloud-everything-as-code-ep-4/)
+- [Open Sourcing the Azure Policy Linter!](https://techcommunity.microsoft.com/blog/azuregovernanceandmanagementblog/open-sourcing-the-azure-policy-linter/4547577)
 - [OPS114: Governing baselines in hybrid server environments using Azure Policy Guest Configuration](https://techcommunity.microsoft.com/t5/itops-talk-blog/ops114-governing-baselines-in-hybrid-server-environments-using/ba-p/2109245)
 - [Policy Distribution Dashboard for Microsoft Defender for Cloud](https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/policy-distribution-dashboard-for-microsoft-defender-for-cloud/ba-p/3264712)
 - [Public Preview Announcement: Azure Policy Built-in Versioning](https://techcommunity.microsoft.com/t5/azure-governance-and-management/public-preview-announcement-azure-policy-built-in-versioning/ba-p/4186105)
@@ -176,6 +177,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 ## Microsoft Repositories and Tools
 
 - [azure/azure-policy](https://github.com/azure/azure-policy)
+- [azure/azure-policy-linter](https://github.com/Azure/azure-policy-linter)
 - [azure/azurepolicyagents](https://github.com/Azure/AzurePolicyAgents)
 - [azure/community-policy](https://github.com/azure/community-policy)
 - [azure/enterprise-azure-policy-as-code](https://github.com/azure/enterprise-azure-policy-as-code)
@@ -274,6 +276,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Audit Server Settings With Azure Policy Guest Configuration](https://www.thomasmaurer.ch/2021/03/audit-server-settings-with-azure-policy-guest-configuration/)
 - [Audit Subnets That Do Not Have Network Security Group Associated](https://charbelnemnom.com/audit-subnets-that-do-not-have-network-security-group-associated/)
 - [Auditing GPOs with Azure Guest Configuration Policy](https://manbearpiet.com/posts/guest-configuration-policy/)
+- [Awesome Azure Policy Chapter 3](https://jloudon.com/cloud/awesome-azure-policy-chapter-3/)
 - [Auto Install Azure Monitor Agent with Azure Policy](https://www.cloudsma.com/2018/10/auto-install-azure-monitor-agent-with-azure-policy/)
 - [Automatic Tagging For Azure Resources](https://andrewmatveychuk.com/automatic-tagging-for-azure-resources/)
 - [Automatically Enable Microsoft Defender For Cloud Enhanced Security Features](https://samilamppu.com/2021/12/28/automatically-enable-microsoft-defender-for-cloud-enhanced-security-features/)
@@ -318,6 +321,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Azure Policy Search with Azure Graph](https://zigmax.net/azure-policy-search-with-azure-graph/)
 - [Azure Policy To Enable Network Policies For Private Endpoints](https://www.cloudcorner.gr/microsoft/azure/azure-policy-to-enable-network-policies-for-private-endpoints/)
 - [Azure Policy Where To Start](https://wedoazure.ie/2019/08/22/azure-policy-where-to-start/)
+- [Azure Policy: 5 Must-Have Rules for Every Environment](https://intercept.cloud/en-gb/blogs/azure-policy)
 - [Azure Policy: Kubernetes pod security baseline explained](https://blog.baeke.info/2021/03/03/azure-policy-kubernetes-pod-security-baseline-explained/)
 - [Azure Policy: Starter Guide](https://andrewmatveychuk.com/azure-policy-starter-guide/)
 - [Azure Policy: Deny Log Analytics Workspaces creation without Daily Quota](https://rios.engineer/azure-policy-deny-log-analytics-workspaces-creation-without-daily-quota/)
@@ -452,6 +456,7 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 - [Walkthrough Using Azure Policy To Audit And Enforce Compliance](https://azuredays.com/2020/07/09/walkthrough-using-azure-policy-to-audit-and-enforce-compliance/)
 - [What are Azure Policy Overrides?](https://www.georgeollis.com/what-are-azure-policy-overrides/)
 - [What you need to know about managing Azure Policy at scale](https://www.amdocs.com/insights/blog/what-you-need-know-about-managing-azure-policy-scale)
+- [Why Azure Policy is Powerful but Still Complex to Deliver](https://www.reply.com/valorem-reply/en/resources/insights/blog/uk/why-azure-policy-is-powerful-but-still-complex-to-deliver)
 - [Who polices your policies? Azure policy abuse for privileges escalation and persistence](https://securitylabs.datadoghq.com/articles/azure-policy-privilege-escalation/)
 - [Writing A Custom Azure Policy](https://journeyofthegeek.com/2021/03/07/writing-a-custom-azure-policy/)
 
