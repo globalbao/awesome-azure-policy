@@ -4,28 +4,6 @@ A curated list of AWESOME blogs, videos, tutorials, code, tools, scripts. Anythi
 
 > Community contributions are welcome! Check out the [contribution guide](./CONTRIBUTING.md) today and submit a **pull request**!
 
-## Community Articles Leaderboard
-
-| Top-level Domain                                             | Number of Posts |
-| ------------------------------------------------------------ | --------------- |
-| 🏆 **[blog.tyang.org](https://blog.tyang.org)**             | 21              |
-| 🥈 **[charbelnemnom.com](https://charbelnemnom.com)**       | 14              |
-| 🥉 **[andrewmatveychuk.com](https://andrewmatveychuk.com)** | 10              |
-| [medium.com](https://medium.com)                             | 8               |
-| [jloudon.com](https://jloudon.com)                           | 9               |
-| [stefanroth.net](https://www.stefanroth.net)                 | 5               |
-| [georgeollis.com](https://www.georgeollis.com)               | 5               |
-| [azsec.azurewebsites.net](https://azsec.azurewebsites.net)   | 5               |
-| [wedoazure.ie](https://wedoazure.ie)                         | 4               |
-| [cloudsma.com](https://www.cloudsma.com)                     | 4               |
-| [yourazurecoach.com](https://yourazurecoach.com)             | 3               |
-| [m365princess.com](https://www.m365princess.com)             | 3               |
-| [kristhecodingunicorn.com](https://kristhecodingunicorn.com) | 3               |
-| [danielstechblog.io](https://www.danielstechblog.io)         | 3               |
-| [cloudcorner.gr](https://cloudcorner.gr)                     | 3               |
-| [cloudadministrator.net](https://cloudadministrator.net)     | 4               |
-| [thomasthornton.cloud](https://thomasthornton.cloud)         | 3              |
-
 ## Microsoft Learn
 
 - [Address Tangible Risks With The Govern Methodology Of The Cloud Adoption Framework For Azure](https://docs.microsoft.com/en-us/learn/modules/cloud-adoption-framework-govern/)
